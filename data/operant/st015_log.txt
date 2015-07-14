@@ -1,0 +1,33 @@
+st015_log.txt
+
+5-17-09: moved bird from culver to A12 box 5; began hopper training
+
+5-18-09: began shape
+
+5-20-09: began gngTraining1 with 100% food reward for all responses using gngBaseline.stim
+
+5-20-09: began gngTraining2 with 100% food for S+ responses and 10s lights-out for S- responses
+
+5-27-09: began gng_6test practice session with PracticeStims
+
+5-31-09: began SS02 session with C stims
+
+6-03-09: began SS01 session with B stims
+
+6-07-09: began SS04 session with D stims
+
+6-10-09: began SS03 session with E stims
+
+6-13-09: began SS06 session with A stims
+
+6-17-09: began SS05 session with G2 stims
+
+*****
+
+6-24-09: began XY Testing
+
+6-30-09: began interference pilot sessions
+
+7-15-09: returned to culver
+
+
