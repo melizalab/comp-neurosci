@@ -1,7 +1,7 @@
 
-# An introduction to computational neuroscience
+# Data Science for Neuroscientists
 
-This repository contains materials for a course I am developing to teach computational methods in neuroscience. The topics we will cover include:
+This repository contains instructional materials for learning scientific programming and data science skills in neuroscience. This is a work in progress, but the following modules are complete:
 
 - how to represent and store observations of neurons
 - descriptive statistics of neural spike trains
