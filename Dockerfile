@@ -14,6 +14,8 @@ RUN pip install \
     libtfr==2.1.2 \
     toelis==2.0.1
 
+WORKDIR /home/$NB_USER
+
 COPY *.ipynb .
 COPY *.sh .
 COPY images/*.png images/
