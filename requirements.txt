@@ -1,4 +1,0 @@
-jupyterhub==0.8.*
-numpy==1.14.2
-matplotlib==2.2.2
-ewave==1.0.5
