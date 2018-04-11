@@ -15,7 +15,7 @@ def rename_stimulus(s):
     return s[:2]
 
 archive = "/home/data/starlings"
-unitfile = "scripts/starling_units.tbl"
+unitfile = "data/spikes/starling_units.tbl"
 
 for i, line in enumerate(open(unitfile, "rU")):
     if i == 0:

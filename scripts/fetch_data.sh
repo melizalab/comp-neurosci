@@ -1,6 +1,4 @@
 #!/bin/bash
 
-cd stimuli && {
-    curl -s -O 'https://gracula.psyc.virginia.edu/public/courseware/stimuli/[A-C]{0,2,6,8}.wav';
-    cd -;
-}
+curl -s 'https://gracula.psyc.virginia.edu/public/courseware/starling_song_stimuli.tgz' | tar zxv
+curl -s 'https://gracula.psyc.virginia.edu/public/courseware/starling_song_responses.tgz' | tar zxv
