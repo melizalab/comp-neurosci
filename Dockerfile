@@ -16,7 +16,7 @@ RUN pip install \
 
 WORKDIR /home/$NB_USER
 
-COPY --chown=1000 *.ipynb .
+COPY --chown=1000 *.ipynb ./
 COPY tools/*.py tools/
 COPY images/* images/
 RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/starling_song_stimuli.tgz \
