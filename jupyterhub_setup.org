@@ -1,0 +1,93 @@
+
+* Initial setup (only run once)
+
+  - install gcloud command line tool and run =gcloud components install kubectl=
+
+* Creating the docker image
+
+  - check in the repo, get the first 6 characters of the hash
+  - generate the docker image using repo2docker:
+
+#+BEGIN_SRC sh
+  jupyter-repo2docker --image-name comp-neurosci:<hash> --no-run https://github.com/melizalab/comp-neurosci
+  docker push comp-neurosci:<hash>
+#+END_SRC
+
+* Firing up the cluster:
+
+  Adjust number of nodes based on number of students, and pick a machine-type
+  with enough RAM for the analysis
+
+#+BEGIN_SRC sh
+  gcloud container clusters create uva-comp-neurosci \
+      --num-nodes=2 \
+      --machine-type=n1-standard-1 \
+      --zone=us-east4-a
+#+END_SRC
+
+  Add self as superuser:
+
+#+BEGIN_SRC sh
+  kubectl create clusterrolebinding cluster-admin-binding \
+      --clusterrole=cluster-admin \
+      --user=dmeliza@gmail.com
+#+END_SRC
+
+  Install helm on the cluster
+
+#+BEGIN_SRC sh
+  kubectl --namespace kube-system create serviceaccount tiller
+  kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=kube-system:tiller
+  helm init --service-account tiller
+  kubectl --namespace=kube-system patch deployment tiller-deploy --type=json --patch='[{"op": "add", "path": "/spec/template/spec/containers/0/command", "value": ["/tiller", "--listen=localhost:44134"]}]'
+
+#+END_SRC
+
+* Deploy jupyterhub
+
+  Edit =config.yml= (not included in repo) as needed. Run these helm commands to
+  install jupyterhub and the singleuser container:
+
+#+BEGIN_SRC sh
+  helm repo add jupyterhub https://jupyterhub.github.io/helm-chart/
+  helm repo update
+  helm install jupyterhub/jupyterhub \
+      --version=v0.6 \
+      --name=18s-psyc-3210 \
+      --namespace=18s-psyc-3210 \
+      -f config.yaml
+#+END_SRC
+
+#+RESULTS:
+
+  Check that the pods are up and get the public IP address.
+
+#+BEGIN_SRC sh
+  kubectl --namespace=18s-psyc-3210 get pod
+  kubectl --namespace=18s-psyc-3210 get svc proxy-public
+#+END_SRC
+
+  The github OAuth application needs to be linked to the public IP address of jupyterhub.
+  Either update the application settings with IP address from the last command
+  above, or update a domain that you've created to point to this address. In the
+  former case, you have to update the configuration with the new OAuth callback,
+  so the latter is simpler but a bit slower as the DNS records take a while to update.
+
+  Can resize down to zero cores to save coin before the class meets.
+
+#+BEGIN_SRC sh
+  gcloud container clusters resize uva-comp-neurosci --size 0
+#+END_SRC
+
+* Shutdown:
+
+#+BEGIN_SRC sh
+  helm delete 18s-psyc-3210 --purge
+  kubectl delete namespace 18s-psyc-3210
+#+END_SRC
+
+Helm and kubectl can be started up at this point, or to shut down the whole cluster:
+
+#+BEGIN_SRC sh
+  gcloud container clusters delete uva-comp-neurosci
+#+END_SRC
