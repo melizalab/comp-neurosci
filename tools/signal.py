@@ -3,6 +3,10 @@
 """Functions for signal-processing"""
 from __future__ import print_function, division, absolute_import
 
+import os
+import glob
+import ewave
+
 
 def load_stimulus(stimname):
     """Loads the stimulus 'stimname'.
@@ -10,11 +14,13 @@ def load_stimulus(stimname):
     Returns (osc, Fs), the sound pressure waveform and the sampling rate (in Hz)
 
     """
-    import os
-    import ewave
     stimfile = os.path.join("stimuli", stimname) + ".wav"
     wavfile = ewave.open(stimfile)
     return wavfile.read(), wavfile.sampling_rate
+
+
+def load_raw_responses(unit, stimname):
+    return [ewave.open(f).read() for f in glob.glob(os.path.join("data", "raw", "%s_%s*.wav" % (unit, stimname)))]
 
 
 def specgram(signal, nfft, shift, sampling_rate, compress):

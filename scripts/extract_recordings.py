@@ -11,7 +11,10 @@ from __future__ import unicode_literals
 
 import sys
 import nbank
+import arf
 import h5py as h5
+import ewave
+import collections
 
 stimuli = {
     "A0_motifs_000": "A0",
@@ -36,6 +39,23 @@ if __name__ == "__main__":
 
     p = argparse.ArgumentParser(description="extract raw extracellular recordings from arf files""")
     p.add_argument("unit", help="the name of the unit")
-    p.add_argument("channel", help="the name of the channel(s) to extract", nargs="+")
+    p.add_argument("channel", help="the name of the channel to extract")
 
-    opts = p.parse_args()
+    args = p.parse_args()
+
+    location = nbank.get(args.unit, local_only=True)
+    stim_counter = collections.defaultdict(int)
+    with h5.File(location, "r") as fp:
+        for entry_name in arf.keys_by_creation(fp):
+            entry = fp[entry_name]
+            stim = entry['stimuli']['name', 0].decode('utf-8')
+            if stim not in stimuli:
+                print("%s -> skipping (%s)" % (entry_name, stim))
+            else:
+                stim_counter[stim] += 1
+                outfile = "%s_%s_%d.wav" % (args.unit, stimuli[stim], stim_counter[stim])
+                print("%s -> %s" % (entry_name, outfile))
+                dset = entry[args.channel]
+                sampling_rate = dset.attrs['sampling_rate']
+                with ewave.open(outfile, mode='w', sampling_rate=sampling_rate, dtype=dset.dtype) as ofp:
+                    ofp.write(dset[:])

@@ -19,6 +19,6 @@ st467_5_4_1/st467_1 - CMM, pretty active, limited stimulus set
 
 ## Data processing
 
-Extract the raw PCM data into wav files so that students can open in aplot or backyard brains "spikerecorder". Only want from the selected channels and only for stimuli of interest. May need to whip up a little script to do this. This should be pretty trivial if the arfs all have the stimuli encoded in the entries.
+Extract the raw PCM data into wav files so that students can open in aplot or backyard brains "spikerecorder". Only want from the selected channels and only for stimuli of interest. May need to whip up a little script to do this. This is pretty trivial because the arfs all have the stimuli encoded in the entries.
 
-Also copy toelis files
+parallel --colsep '\W+' python scripts/extract_recordings.py {1} {2} < data/raw/units.tbl
