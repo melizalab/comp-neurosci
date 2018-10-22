@@ -7,18 +7,20 @@ import os
 import nbank
 import json
 
-stimuli = {"A0_motifs_000": "A0",
-           "A2_motifs_000": "A2",
-           "A6_motifs_000": "A6",
-           "A8_motifs_000": "A8",
-           "B0_motifs_000": "B0",
-           "B2_motifs_000": "B2",
-           "B6_motifs_000": "B6",
-           "B8_motifs_000": "B8",
-           "C0_motifs_000": "C0",
-           "C2_motifs_000": "C2",
-           "C6_motifs_000": "C6",
-           "C8_motifs_000": "C8",}
+stimuli = {
+    "A0_motifs_000": "A0",
+    "A2_motifs_000": "A2",
+    "A6_motifs_000": "A6",
+    "A8_motifs_000": "A8",
+    "B0_motifs_000": "B0",
+    "B2_motifs_000": "B2",
+    "B6_motifs_000": "B6",
+    "B8_motifs_000": "B8",
+    "C0_motifs_000": "C0",
+    "C2_motifs_000": "C2",
+    "C6_motifs_000": "C6",
+    "C8_motifs_000": "C8",
+}
 
 archive = "/home/data/starlings"
 unitfile = "data/spikes/starling_units.tbl"
