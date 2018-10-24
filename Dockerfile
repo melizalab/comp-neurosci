@@ -19,7 +19,5 @@ WORKDIR /home/$NB_USER
 COPY --chown=1000 *.ipynb ./
 COPY tools/*.py tools/
 COPY images/* images/
-RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/starling_song_stimuli.tgz \
-    | tar -zxv
-RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/starling_song_responses.tgz \
+RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/starling_song_data.tgz \
     | tar -zxv

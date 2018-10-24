@@ -46,3 +46,10 @@ def spike_detector(ax1, ax2, data, time):
         ax1.figure.canvas.draw()
 
     ipyw.interactive_output(update, {"thresh": thresh_w})
+
+
+def plot_raster(ax, trials):
+    i = 0
+    for i, trial in enumerate(trials):
+        ax.vlines(trial, i, i + 0.5)
+        i = i + 1

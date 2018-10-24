@@ -15,7 +15,7 @@ def load_stimulus(stimname):
     Returns (osc, Fs), the sound pressure waveform and the sampling rate (in Hz)
 
     """
-    stimfile = os.path.join("stimuli", stimname) + ".wav"
+    stimfile = os.path.join("data", "stimuli", stimname) + ".wav"
     wavfile = ewave.open(stimfile)
     return wavfile.read(), wavfile.sampling_rate
 
