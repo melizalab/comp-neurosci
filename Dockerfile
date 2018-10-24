@@ -12,7 +12,9 @@ USER $NB_USER
 RUN pip install \
     ewave==1.0.5 \
     libtfr==2.1.2 \
-    toelis==2.0.1
+    toelis==2.0.1 \
+    quickspikes==1.3.4 \
+    ipywidgets==7.4.2
 
 WORKDIR /home/$NB_USER
 
