@@ -1,0 +1,11 @@
+
+** Setting up a workstation for notebooks and spike sorting
+
+   Base system: Debian, Ubuntu, Mint
+
+   Install core packages: =apt-get install git g++ cmake libqt4-dev libqtwebkit-dev jupyter-notebook python3-venv=
+
+   Download source for LibKlustersShared and Klusters from
+   http://neurosuite.sourceforge.net/GNULinux.html and follow instructions.
+
+   See ../README.md for instructions on setting up the notebook server.
