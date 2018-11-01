@@ -17,7 +17,7 @@ def load_stimulus(stimname):
     """
     stimfile = os.path.join("data", "stimuli", stimname) + ".wav"
     wavfile = ewave.open(stimfile)
-    return wavfile.read(), wavfile.sampling_rate
+    return wavfile.read(memmap=False), wavfile.sampling_rate
 
 
 def load_raw_responses(unit, stimname, offset=-2):
