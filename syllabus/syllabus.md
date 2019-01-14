@@ -1,13 +1,24 @@
+---
+title: 'Computational Neuroscience'
+subtitle: 'Psychology 5270 --- Spring 2019'
+documentclass: scrartcl
+linkcolor: blue
+header-includes:
+    - \usepackage[letterpaper, margin=1in]{geometry}
+    - \usepackage{mathpazo}
+    - \usepackage{eulervm}
+---
+
 
 # Course Information
 
- - Catalog: PSYC 5270
- - Term: Fall 2015
- - Instructor: C Daniel Meliza (cdm8j)
  - Class times: TTh 11:00-12:15, Gilmer B001
  - Course websites: [github](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/e996a92a-131b-4df4-881c-8192f5452e1e), [piazza](https://piazza.com/class/jqu2sq9yyau7l)
+ - Instructor: C Daniel Meliza (cdm8j)
+ - Office: Gilmer 481 (see [map](http://faculty.virginia.edu/dmeliza/gilmer_map/))
  - Office Hours:  by appointment
- - Last revised:  1/2019
+ - Final: none
+ - Last revised:  1/14/2019
 
 # Course Description
 
@@ -83,7 +94,7 @@ There is no textbook for the course, but reviews and readings from the primary l
 
 Programming will be taught primarily in class, so your attendance and participation during class time will directly influence what you get out of it. Throughout the semester, you will be working in class with a partner, so your engagement will also affect your partner’s ability to learn and benefit from the course. This will be evaluated by the instructor and your peers.
 
-**How you can succeed**: Come to class with a laptop; read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions; talk to your programming partner to make sure you both understand the tasks; ask questions if anything is unclear or if you are getting an error you and your partner can’t figure out.
+**How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming partner to make sure you both understand the tasks. Ask questions in class or on Piazza if anything is unclear or if you are getting an error you and your partner can’t figure out.
 
 ## Challenge Problems (20%)
 
@@ -91,14 +102,16 @@ Throughout the course, you will periodically be given small assignments that cha
 
 **How you can succeed**: Think hard about the problem and how to construct a series of explicit, logical steps that solve it. Write down your best thoughts on the solution, and read through it carefully to catch any leaps of reasoning you’ve made. Your process is more important than whether every step is correct. Remember, there are usually multiple ways to solve any problem.
 
-## Discussion Facilitation (20%)
-
-In most weeks we will spend part of one class discussing a paper from the primary literature. I will assign each of you to facilitate a discussion on one of these papers. Your job is to provide a brief introduction to the background and significance of the study, clearly explain the primary research question, and walk the class through the data as it's presented in the figures. The other students in the class are expected to have thoroughly read the paper and to be able to explain any of the figures.
-
-**How you can succeed**: Read through the paper several times, making note of unfamiliar terms and using online resources to teach yourself important concepts behind the research. Prepare to "sell" the paper to your classmates and have a set of discussion questions that address the rationale, methodology, and/or implications of the study. Set up a meeting with your instructor to discuss the paper ahead of time if necessary.
-
 ## Data Exploration (40%)
 
 As part of a semester-long project, you and your programming partner will have the opportunity to choose one of the neuroscience data sets we’ll be working with in class. As we discuss various topics in data science, you will be applying these to your data set and building toward a complete research project. Along the way, you and your partner will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
 
 **How you can succeed**: Engage with the data set you have chosen. Explore the structure of your data set and read the methods section of the associated publication. Think about which methods we discuss can be applied to your data and what kinds of questions could be asked with them. Test, document, and version control functions you write to make them as easy as possible for you and the rest of the class to use. Take advantage of peer and instructor feedback to improve your final product.
+
+### Timeline
+
+- Week 4: Choose a data set that interests you. Describe the experimental conditions and how the data were collected.
+- Week 6: Write a module with functions to read raw data from the files in the data set and parse into a flexible data structure.
+- Week 10: Develop a question you can answer about your data set (or a comparison between your data set and another) using one or more of the methods we have been working with.
+- Week 13: Generate a set of preliminary figures that capture the most important features of your results.
+- Week 14: Finalize your analyses and figures. Prepare a short presentation on your results.
