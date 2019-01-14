@@ -1,18 +1,17 @@
 
-# Data Science for Neuroscientists
+# Computational Neuroscience
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/melizalab/comp-neurosci.git/master)
 
-This repository contains instructional materials for learning scientific programming and data science skills in neuroscience. This is a work in progress, but the following modules are complete:
+This repository contains instructional materials for PSYC 5270, a course I teach on computational systems neuroscience at the University of Virginia. Students in this course learn how to process neuroscience data and model the way the brain processes, stores, and generates information. They also gain expertise in using scientific programming (specifically Python and its ecosystem of numerical and graphics libraries) to perform analyses and build models.
 
-- how to represent and store observations of neurons
-- descriptive statistics of neural spike trains
+The current syllabus is here.
 
 ## Getting started
 
-### Local virtualenv deployment
+### Local: system packages
 
-Requirements: python 3.5 or greater, jupyter notebook
+Install Python 3.5+ and jupyter-notebook using your system package manager. Then create a virtualenv and link it to your notebook server as follows:
 
 ``` shell
 python3 -m venv venv
@@ -23,8 +22,12 @@ scripts/fetch_data.sh
 jupyter-notebook
 ```
 
-### Cloud-based deployment
+To restart the notebook server (e.g. after rebooting), just run `source venv/bin/activate && jupyter-notebook` from the package
 
-Click the binder badge above to run the exercises on [mybinder](https://mybinder.org).
+### Local: anaconda
 
-See `docs/jupyterhub_setup.org` for instructions on how to run the exercises on kubernetes.
+These instructions are a work in progress. Install [anaconda](https://docs.anaconda.com/anaconda/install/) on any of the major operating systems (including Windows).
+
+### Cloud
+
+Click the binder badge above to run the exercises on [mybinder](https://mybinder.org). Note that this site does not save your work, so you have to be careful to download your `ipynb` files after you finish a session.

@@ -1,0 +1,85 @@
+
+* Introduction
+** course goals
+** help students install Python environment
+** basic neurobiology: anatomy, physiology, sensory and motor systems
+** computational models: generative vs statistical; level of detail
+
+* Time series data
+** concepts:
+*** sampled vs point process
+*** sampling rate and bit depth
+** experimental:
+*** electrophysiology (intracellular, single unit, EEG)
+*** optical
+*** behavioral
+** data types in digital computers:
+*** binary data and logic
+*** atomic data types (integers, floats, characters)
+*** composite data types (strings, arrays, dictionaries)
+
+* Best practices in software and open science
+** principles of open science
+*** open formats
+*** open source code
+*** reproducible workflows (dependency management and version control)
+*** test-driven development
+** introduction to algorithms in Python
+*** variables, functions, conditional control, loops
+*** modules, packages, and environments
+
+* Working with (big) data
+** observation as a semi-random process
+*** distributions
+** reading and writing data from disk and the Internet
+*** data structures in Python
+*** external libraries and dependency management
+** data sets for student practice:
+*** single-unit responses to auditory stimuli (starling dataset)
+*** single-unit responses during behavior (from CRCNS; pfc or hippocampus)
+*** calcium imaging set (from CRCNS; e.g. pvc-7)
+*** EEG data during a basic sensory task (e.g. MMN?)
+*** multiple single units
+*** show students how to navigate CRCNS site to choose their own
+
+* Model-guided visualization
+** the rate model of neural spiking
+*** histograms
+*** linear convolution
+** basic 1D visualization
+*** line and scatter plots
+*** principles of good data visualization
+** building composable workflows
+*** version control
+*** scripting
+
+* Linear time-invariant systems
+** time-domain signal processing
+*** filtering, correlation
+** Fourier transformation
+*** time-frequency tradeoff
+*** coherence
+** basic 2D visualization
+*** data: EEG, bioacoustic recordings, spikes
+*** color maps
+*** aligning plots for multiple time series
+
+* Estimating parameters and comparing models
+** generative and statistical models
+** Bayesian statistics and posterior distributions
+** goodness-of-fit statistics and predictive distributions
+** test-driven development
+
+* Receptive fields and other encoding models
+
+* Decoding models and information theory
+** ROC analysis
+** introduction to information theory
+** population codes
+
+* Dynamical neuron models
+** introduction to dynamical systems
+** Hodgkin-Huxley model
+** phenomenological neuron models
+
+* Large-scale simulations
