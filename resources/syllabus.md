@@ -13,7 +13,7 @@ header-includes:
 # Course Information
 
  - Class times: TTh 11:00-12:15, Gilmer B001
- - Course websites: [github](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/e996a92a-131b-4df4-881c-8192f5452e1e), [piazza](https://piazza.com/class/jqu2sq9yyau7l)
+ - Course websites: [https://github.com/melizalab/comp-neurosci](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/e996a92a-131b-4df4-881c-8192f5452e1e), [piazza](https://piazza.com/class/jqu2sq9yyau7l)
  - Instructor: C Daniel Meliza (cdm8j)
  - Office: Gilmer 481 (see [map](http://faculty.virginia.edu/dmeliza/gilmer_map/))
  - Office Hours:  by appointment
@@ -44,7 +44,10 @@ models and ways of building them, but one of the most useful functions of a
 model is that it can be used like a lens that can reveal structure in our data
 and help us filter out the noise.
 
-In addition to introducing you to foundational principles of computational modeling in the brain, this course will also teach you how to use scientific programming to implement models and apply them to real-world data.
+This course will introduce you to foundational principles of computational
+modeling in the brain using a hands-on approach with exercises that will also
+build your expertise in using scientific programming to implement models and
+apply them to real-world data.
 
 # Course Objectives
 
@@ -90,23 +93,23 @@ There is no textbook for the course, but reviews and readings from the primary l
 
 # Evaluation
 
-## Engagement (30%)
+## Engagement (40%)
 
 Programming will be taught primarily in class, so your attendance and participation during class time will directly influence what you get out of it. Throughout the semester, you will be working in class with a partner, so your engagement will also affect your partner’s ability to learn and benefit from the course. This will be evaluated by the instructor and your peers.
 
 **How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming partner to make sure you both understand the tasks. Ask questions in class or on Piazza if anything is unclear or if you are getting an error you and your partner can’t figure out.
 
-## Challenge Problems (20%)
+## Challenge Problems (30%)
 
 Throughout the course, you will periodically be given small assignments that challenge you to think about how to break a problem into small, logical steps using pseudocode. When approaching new methods, pseudocode is a powerful way of planning your analyses without worrying about the specifics of syntax. You may write accompanying code if you wish, but that is not required or expected. Programming isn’t just about making sure you’ve closed all your brackets; it’s a new way of thinking, and these problems will give you practice with this type of thinking without your console giving you errors.
 
 **How you can succeed**: Think hard about the problem and how to construct a series of explicit, logical steps that solve it. Write down your best thoughts on the solution, and read through it carefully to catch any leaps of reasoning you’ve made. Your process is more important than whether every step is correct. Remember, there are usually multiple ways to solve any problem.
 
-## Data Exploration (40%)
+## Data Exploration (30%)
 
 As part of a semester-long project, you and your programming partner will have the opportunity to choose one of the neuroscience data sets we’ll be working with in class. As we discuss various topics in data science, you will be applying these to your data set and building toward a complete research project. Along the way, you and your partner will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
 
-**How you can succeed**: Engage with the data set you have chosen. Explore the structure of your data set and read the methods section of the associated publication. Think about which methods we discuss can be applied to your data and what kinds of questions could be asked with them. Test, document, and version control functions you write to make them as easy as possible for you and the rest of the class to use. Take advantage of peer and instructor feedback to improve your final product.
+**How you can succeed**: Engage with the data set you have chosen. Explore the structure of your data set and read the methods section of the associated publication. Think about which methods we discuss can be applied to your data and what kinds of questions could be asked with them. Test and document functions you write to make them as easy as possible for you and the rest of the class to use. Take advantage of peer and instructor feedback to improve your final product.
 
 ### Timeline
 
