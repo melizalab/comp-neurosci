@@ -9,3 +9,13 @@
    http://neurosuite.sourceforge.net/GNULinux.html and follow instructions.
 
    See ../README.md for instructions on setting up the notebook server.
+
+** Creating a new docker image
+
+   after committing your changes to git, run =docker build -t
+   dmeliza/comp-neurosci .=, replacing <hash> with the short hash of your
+   last commit.
+
+   Then run the following to start the docker container for testing.
+
+   =docker run --rm --name comp-neurosci -p 8888:8888 -v "$PWD":/home/jovyan/work dmeliza/comp-neurosci=
