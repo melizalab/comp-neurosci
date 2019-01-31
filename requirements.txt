@@ -1,3 +1,5 @@
+numpy==1.16.0
+scipy==1.2.0
 ewave==1.0.5
 libtfr==2.1.2
 toelis==2.0.1
@@ -5,3 +7,4 @@ quickspikes==1.3.4
 matplotlib==2.2.2
 ipykernel==4.8.2
 ipywidgets==7.4.2
+rise==5.4.1

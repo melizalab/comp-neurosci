@@ -16,7 +16,7 @@ Install Python 3.5+ and jupyter-notebook using your system package manager.
 Debian/Ubuntu: `sudo apt-get install git jupyter-notebook python3-venv`
 OS X (with MacPorts): `sudo port install git py36-notebook`
 
-Then clone this directory (`git clone https://github.com/melizalab/comp-neurosci/`) and cd into it. Create a virtualenv in this directory and link it to your notebook server as follows:
+Then clone this directory (`git clone https://github.com/melizalab/comp-neurosci/`), cd into it (`cd comp-neurosci`), and run the following commands to create a virtual environment and link it to your notebook server:
 
 ``` shell
 python3 -m venv venv
@@ -27,7 +27,7 @@ scripts/fetch_data.sh
 jupyter-notebook
 ```
 
-To restart the notebook server (e.g. after rebooting), just run `source venv/bin/activate && jupyter-notebook` from the package
+To restart the notebook server (e.g. after rebooting), just run `source venv/bin/activate && jupyter-notebook` from the package directory.
 
 ### Local: docker
 
