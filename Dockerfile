@@ -22,8 +22,8 @@ WORKDIR /home/$NB_USER
 COPY --chown=1000 *.ipynb ./
 COPY tools/*.py tools/
 COPY images/* images/
-COPY data/io-examples/* data/io-examples/
 RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/starling_song_data.tgz \
     | tar -zxv
 RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/zf_cm_intracellular_data.tgz \
     | tar -zxv
+COPY data/io-examples/* data/io-examples/
