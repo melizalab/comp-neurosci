@@ -1,5 +1,6 @@
 numpy==1.16.0
 scipy==1.2.0
+pandas==0.24.1
 ewave==1.0.5
 libtfr==2.1.2
 toelis==2.0.1
