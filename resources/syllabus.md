@@ -10,7 +10,7 @@ header-includes:
 ---
 
 
-# Course Information
+## Course Information
 
  - Class times: TTh 11:00-12:15, Gilmer B001
  - Course websites: [https://github.com/melizalab/comp-neurosci](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/e996a92a-131b-4df4-881c-8192f5452e1e), [piazza](https://piazza.com/class/jqu2sq9yyau7l)
@@ -18,9 +18,8 @@ header-includes:
  - Office: Gilmer 481 (see [map](http://faculty.virginia.edu/dmeliza/gilmer_map/))
  - Office Hours:  by appointment
  - Final: none
- - Last revised:  1/14/2019
 
-# Course Description
+## Course Description
 
 In order to survive and reproduce in a complex and highly variable physical
 world, animals have to extract information from sensory inputs, make decisions
@@ -49,7 +48,7 @@ modeling in the brain using a hands-on approach with exercises that will also
 build your expertise in using scientific programming to implement models and
 apply them to real-world data.
 
-# Course Objectives
+## Course Objectives
 
 By the end of the semester, you will be able to:
 
@@ -60,7 +59,7 @@ By the end of the semester, you will be able to:
 - work as part of a team to write and talk about computational research
 - feel confident in your ability to use computers in your research and find resources to answer future questions
 
-# Course Schedule
+## Course Schedule
 
 This schedule is subject to change based on the interests of the class and our progress through the material. If there's something you want to cover that isn't listed, let me know! Readings and assignments will be posted to Piazza.
 
@@ -77,9 +76,9 @@ This schedule is subject to change based on the interests of the class and our p
 11. Large-scale simulations
 12. Finalize projects and present results
 
-# Materials
+## Materials
 
-## Computing requirements
+### Computing requirements
 
 Scientific programming is essential to computational neuroscience. Digital computers are extremely good at doing the same thing over and over again, which is exactly what we need to reliably deal with the big data generated in neuroscience. In fact, everyone who works with data can benefit from being able to hand tedious tasks off to a computer. Scientific programming is an important skill for researchers at all levels, and the practice of programming will help you learn how to break down complex problems of all kinds into a set of logical steps.
 
@@ -87,34 +86,34 @@ Anyone who is interested in developing these skills is welcome to take the class
 
 Laptops are necessary for this class. You will need to bring your laptop, running Linux, OS X, or Windows, to every class meeting. Almost all the work will be performed in [Jupyter](https://jupyter.org) notebooks running the Python interpreter. Some exercises can be run using online resources like [binder](https://mybinder.org), but I strongly encourage you to install a Python environment on your laptop that you can use locally. We will spend time on the first day of class making sure everyone has a functioning environment.
 
-## Readings
+### Readings
 
 There is no textbook for the course, but reviews and readings from the primary literature will be assigned throughout the semester. PDF copies will be shared through the Resources tab on the class Collab page.
 
-# Evaluation
+## Evaluation
 
-## Engagement (40%)
+### Engagement (40%)
 
 Programming will be taught primarily in class, so your attendance and participation during class time will directly influence what you get out of it. Throughout the semester, you will be working in class with a partner, so your engagement will also affect your partner’s ability to learn and benefit from the course. This will be evaluated by the instructor and your peers.
 
 **How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming partner to make sure you both understand the tasks. Ask questions in class or on Piazza if anything is unclear or if you are getting an error you and your partner can’t figure out.
 
-## Challenge Problems (30%)
+### Challenge Problems (30%)
 
 Throughout the course, you will periodically be given small assignments that challenge you to think about how to break a problem into small, logical steps using pseudocode. When approaching new methods, pseudocode is a powerful way of planning your analyses without worrying about the specifics of syntax. You may write accompanying code if you wish, but that is not required or expected. Programming isn’t just about making sure you’ve closed all your brackets; it’s a new way of thinking, and these problems will give you practice with this type of thinking without your console giving you errors.
 
 **How you can succeed**: Think hard about the problem and how to construct a series of explicit, logical steps that solve it. Write down your best thoughts on the solution, and read through it carefully to catch any leaps of reasoning you’ve made. Your process is more important than whether every step is correct. Remember, there are usually multiple ways to solve any problem.
 
-## Data Exploration (30%)
+### Data Exploration (30%)
 
 As part of a semester-long project, you and your programming partner will have the opportunity to choose one of the neuroscience data sets we’ll be working with in class. As we discuss various topics in data science, you will be applying these to your data set and building toward a complete research project. Along the way, you and your partner will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
 
 **How you can succeed**: Engage with the data set you have chosen. Explore the structure of your data set and read the methods section of the associated publication. Think about which methods we discuss can be applied to your data and what kinds of questions could be asked with them. Test and document functions you write to make them as easy as possible for you and the rest of the class to use. Take advantage of peer and instructor feedback to improve your final product.
 
-### Timeline
+#### Timeline
 
-- Week 4: Choose a data set that interests you. Describe the experimental conditions and how the data were collected.
-- Week 6: Write a module with functions to read raw data from the files in the data set and parse into a flexible data structure.
+- Week 5: Choose a data set that interests you. Describe the experimental conditions and how the data were collected.
+- Week 7: Write a module with functions to read raw data from the files in the data set and parse into a flexible data structure.
 - Week 10: Develop a question you can answer about your data set (or a comparison between your data set and another) using one or more of the methods we have been working with.
 - Week 13: Generate a set of preliminary figures that capture the most important features of your results.
 - Week 14: Finalize your analyses and figures. Prepare a short presentation on your results.
