@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:c7fb6660d096
+FROM jupyter/scipy-notebook:83ed2c63671f
 
 USER root
 
@@ -19,7 +19,6 @@ RUN conda install rise --no-deps --yes
 
 WORKDIR /home/$NB_USER
 
-COPY --chown=1000 *.ipynb ./
 COPY tools/*.py tools/
 COPY images/* images/
 RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/starling_song_data.tgz \
@@ -27,3 +26,5 @@ RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/starling_song_d
 RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/zf_cm_intracellular_data.tgz \
     | tar -zxv
 COPY data/io-examples/* data/io-examples/
+COPY data/*.pickle data/
+COPY --chown=1000 *.ipynb ./

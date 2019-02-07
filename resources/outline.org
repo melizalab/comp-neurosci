@@ -42,6 +42,7 @@
 *** algorithms: receptive fields; selective, hierarchical integration; thresholds; mutual suppression
 ** pattern separation and completion
 *** paper discussion: McNaughton and Norris (1987)
+*** activity: pen-and-paper networks
 *** Hebb's rule and heteroassociative networks (pattern separation)
 *** Cell assemblies and autoassociative networks (pattern completion)
 *** Reverberation and recurrent AA networks
