@@ -51,12 +51,7 @@ def specgram(signal, sampling_rate, nfft=256, shift=128, compress=1):
     Returns: the spectrogram, the frequency grid, and the time grid
 
     """
+    from scipy.signal import spectrogram
     from numpy import log10
-    import libtfr
-    # generate a transform object
-    D = libtfr.mfft_dpss(nfft, 3, 5, nfft)
-    # calculate the power spectrogram
-    P = D.mtspec(signal, shift)
-    freq, find = libtfr.fgrid(sampling_rate, nfft)
-    bins = libtfr.tgrid(P, sampling_rate, shift)
-    return (log10(P + compress) - log10(compress), freq, bins)
+    f, t, P = spectrogram(signal, fs=sampling_rate, window='hamming', nperseg=nfft, noverlap=shift)
+    return (log10(P + compress) - log10(compress), f, t)
