@@ -11,7 +11,20 @@ The current syllabus is here.
 
 ### Cloud
 
-Click the binder badge above to run the exercises on [mybinder](https://mybinder.org). Note that this site does not save your work, so you have to be careful to download your `ipynb` files after you finish a session.
+The easiest way to run the exercises is to use [mybinder](https://mybinder.org). This will ensure that you have the latest version of the notebooks, all the data files, and the correct versions of required libraries. Click the badge at the top of this page to start a session. Note that this site does not save your work, so you have to be careful to download your `ipynb` files after you finish a session.
+
+### Local: docker
+
+A [Docker](https://docker.com) image is provided for running the exercises locally. These instructions should work on Windows as well as Linux or OS X.  After installing Docker, run the following commands in your shell (bash for Linux and OS X; PowerShell for Windows):
+
+``` shell
+docker pull dmeliza/comp-neurosci:latest
+docker run --rm --name comp-neurosci -p 8888:8888 -v "$PWD":/home/jovyan/work dmeliza/comp-neurosci:latest
+```
+
+(In PowerShell, replace `"$PWD"` with `${pwd}`. If this is your first time using Docker you may be asked to give permission to access the hard drive and network.)
+
+The last command will start the docker container and the jupyter server. Copy the URL at the bottom of the output into your browser and you should have access to the notebook server. Note: files saved in the `work` subdirectory of the server will appear in your current working directory. Any other files or changes will be lost. Conversely, if you edit a file in the current directory it will show up in the `work` directory.
 
 ### Local: OS X and Linux
 
@@ -31,34 +44,31 @@ scripts/fetch_data.sh
 jupyter-notebook
 ```
 
-To restart the notebook server (e.g. after rebooting), just run `source venv/bin/activate && jupyter-notebook` from the package directory.
-
-### Local: Windows
-
-Install [anaconda](https://www.anaconda.com/distribution/), then install some required tools through its package manager or by opening the anaconda shell and running `conda install git` and `conda install -c msys m2-bash m2-tar m2-pkg-config m2w64-fftw`
-
-Then clone this directory (`git clone https://github.com/melizalab/comp-neurosci/`), cd into it (`cd comp-neurosci`), and run the following commands in the anaconda shell to create a virtual environment and link it to your notebook server:
+If you're using this option, I recommend working on a copy of the notebook (go to `File/Make a Copy...`. Before each class session, you will need to update your local copy of the repository and then restart the notebook server. From the `comp-neurosci` directory, run the following commands:
 
 ``` shell
-python3 -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python -m ipykernel install --user --name=comp-neurosci
-curl -s 'https://gracula.psyc.virginia.edu/public/courseware/starling_song_data.tgz' | tar zxv
+git pull --rebase
+source venv/bin/activate
 jupyter-notebook
 ```
 
-To restart the notebook server (e.g. after rebooting), just run `source venv/bin/activate && jupyter-notebook` from the package directory.
+If you get an error on the first command, you probably make changes to one of the notebooks, and git won't overwrite those changes without your permission. Run `git status` to find out which file was changed, make a copy of it, and then run `git stash` to reset your working directory. Then the commands above should work.
 
-### Local: docker
+### Local: Windows
 
-[Docker](https://docker.com) is a container management system that lets you run software in a controlled environment. These instructions should work on Windows as well as Linux or OS X. You don't need to download the source of this repository to get this to work. After installing Docker, run the following commands in your shell (bash for Linux and OS X; PowerShell for Windows):
+Install [anaconda](https://www.anaconda.com/distribution/). In anaconda explorer, create a new Python 3.6 environment called `comp-neurosci`. Open a shell in this environment (click `Open Terminal` under the green arrow to the right of the environment), then run the following commands:
 
 ``` shell
-docker pull dmeliza/comp-neurosci:latest
-docker run --rm --name comp-neurosci -p 8888:8888 -v "$PWD":/home/jovyan/work dmeliza/comp-neurosci:latest
+conda install git numpy scipy pandas matplotlib notebook
+git clone https://github.com/melizalab/comp-neurosci
+cd comp-neurosci
+pip install -r requirements-conda.txt
+jupyter-notebook
 ```
 
-(In PowerShell, replace `"$PWD"` with `${pwd}`. If this is your first time using Docker you may be asked to give permission to access the hard drive and network.)
+To update your installation as new material is added to the repository, open a terminal in the `comp-neurosci` environment and run the following commands:
 
-The last command will start the docker container and the jupyter server. Copy the URL at the bottom of the output into your browser and you should have access to the notebook server. Note: files saved in the `work` subdirectory of the server will appear in your current working directory. Any other files or changes will be lost. Conversely, if you edit a file in the current directory it will show up in the `work` directory.
+``` shell
+git pull --rebase
+jupyter-notebook
+```
