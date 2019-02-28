@@ -9,25 +9,15 @@ import ewave
 import numpy as np
 
 
-def load_timeseries(path):
-    wavfile = ewave.open(path, "r")
+def load_timeseries(*path):
+    wavfile = ewave.open(os.path.join(*path), "r")
     return wavfile.read(memmap=False), wavfile.sampling_rate
 
 
-def load_stimulus(stimname):
-    """Loads the stimulus 'stimname'.
-
-    Returns (osc, Fs), the sound pressure waveform and the sampling rate (in Hz)
-
-    """
-    stimfile = os.path.join("data", "stimuli", stimname) + ".wav"
-    return load_timeseries(stimfile)
-
-
-def load_raw_responses(unit, stimname, offset=-2):
+def load_raw_responses(*path, unit, stimname, offset=-2):
     r = []
     t = None
-    for i, f in enumerate(glob.glob(os.path.join("data", "raw", "%s_%s*.wav" % (unit, stimname)))):
+    for i, f in enumerate(glob.glob(os.path.join(*path, "%s_%s*.wav" % (unit, stimname)))):
         with ewave.open(f) as fp:
             r.append(fp.read())
             if i == 0:

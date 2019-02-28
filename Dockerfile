@@ -19,12 +19,12 @@ RUN conda install rise --no-deps --yes
 
 WORKDIR /home/$NB_USER
 
+ENV datafile comp_neurosci_data_022719.tgz
+RUN curl -O https://gracula.psyc.virginia.edu/public/courseware/$datafile \
+     && echo "364dc40a86baed8c33bc5a5604435e523419b0ad  $datafile" | sha1sum -c - \
+     && tar zxvf $datafile \
+     && rm $datafile
+
 COPY tools/*.py tools/
 COPY images/* images/
-RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/starling_song_data.tgz \
-    | tar -zxv
-RUN curl -SL https://gracula.psyc.virginia.edu/public/courseware/zf_cm_intracellular_data.tgz \
-    | tar -zxv
-COPY data/io-examples/* data/io-examples/
-COPY data/*.pickle data/
 COPY --chown=1000 *.ipynb ./

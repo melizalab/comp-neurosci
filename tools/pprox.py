@@ -4,11 +4,11 @@
 from __future__ import print_function, division, absolute_import
 
 
-def load(unit):
+def load(*path):
     """ Loads pprox+json response data for unit and returns it in a Python dictionary """
     import os
     import json
-    filename = os.path.join("data", "spikes", unit) + ".json"
+    filename = os.path.join(*path) + ".json"
     with open(filename, 'rU') as fp:
         data = json.load(fp)
         return data
