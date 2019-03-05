@@ -19,9 +19,9 @@ RUN conda install rise --no-deps --yes
 
 WORKDIR /home/$NB_USER
 
-ENV datafile comp_neurosci_data_022719.tgz
+ENV datafile comp_neurosci_data_030519.tgz
 RUN curl -O https://gracula.psyc.virginia.edu/public/courseware/$datafile \
-     && echo "364dc40a86baed8c33bc5a5604435e523419b0ad  $datafile" | sha1sum -c - \
+     && echo "df66410d27ba4d9e234b5a070de28c81bb083892  $datafile" | sha1sum -c - \
      && tar zxvf $datafile \
      && rm $datafile
 
