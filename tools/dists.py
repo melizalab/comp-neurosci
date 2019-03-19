@@ -4,6 +4,10 @@
 import scipy.stats.distributions as dists
 
 
+def bernoulli(p):
+    return dists.bernoulli(p)
+
+
 def uniform(lower=0.0, upper=1.0):
     return dists.uniform(loc=lower, scale=upper - lower)
 
