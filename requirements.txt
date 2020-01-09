@@ -3,7 +3,7 @@ scipy==1.2.0
 pandas==0.24.1
 ewave==1.0.5
 toelis==2.0.1
-quickspikes==1.3.4
+quickspikes==1.3.5
 matplotlib==2.2.2
 ipykernel==4.8.2
 ipywidgets==7.4.2

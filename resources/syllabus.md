@@ -1,6 +1,6 @@
 ---
 title: 'Computational Neuroscience'
-subtitle: 'Psychology 5270 --- Spring 2019'
+subtitle: 'Psychology 5270 --- Spring 2020'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -12,12 +12,12 @@ header-includes:
 
 ## Course Information
 
- - Class times: TTh 11:00-12:15, Gilmer B001
- - Course websites: [https://github.com/melizalab/comp-neurosci](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/e996a92a-131b-4df4-881c-8192f5452e1e), [piazza](https://piazza.com/class/jqu2sq9yyau7l)
+ - Class times: T 2:00-4:30, Dell 2 Rm 102
+ - Course websites: [https://github.com/melizalab/comp-neurosci](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/a5394daf-bc74-4860-aa8a-410af0a25adc)
  - Instructor: C Daniel Meliza (cdm8j)
  - Office: Gilmer 481 (see [map](http://faculty.virginia.edu/dmeliza/gilmer_map/))
  - Office Hours:  by appointment
- - Final: none
+ - Final: in-class presentation
 
 ## Course Description
 
@@ -61,20 +61,24 @@ By the end of the semester, you will be able to:
 
 ## Course Schedule
 
-This schedule is subject to change based on the interests of the class and our progress through the material. If there's something you want to cover that isn't listed, let me know! Readings and assignments will be posted to Piazza.
+This schedule is subject to change based on the interests of the class and our progress through the material. If there's something you want to cover that isn't listed, let me know! Readings and assignments will be posted to collab. The topics we will cover are as follows:
 
-1. Introduction to the course and to Python
-2. Time series data in the brain and in computers
-3. Best practices in software and open science
-4. Working with (big) data
-5. Model-guided visualization
-6. Linear time-invariant systems
-7. Estimating parameters and comparing models
-7. Receptive fields and other encoding models
-8. Decoding models and information theory
-9. Dynamical neuron models
-11. Large-scale simulations
-12. Finalize projects and present results
+|   Week | Topic                                       | Readings/Exercises                       |
+|--------+---------------------------------------------+------------------------------------------|
+|      1 | Introduction to computational neural models | Ewert (1974), McNaughton & Morris (1987) |
+|      2 | Working with time series data               | Learn some Python (see assignments)      |
+|      3 | Probability and spike train statistics      |                                          |
+|      4 | I/O and visualization for neuroscience      |                                          |
+|      5 | Open science: code and data management      | Sandve et al (2013), Wilson et al (2014) |
+|      6 | Linear time-invariant systems               |                                          |
+|      7 | Estimating parameters and comparing models  |                                          |
+|      8 | Decoding models                             |                                          |
+|      9 | Information theory                          |                                          |
+|     10 | Dynamical systems theory                    | Izhikevich (Ch 3--4)                     |
+|     11 | Biophysical neuron models                   | Sterratt (Ch 2--3)                       |
+|     12 | Phenomenological dynamical models           | Izhikevich (Ch 5--6), Brette (2015)      |
+|     13 | Large-scale simulations                     | Stimberg et al (2019)                    |
+| 14--15 | Finalize projects and present results       |                                          |
 
 ## Materials
 
@@ -98,9 +102,9 @@ Programming will be taught primarily in class, so your attendance and participat
 
 **How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming partner to make sure you both understand the tasks. Ask questions in class or on Piazza if anything is unclear or if you are getting an error you and your partner can’t figure out.
 
-### Challenge Problems (30%)
+### Homework (30%)
 
-Throughout the course, you will periodically be given small assignments that challenge you to think about how to break a problem into small, logical steps using pseudocode. When approaching new methods, pseudocode is a powerful way of planning your analyses without worrying about the specifics of syntax. You may write accompanying code if you wish, but that is not required or expected. Programming isn’t just about making sure you’ve closed all your brackets; it’s a new way of thinking, and these problems will give you practice with this type of thinking without your console giving you errors.
+Throughout the course, you will periodically be given take-home assignments that challenge you to think about how to break a problem into small, logical steps using pseudocode. When approaching new methods, pseudocode is a powerful way of planning your analyses without worrying about the specifics of syntax. You may write accompanying code if you wish, but that is not required or expected. Programming isn’t just about making sure you’ve closed all your brackets; it’s a new way of thinking, and these problems will give you practice with this type of thinking without your console giving you errors.
 
 **How you can succeed**: Think hard about the problem and how to construct a series of explicit, logical steps that solve it. Write down your best thoughts on the solution, and read through it carefully to catch any leaps of reasoning you’ve made. Your process is more important than whether every step is correct. Remember, there are usually multiple ways to solve any problem.
 
@@ -117,3 +121,14 @@ As part of a semester-long project, you and your programming partner will have t
 - Week 10: Develop a question you can answer about your data set (or a comparison between your data set and another) using one or more of the methods we have been working with.
 - Week 13: Generate a set of preliminary figures that capture the most important features of your results.
 - Week 14: Finalize your analyses and figures. Prepare a short presentation on your results.
+
+## Course policies
+
+Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
+
+Due to the fact that we meet only once a week and complete much of the work in class, attendence is critical. You may miss one class without penalty. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance.
+
+My goal is for everyone in the class to have an equal opportunity to learn and
+to demonstrate their knowledge. Students with disabilities are entitled to
+reasonable accommodations. Contact the Student Disability Access Center
+(434-243-5180) for more information or to arrange accommodations.
