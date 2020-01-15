@@ -61,19 +61,19 @@ By the end of the semester, you will be able to:
 
 ## Course Schedule
 
-This schedule is subject to change based on the interests of the class and our progress through the material. If there's something you want to cover that isn't listed, let me know! Readings and assignments will be posted to collab. The topics we will cover are as follows:
+This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! Readings and assignments will be posted to collab. The topics we will cover are as follows:
 
 |   Week | Topic                                       | Readings/Exercises                       |
 |--------+---------------------------------------------+------------------------------------------|
 |      1 | Introduction to computational neural models | Ewert (1974), McNaughton & Morris (1987) |
-|      2 | Working with time series data               | Learn some Python (see assignments)      |
-|      3 | Probability and spike train statistics      |                                          |
+|      2 | Working with time series data               |                                          |
+|      3 | Probability and spike train statistics      | Learn some Python (see assignments)      |
 |      4 | I/O and visualization for neuroscience      |                                          |
 |      5 | Open science: code and data management      | Sandve et al (2013), Wilson et al (2014) |
 |      6 | Linear time-invariant systems               |                                          |
 |      7 | Estimating parameters and comparing models  |                                          |
-|      8 | Decoding models                             |                                          |
-|      9 | Information theory                          |                                          |
+|      8 | Encoding vs Decoding models                 | Holdgraf et al (2017)                    |
+|      9 | Information theory                          | Elie and Theunissen (2019)               |
 |     10 | Dynamical systems theory                    | Izhikevich (Ch 3--4)                     |
 |     11 | Biophysical neuron models                   | Sterratt (Ch 2--3)                       |
 |     12 | Phenomenological dynamical models           | Izhikevich (Ch 5--6), Brette (2015)      |
@@ -126,7 +126,7 @@ As part of a semester-long project, you and your programming partner will have t
 
 Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
 
-Due to the fact that we meet only once a week and complete much of the work in class, attendence is critical. You may miss one class without penalty. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance.
+Due to the fact that we meet only once a week and complete much of the work in class, attendance is critical. You may miss one class without penalty. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance.
 
 My goal is for everyone in the class to have an equal opportunity to learn and
 to demonstrate their knowledge. Students with disabilities are entitled to

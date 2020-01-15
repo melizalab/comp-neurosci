@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:83ed2c63671f
+FROM jupyter/scipy-notebook:17aba6048f44
 
 USER root
 
@@ -9,13 +9,9 @@ rm -rf /var/lib/apt/lists/*
 
 USER $NB_USER
 
-RUN pip install \
-    ewave==1.0.5 \
-    libtfr==2.1.2 \
-    toelis==2.0.1 \
-    quickspikes==1.3.4
-
 RUN conda install rise --no-deps --yes
+COPY requirements-conda.txt ./
+RUN pip install -r requirements-conda.txt
 
 WORKDIR /home/$NB_USER
 
