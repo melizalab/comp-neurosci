@@ -20,16 +20,18 @@ These instructions should work on any operating system to give you a working Pyt
 Install the Python 3.x version of [anaconda](https://www.anaconda.com/distribution/) (or [miniconda](https://conda.io/en/latest/miniconda.html) if you are comfortable using the shell). Create a new Python 3.x environment called `comp-neurosci` (using Anaconda Navigator or by running `conda create -n comp-neurosci` in the shell). Activate this environment (in Anaconda Explorer, click `Open Terminal` under the green arrow to the right of the environment; in the shell, run `conda activate comp-neurosci`), then run the following commands:
 
 ``` shell
-conda install -n comp-neurosci git numpy scipy pandas matplotlib notebook cython ipywidgets
+conda install -n comp-neurosci git pkg-config numpy scipy pandas matplotlib notebook cython ipywidgets
 git clone https://github.com/melizalab/comp-neurosci
 cd comp-neurosci
 pip install -r requirements-conda.txt
 jupyter-notebook
 ```
 
-Before each class session, you will need to update your local copy of the repository data before starting the notebook server. From the `comp-neurosci` directory and environment, run the following commands:
+Before each class session, you will need to update your local copy of the repository data before starting the notebook server. From the terminal, run the following commands:
 
 ``` shell
+conda activate comp-neurosci
+cd comp-neurosci
 git pull --rebase
 scripts/fetch_data.sh
 jupyter-notebook
