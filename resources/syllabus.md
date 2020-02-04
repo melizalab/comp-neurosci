@@ -67,9 +67,9 @@ This schedule is subject to change based on the interests of the class and our p
 |--------+---------------------------------------------+------------------------------------------|
 |      1 | Introduction to computational neural models | Ewert (1974), McNaughton & Morris (1987) |
 |      2 | Working with time series data               |                                          |
-|      3 | Probability and spike train statistics      | Learn some Python (see assignments)      |
-|      4 | I/O and visualization for neuroscience      |                                          |
-|      5 | Open science: code and data management      | Sandve et al (2013), Wilson et al (2014) |
+|      3 | Probability                                 | Learn some Python (see assignments)      |
+|      4 | Model fitting; I/O for neuroscience         |                                          |
+|      5 | Spike train statistics; open science        | Sandve et al (2013), Wilson et al (2014) |
 |      6 | Linear time-invariant systems               |                                          |
 |      7 | Estimating parameters and comparing models  |                                          |
 |      8 | Encoding vs Decoding models                 | Holdgraf et al (2017)                    |
