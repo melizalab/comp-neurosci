@@ -70,7 +70,7 @@ This schedule is subject to change based on the interests of the class and our p
 |      3 | Probability                                 | Learn some Python (see assignments)      |
 |      4 | Model fitting; I/O for neuroscience         |                                          |
 |      5 | Spike train statistics; open science        | Sandve et al (2013), Wilson et al (2014) |
-|      6 | Linear time-invariant systems               |                                          |
+|      6 | Linear time-invariant systems               | Dayan and Abbott (Ch 1--2)               |
 |      7 | Estimating parameters and comparing models  |                                          |
 |      8 | Encoding vs Decoding models                 | Holdgraf et al (2017)                    |
 |      9 | Information theory                          | Elie and Theunissen (2019)               |

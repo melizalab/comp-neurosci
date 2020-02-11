@@ -27,6 +27,8 @@ The experiment needs to address a computational problem. Almost always this mean
 
 The questions in the assignment will help you decide how a data set fits into this framework. Check with your instructor if you're still not sure.
 
+You are not committed to using this dataset for your final project. Rather, this is an exercise in learning how public data sets are (and aren't) organized.
+
 ### How do I find the data?
 
 For this exercise, we'll be looking at data sets hosted on the [Collaborative Research in Computational Neurocience Data Sharing website](https://crcns.org). Most of the data sets are from animals and using extracellular electrophysiology, but there are also EEG, fMRI, and intracellular data sets.
