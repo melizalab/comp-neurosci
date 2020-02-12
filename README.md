@@ -17,7 +17,7 @@ The easiest way to run the exercises is to use [mybinder](https://mybinder.org).
 
 These instructions should work on any operating system to give you a working Python environment with all the required packages.
 
-Install the Python 3.x version of [anaconda](https://www.anaconda.com/distribution/) (or [miniconda](https://conda.io/en/latest/miniconda.html) if you are comfortable using the shell). Create a new Python 3.x environment called `comp-neurosci` (using Anaconda Navigator or by running `conda create -n comp-neurosci` in the shell). Activate this environment (in Anaconda Explorer, click `Open Terminal` under the green arrow to the right of the environment; in the shell, run `conda activate comp-neurosci`), then run the following commands:
+Install the Python 3.x version of [anaconda](https://www.anaconda.com/distribution/) (or [miniconda](https://conda.io/en/latest/miniconda.html) if you are comfortable using the shell). Create a new Python 3.x environment called `comp-neurosci` (using Anaconda Navigator or by running `conda create -n comp-neurosci` in the shell). Activate this environment (in Anaconda Explorer, click `Open Terminal` under the green arrow to the right of the environment; in the shell, run `conda activate comp-neurosci`), then run the following commands. Run them **one at a time** so that you can stop and fix any errors.
 
 ``` shell
 conda install -n comp-neurosci git numpy scipy pandas matplotlib notebook cython ipywidgets
@@ -27,17 +27,17 @@ pip install -r requirements-conda.txt
 jupyter-notebook
 ```
 
-Before each class session, you will need to update your local copy of the repository data before starting the notebook server. From the terminal, run the following commands:
+**IMPORTANT**: Before each class session, you will need to update your local copy of the repository data before starting the notebook server. From the terminal, run the following commands (again, one at a time):
 
 ``` shell
 conda activate comp-neurosci
 cd comp-neurosci
+git reset --hard HEAD
 git pull --rebase
-scripts/fetch_data.sh
 jupyter-notebook
 ```
 
-I recommend working on a copy of the notebook (go to `File/Make a Copy...` in the notebook) that you name with your UVA computing ID. If you don't do this, you may get errors trying to run `git pull`, because git won't overwrite changes you make without your permission. If this happens, run `git status` to find out which file was changed, make a copy of it, and then run `git stash` to reset your working directory. Then the commands above should work.
+Make sure you work on a copy of the notebook (go to `File/Make a Copy...` in the notebook) that you name with your UVA computing ID. The `git reset --hard HEAD` command will erase any work that you've done on a notebook that's under version control, but any work you do in the copy will be kept.
 
 ### Local: docker
 
