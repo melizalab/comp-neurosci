@@ -13,9 +13,9 @@
 ** Creating a new docker image
 
    after committing your changes to git, run =docker build -t
-   dmeliza/comp-neurosci .=, replacing <hash> with the short hash of your
+   dmeliza/comp-neurosci:latest .=, replacing <hash> with the short hash of your
    last commit.
 
    Then run the following to start the docker container for testing.
 
-   =docker run --rm --name comp-neurosci -p 8888:8888 -v "$PWD":/home/jovyan/work dmeliza/comp-neurosci=
+   =docker run --rm --name comp-neurosci -p 8888:8888 -v "$PWD":/home/jovyan/work dmeliza/comp-neurosci:latest=
