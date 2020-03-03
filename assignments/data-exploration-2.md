@@ -10,11 +10,9 @@ header-includes:
     - \usepackage{eulervm}
 ---
 
-**Due 4/2/2019 at 5 PM**
-
 The goal of this assignment is to start work on the infrastructure for reading your data into Python. There are really two parts to this problem. One is about how to access the data as it's stored on the disk; the other is about how to represent the data in memory so that you can easily inspect and manipulate it.
 
-At this point you need to have settled on which CRCNS data set you'll be analyzing, and have completed the thought exercise at the end of Lesson 7.
+At this point you need to have settled on which CRCNS data set you'll be analyzing, and have completed the thought exercise at the end of Lesson 6B.
 
 ### Setting up your repository
 
@@ -36,7 +34,7 @@ Follow the instructions in the top-level `README.md` on how to set up your compu
 
 The main part of this assignment is to write one or more functions to load your data into Python. You can write this code directly in `src/io.py`. If you prefer to work in a notebook, start the notebook server with `jupyter-server` and create a notebook at the top level. You can later copy your function to `src/io.py`.
 
-This requires some planning, which you should have already done to some extent at the end of Lesson 7. You need the following:
+This requires some planning, which you should have already done to some extent at the end of Lesson 6B. You need the following:
 
 - a general idea of your hypothesis and the specific question you want to answer
 - a determination of what the natural unit of analysis (UoA) is for your study
@@ -68,7 +66,7 @@ Don't reinvent the wheel. Make sure to check if one of the following packages al
 - Scipy:
   - [io](https://docs.scipy.org/doc/scipy/reference/io.html): read and write data in a variety of formats
 - Pandas:
-  - [io](http://pandas.pydata.org/pandas-docs/stable/user_guide/io.html): read and write structured data formats
+  - [io](http://pandas.pydata.org/pandas-docs/stable/user_guide/io.html): read and write structured data formats (including CSV and Excel files)
 - 3rd party packages
   - [neo.io](https://neo.readthedocs.io/en/0.7.1/io.html): Many widely used electrophysiology formats
   - [nibabel](https://nipy.org/nibabel/gettingstarted.html): Many widely used imaging formats
@@ -97,3 +95,11 @@ Push the changes to github:
 ``` shell
 git push
 ```
+
+### Evaluation
+
+Your score for this assignment will be based on whether you followed the instructions in this document and in the `README.md` file of the `comp-neurosci-skeleton` repository. Particular attention will be paid to the following:
+
+- data files are not checked in to the repository
+- instructions for retrieving data are in the `data/README.md` file
+- `io.py` module is present and contains a working function to load part or all of the data
