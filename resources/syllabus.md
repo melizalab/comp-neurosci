@@ -12,11 +12,11 @@ header-includes:
 
 ## Course Information
 
- - Class times: T 2:00-4:30, Dell 2 Rm 102
+ - Class times: T 2:00-4:30. Dell 2 Rm 102 until 3/3; afterwards on [zoom](https://virginia.zoom.us/j/829392671) due to COVID-19.
  - Course websites: [https://github.com/melizalab/comp-neurosci](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/a5394daf-bc74-4860-aa8a-410af0a25adc)
  - Instructor: C Daniel Meliza (cdm8j)
  - Office: Gilmer 481 (see [map](http://faculty.virginia.edu/dmeliza/gilmer_map/))
- - Office Hours:  by appointment
+ - Office Hours: W 1-3 on [zoom](https://virginia.zoom.us/j/410954069)
  - Final: in-class presentation
 
 ## Course Description
