@@ -73,12 +73,11 @@ This schedule is subject to change based on the interests of the class and our p
 |      6 | Linear time-invariant systems               | Dayan and Abbott (Ch 1--2)               |
 |      7 | Estimating parameters and comparing models  |                                          |
 |      8 | Encoding vs Decoding models                 | Holdgraf et al (2017)                    |
-|      9 | Information theory                          | Elie and Theunissen (2019)               |
+|      9 | Biophysics of neurons                       | Sterratt (Ch 2--3)                       |
 |     10 | Dynamical systems theory                    | Izhikevich (Ch 3--4)                     |
-|     11 | Biophysical neuron models                   | Sterratt (Ch 2--3)                       |
-|     12 | Phenomenological dynamical models           | Izhikevich (Ch 5--6), Brette (2015)      |
-|     13 | Large-scale simulations                     | Stimberg et al (2019)                    |
-| 14--15 | Finalize projects and present results       |                                          |
+|     11 | Phenomenological dynamical models           | Izhikevich (Ch 5--6), Brette (2015)      |
+|     12 | Large-scale simulations                     | Stimberg et al (2019)                    |
+| 13--15 | Finalize projects and present results       |                                          |
 
 ## Materials
 
