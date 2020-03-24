@@ -19,3 +19,20 @@
    Then run the following to start the docker container for testing.
 
    =docker run --rm --name comp-neurosci -p 8888:8888 -v "$PWD":/home/jovyan/work dmeliza/comp-neurosci:latest=
+
+** Notes from Spring 2020 for next iteration
+
+   Reconcile notebook names and week numbers
+
+   Need to reorder some of the conceptual material. It makes more sense to
+   discuss rate models (LTI systems), then spikes.
+
+   Need to set up a parallel set of notebook for programming concepts. Introduce
+   students to numpy arrays and plotting early. Students with some programming
+   experience often fail to solve problems efficiently because they are trying
+   to use for loops when array broadcasting is more effective.
+
+   Try to steer students away from classes toward data structures
+
+   Notebook 6A: add a demo to show how LNP model predicts orientation tuning
+   before doing RF estimation
