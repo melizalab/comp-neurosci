@@ -10,6 +10,7 @@ rm -rf /var/lib/apt/lists/*
 USER $NB_USER
 
 RUN conda install rise --no-deps --yes
+RUN conda install -c conda-forge brian2
 COPY requirements-conda.txt ./
 RUN pip install -r requirements-conda.txt
 
