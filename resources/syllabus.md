@@ -1,6 +1,6 @@
 ---
 title: 'Computational Neuroscience'
-subtitle: 'Psychology 5270 --- Spring 2020'
+subtitle: 'Psychology 7559-002 --- Spring 2021'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -12,11 +12,11 @@ header-includes:
 
 ## Course Information
 
- - Class times: T 2:00-4:30. Dell 2 Rm 102 until 3/3; afterwards on [zoom](https://virginia.zoom.us/j/829392671) due to COVID-19.
- - Course websites: [https://github.com/melizalab/comp-neurosci](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/a5394daf-bc74-4860-aa8a-410af0a25adc)
+ - Class times: W 3:30-6:00
+ - Course websites: [https://github.com/melizalab/comp-neurosci](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/37e6d02a-d364-4387-ad16-0ac08d4ea739)
+ - Class location: zoom (see collab)
  - Instructor: C Daniel Meliza (cdm8j)
- - Office: Gilmer 481 (see [map](http://faculty.virginia.edu/dmeliza/gilmer_map/))
- - Office Hours: W 1-3 on [zoom](https://virginia.zoom.us/j/410954069)
+ - Office Hours: by appointment
  - Final: in-class presentation
 
 ## Course Description
@@ -125,7 +125,7 @@ As part of a semester-long project, you and your programming partner will have t
 
 Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
 
-Due to the fact that we meet only once a week and complete much of the work in class, attendance is critical. You may miss one class without penalty. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance.
+Due to the fact that we meet only once a week and complete much of the work in class, attendance is critical. Unless otherwise arranged with the instructor, you may only miss one class without penalty. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance.
 
 My goal is for everyone in the class to have an equal opportunity to learn and
 to demonstrate their knowledge. Students with disabilities are entitled to
