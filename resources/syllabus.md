@@ -63,21 +63,20 @@ By the end of the semester, you will be able to:
 
 This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! Readings and assignments will be posted to collab. The topics we will cover are as follows:
 
-|   Week | Topic                                       | Readings/Exercises                       |
-|--------+---------------------------------------------+------------------------------------------|
-|      1 | Introduction to computational neural models | Ewert (1974), McNaughton & Morris (1987) |
-|      2 | Working with time series data               |                                          |
-|      3 | Probability                                 | Learn some Python (see assignments)      |
-|      4 | Model fitting; I/O for neuroscience         |                                          |
-|      5 | Spike train statistics; open science        | Sandve et al (2013), Wilson et al (2014) |
-|      6 | Linear time-invariant systems               | Dayan and Abbott (Ch 1--2)               |
-|      7 | Estimating parameters and comparing models  |                                          |
-|      8 | Encoding vs Decoding models                 | Holdgraf et al (2017)                    |
-|      9 | Biophysics of neurons                       | Sterratt (Ch 2--3)                       |
-|     10 | Dynamical systems theory                    | Izhikevich (Ch 3--4)                     |
-|     11 | Phenomenological dynamical models           | Izhikevich (Ch 5--6), Brette (2015)      |
-|     12 | Large-scale simulations                     | Stimberg et al (2019)                    |
-| 13--15 | Finalize projects and present results       |                                          |
+| Week   | Topic                                       | Readings/Exercises                       |
+|--------|---------------------------------------------|------------------------------------------|
+| 1      | Introduction to computational neural models | Ewert (1974), McNaughton & Morris (1987) |
+| 2      | Working with time series data               |                                          |
+| 3      | Probability and statistical inference       | Learn some Python (see assignments)      |
+| 4      | I/O for neuroscience; spike train stats     |                                          |
+| 5      | Linear time-invariant systems               | Dayan and Abbott (Ch 1--2)               |
+| 6      | Estimating parameters and comparing models  |                                          |
+| 7      | Encoding vs Decoding models                 | Holdgraf et al (2017)                    |
+| 8      | Biophysics of neurons                       | Sterratt (Ch 2--3)                       |
+| 9      | Dynamical systems theory                    | Izhikevich (Ch 3--4)                     |
+| 10     | Phenomenological dynamical models           | Izhikevich (Ch 5--6), Brette (2015)      |
+| 11     | Large-scale simulations                     | Stimberg et al (2019)                    |
+| 12--15 | Finalize projects and present results       |                                          |
 
 ## Materials
 
