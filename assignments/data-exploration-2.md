@@ -12,7 +12,7 @@ header-includes:
 
 The goal of this assignment is to start work on the infrastructure for reading your data into Python. There are really two parts to this problem. One is about how to access the data as it's stored on the disk; the other is about how to represent the data in memory so that you can easily inspect and manipulate it.
 
-At this point you need to have settled on which CRCNS data set you'll be analyzing, and have completed the thought exercise at the end of Lesson 6B.
+At this point you need to have settled on which CRCNS data set you'll be analyzing, and have completed the thought exercise at the end of the week 7 notebook.
 
 ### Setting up your repository
 
