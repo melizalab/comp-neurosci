@@ -1,6 +1,6 @@
 ---
 title: 'Computational Neuroscience'
-subtitle: 'Psychology 7559-002 --- Spring 2021'
+subtitle: 'Psychology 5270-001 Spring 2022'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -12,11 +12,17 @@ header-includes:
 
 ## Course Information
 
- - Class times: W 3:30-6:00
- - Course websites: [https://github.com/melizalab/comp-neurosci](https://github.com/melizalab/comp-neurosci/), [collab](https://collab.its.virginia.edu/portal/site/37e6d02a-d364-4387-ad16-0ac08d4ea739)
- - Class location: zoom (see collab)
+ - Class times: TTh 9:30-10:45
+ - Course websites:
+   - [github/comp-neurosci](https://github.com/melizalab/comp-neurosci/)
+   - [collab](https://collab.its.virginia.edu/portal/site/bfdaf22c-3e26-4f7a-b9e9-d4688fe8d2e1)
+ - Slack group: uva-comp-neuro
+   - [Signup](https://join.slack.com/t/uva-comp-neuro/signup)
+ - Class location: Cocke Hall 2101 and zoom (see collab)
  - Instructor: C Daniel Meliza (cdm8j)
- - Office Hours: by appointment
+   - Office Hours: by appointment
+ - Teaching Assistant: Christof Fehrman (ckf5hf)
+   - Office Hours: TBD
  - Final: in-class presentation
 
 ## Course Description
@@ -61,22 +67,26 @@ By the end of the semester, you will be able to:
 
 ## Course Schedule
 
-This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! Readings and assignments will be posted to collab. The topics we will cover are as follows:
+This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Tuesdays will be used for lecture-based instruction, and Thursdays for in-class work. Readings must be completed before class on Tuesday. Assignment instructions can be found on Collab and must be submitted before class on Tuesday the following week.
 
-| Week   | Topic                                       | Readings/Exercises                       |
-|--------|---------------------------------------------|------------------------------------------|
-| 1      | Introduction to computational neural models | Ewert (1974), McNaughton & Morris (1987) |
-| 2      | Working with time series data               |                                          |
-| 3      | Probability and statistical inference       | Learn some Python (see assignments)      |
-| 4      | I/O for neuroscience; spike train stats     |                                          |
-| 5      | Linear time-invariant systems               | Dayan and Abbott (Ch 1--2)               |
-| 6      | Estimating parameters and comparing models  |                                          |
-| 7      | Encoding vs Decoding models                 | Holdgraf et al (2017)                    |
-| 8      | Biophysics of neurons                       | Sterratt (Ch 2--3)                       |
-| 9      | Dynamical systems theory                    | Izhikevich (Ch 3--4)                     |
-| 10     | Phenomenological dynamical models           | Izhikevich (Ch 5--6), Brette (2015)      |
-| 11     | Large-scale simulations                     | Stimberg et al (2019)                    |
-| 12--15 | Finalize projects and present results       |                                          |
+| Week | Topic                                          | Readings                                 | Assignments            |
+|------|------------------------------------------------|------------------------------------------|------------------------|
+| 1/20 | Introduction                                   |                                          |                        |
+| 1/25 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
+| 2/1  | Working with time series data                  |                                          | Time-varying Data      |
+| 2/8  | Probability and statistical inference          | Learn some Python (see assignments)      | Probability            |
+| 2/15 | I/O for neuroscience; spike train stats        |                                          | Data and Spike Stats   |
+| 2/22 | Linear time-invariant systems                  | Dayan and Abbott (Ch 1--2)               | LTI Systems            |
+| 2/29 | Estimating parameters and comparing models     |                                          | Receptive Fields       |
+| 3/1  | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
+| 3/8  | Spring recess (no class)                       |                                          |                        |
+| 3/15 | Biophysics of neurons                          | Sterratt (Ch 2--3)                       | Neuron Biophysics      |
+| 3/22 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
+| 3/29 | Phenomenological dynamical models              | Izhikevich (Ch 5--6), Brette (2015)      | Reduced Models         |
+| 4/5  | Large-scale simulations                        | Stimberg et al (2019)                    | Network Models         |
+| 4/12 | Guided work on final projects                  |                                          |                        |
+| 4/19 | Work on final projects (T), presentations (Th) |                                          |                        |
+| 5/3  | Presentations                                  |                                          |                        |
 
 ## Materials
 
@@ -86,7 +96,7 @@ Scientific programming is essential to computational neuroscience. Digital compu
 
 Anyone who is interested in developing these skills is welcome to take the class regardless of programming experience. (Seriously!) You do need to be committed to learning these essential skills, however, which may require significant out-of-class work to nail down core concepts if you are totally new to this. I can direct you to useful tutorials and other materials as needed.
 
-Laptops are necessary for this class. You will need to bring your laptop, running Linux, OS X, or Windows, to every class meeting. Almost all the work will be performed in [Jupyter](https://jupyter.org) notebooks running the Python interpreter. Some exercises can be run using online resources like [binder](https://mybinder.org), but I strongly encourage you to install a Python environment on your laptop that you can use locally. We will spend time on the first day of class making sure everyone has a functioning environment.
+Laptops are necessary for this class. You will need to bring your laptop, running Linux, OS X, or Windows, to every class meeting. Almost all the work will be performed in [Jupyter](https://jupyter.org) notebooks running the Python interpreter. We will spend time on the first day of class making sure everyone has a functioning environment.
 
 ### Readings
 
@@ -96,19 +106,19 @@ There is no textbook for the course, but reviews and readings from the primary l
 
 ### Engagement (40%)
 
-Programming will be taught primarily in class, so your attendance and participation during class time will directly influence what you get out of it. Throughout the semester, you will be working in class with a partner, so your engagement will also affect your partner’s ability to learn and benefit from the course.
+Due to the fact that we complete much of the work in class, attendance is critical. Unless otherwise arranged with the instructor, you may only miss one class without penalty. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance.
 
-**How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming partner to make sure you both understand the tasks. Ask questions in class or on Piazza if anything is unclear or if you are getting an error you and your partner can’t figure out.
+**How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming team to make sure you both understand the tasks. Ask questions in class or on the class slack if anything is unclear or if you are getting an error you and your team can’t figure out.
 
 ### Homework (30%)
 
-Throughout the course, you will periodically be given take-home assignments that challenge you to think about how to break a problem into small, logical steps using pseudocode. When approaching new methods, pseudocode is a powerful way of planning your analyses without worrying about the specifics of syntax. You may write accompanying code if you wish, but that is not required or expected. Programming isn’t just about making sure you’ve closed all your brackets; it’s a new way of thinking, and these problems will give you practice with this type of thinking without your console giving you errors.
+Throughout the course, you will periodically be given take-home assignments that challenge you to think about how to break a problem into small, logical steps using pseudocode. When approaching new methods, pseudocode is a powerful way of planning your analyses without worrying about the specifics of syntax. You may write accompanying functional code if you wish, but that is not required or expected. Programming isn’t just about making sure you’ve closed all your brackets; it’s a new way of thinking, and these problems will give you practice with this type of thinking without your console giving you errors.
 
 **How you can succeed**: Think hard about the problem and how to construct a series of explicit, logical steps that solve it. Write down your best thoughts on the solution, and read through it carefully to catch any leaps of reasoning you’ve made. Your process is more important than whether every step is correct. Remember, there are usually multiple ways to solve any problem.
 
 ### Data Exploration (30%)
 
-As part of a semester-long project, you and your programming partner will have the opportunity to choose one of the neuroscience data sets we’ll be working with in class. As we discuss various topics in data science, you will be applying these to your data set and building toward a complete research project. Along the way, you and your partner will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
+As part of a semester-long project, you and your programming team will have the opportunity to choose one of the neuroscience data sets we’ll be working with in class. As we discuss various topics in data science, you will be applying these to your data set and building toward a complete research project. Along the way, you and your team will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
 
 **How you can succeed**: Engage with the data set you have chosen. Explore the structure of your data set and read the methods section of the associated publication. Think about which methods we discuss can be applied to your data and what kinds of questions could be asked with them. Test and document functions you write to make them as easy as possible for you and the rest of the class to use. Take advantage of peer and instructor feedback to improve your final product.
 
@@ -123,8 +133,6 @@ As part of a semester-long project, you and your programming partner will have t
 ## Course policies
 
 Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
-
-Due to the fact that we meet only once a week and complete much of the work in class, attendance is critical. Unless otherwise arranged with the instructor, you may only miss one class without penalty. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance.
 
 My goal is for everyone in the class to have an equal opportunity to learn and
 to demonstrate their knowledge. Students with disabilities are entitled to
