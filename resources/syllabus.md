@@ -18,29 +18,29 @@ header-includes:
    - [collab](https://collab.its.virginia.edu/portal/site/bfdaf22c-3e26-4f7a-b9e9-d4688fe8d2e1)
  - Slack group: uva-comp-neuro
    - [Signup](https://join.slack.com/t/uva-comp-neuro/signup)
- - Class location: Cocke Hall 2101 and zoom (see collab)
+ - Class location: Cocke Hall 101 and zoom (see collab)
  - Instructor: C Daniel Meliza (cdm8j)
    - Office Hours: by appointment
  - Teaching Assistant: Christof Fehrman (ckf5hf)
-   - Office Hours: TBD
+   - Office Hours: MW 11-12
  - Final: in-class presentation
 
 ## Course Description
 
-In order to survive and reproduce in a complex and highly variable physical
-world, animals have to extract information from sensory inputs, make decisions
-about how to allocate their resources, and perform tightly choreographed
-sequences of motor behaviors. Brains have evolved to perform these tasks
-reliably, flexibly, and efficiently. **Our goal is to understand how these
-computations are implemented by circuits of neurons**.
+To survive and reproduce in a complex and variable physical world, animals have
+to extract information from sensory inputs, make decisions about how to allocate
+their resources, and perform tightly choreographed sequences of motor behaviors.
+Brains have evolved to perform these tasks reliably, flexibly, and efficiently.
+**Our goal is to understand how these computations are implemented by circuits
+of neurons**.
 
-The challenge we face is that brains are enormously complex. Even relatively
-"simple" non-human animals have millions of neurons and billions of connections.
-Just observing a small fraction of the brain in action can generate enormous
-quantities of data. Voltage from an intracellular electrode is sampled 40,000
-times a second, and EEGs are recorded on 19 channels sampled up to 2,000 times a
-second. That means almost 2.5 million data points in one minute! With so much
-data, how can we possibly find the information in all the noise?
+The challenge we face is that brains themselves are enormously complex. Even
+relatively "simple" non-human animals have millions of neurons and billions of
+connections. Just observing a small fraction of the brain in action can generate
+enormous quantities of data. Voltage from an intracellular electrode is sampled
+40,000 times a second, and EEGs are recorded on 19 channels sampled up to 2,000
+times a second. That means almost 2.5 million data points in one minute! With so
+much data, how can we possibly find the information in all the noise?
 
 The approach we'll use here is **computational modeling**, which means building
 toy systems that capture some aspect of how a particular system in the brain is
@@ -74,11 +74,11 @@ This schedule is subject to change based on the interests of the class and our p
 | 1/20 | Introduction                                   |                                          |                        |
 | 1/25 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
 | 2/1  | Working with time series data                  |                                          | Time-varying Data      |
-| 2/8  | Probability and statistical inference          | Learn some Python (see assignments)      | Probability            |
-| 2/15 | I/O for neuroscience; spike train stats        |                                          | Data and Spike Stats   |
-| 2/22 | Linear time-invariant systems                  | Dayan and Abbott (Ch 1--2)               | LTI Systems            |
-| 2/29 | Estimating parameters and comparing models     |                                          | Receptive Fields       |
-| 3/1  | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
+| 2/8  | I/O for neuroscience; spike train stats        | TBD                                      | Data and Spike Stats   |
+| 2/15 | Linear time-invariant systems                  | Dayan and Abbott (Ch 1--2)               | LTI Systems            |
+| 2/22 | Estimating parameters and comparing models     |                                          | Receptive Fields       |
+| 2/29 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
+| 3/1  | Machine learning                               | TBD                                      |                        |
 | 3/8  | Spring recess (no class)                       |                                          |                        |
 | 3/15 | Biophysics of neurons                          | Sterratt (Ch 2--3)                       | Neuron Biophysics      |
 | 3/22 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
@@ -106,13 +106,13 @@ There is no textbook for the course, but reviews and readings from the primary l
 
 ### Engagement (40%)
 
-Due to the fact that we complete much of the work in class, attendance is critical. Unless otherwise arranged with the instructor, you may only miss one class without penalty. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance.
+Due to the fact that we complete much of the work in class, attendance is critical. Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you are unable to attend class in person due to a COVID-related isolation or quarantine, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. Active participation is expected.
 
 **How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming team to make sure you both understand the tasks. Ask questions in class or on the class slack if anything is unclear or if you are getting an error you and your team can’t figure out.
 
 ### Homework (30%)
 
-Throughout the course, you will periodically be given take-home assignments that challenge you to think about how to break a problem into small, logical steps using pseudocode. When approaching new methods, pseudocode is a powerful way of planning your analyses without worrying about the specifics of syntax. You may write accompanying functional code if you wish, but that is not required or expected. Programming isn’t just about making sure you’ve closed all your brackets; it’s a new way of thinking, and these problems will give you practice with this type of thinking without your console giving you errors.
+Each week, you will be given assignments that will immerse you in theoretical or practical aspects of computational neuroscience. Almost all of these assignments will involve programming. Programming isn’t just about making sure you’ve closed all your brackets; it’s a new way of thinking, and these problems will give you practice with this type of thinking without your console giving you errors.
 
 **How you can succeed**: Think hard about the problem and how to construct a series of explicit, logical steps that solve it. Write down your best thoughts on the solution, and read through it carefully to catch any leaps of reasoning you’ve made. Your process is more important than whether every step is correct. Remember, there are usually multiple ways to solve any problem.
 

@@ -17,27 +17,18 @@ The easiest way to run the exercises is to use [mybinder](https://mybinder.org).
 
 These instructions should work on any operating system to give you a working Python environment with all the required packages.
 
-Install the Python 3.x version of [anaconda](https://www.anaconda.com/distribution/) (or [miniconda](https://conda.io/en/latest/miniconda.html) if you are comfortable using the shell). Create a new Python 3.x environment called `comp-neurosci` (using Anaconda Navigator or by running `conda create -n comp-neurosci` in the shell). Activate this environment (in Anaconda Explorer, click `Open Terminal` under the green arrow to the right of the environment; in the shell, run `conda activate comp-neurosci`), then run the following commands. Run them **one at a time** so that you can stop and fix any errors.
+Install the Python 3.x version of [anaconda](https://www.anaconda.com/distribution/) (or [miniconda](https://conda.io/en/latest/miniconda.html) if you are comfortable using the shell). Run the following commands in a terminal, **one at a time** so that you can stop and fix any errors.
 
 ``` shell
-conda install -n comp-neurosci git numpy scipy pandas matplotlib notebook cython ipywidgets
-git clone https://github.com/melizalab/comp-neurosci
-cd comp-neurosci
-pip install -r requirements-conda.txt
-jupyter-notebook
-```
-
-**IMPORTANT**: Before each class session, you will need to update your local copy of the repository data before starting the notebook server. From the terminal, run the following commands (again, one at a time):
-
-``` shell
+conda create -n comp-neurosci python=3.9.7 numpy scipy pandas matplotlib notebook cython ipywidgets ipykernel
 conda activate comp-neurosci
-cd comp-neurosci
-git reset --hard HEAD
-git pull --rebase
-jupyter-notebook
+pip install -e .
+python -m ipykernel install --user --name comp-neurosci --display-name "comp-neurosci"
 ```
 
-Make sure you work on a copy of the notebook (go to `File/Make a Copy...` in the notebook) that you name with your UVA computing ID. The `git reset --hard HEAD` command will erase any work that you've done on a notebook that's under version control, but any work you do in the copy will be kept.
+When you run Jupyter, you will have the option of selecting the `comp-neurosci` kernel, which should have all of your software dependencies.
+
+Make sure you work on a copy of the notebook (go to `File/Make a Copy...` in the notebook) that you name with your UVA computing ID; otherwise you may run into conflicts if you try to pull updates to the notebooks from the github repository.
 
 ### Local: docker
 
