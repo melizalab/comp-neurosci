@@ -1,6 +1,6 @@
 ---
 title: 'Computational Neuroscience'
-subtitle: 'Psychology 5270-001 Spring 2022'
+subtitle: 'Psychology 5270 Spring 2022'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -21,7 +21,7 @@ header-includes:
  - Class location: Cocke Hall 101 and zoom (see collab)
  - Instructor: C Daniel Meliza (cdm8j)
    - Office Hours: by appointment
- - Teaching Assistant: Christof Fehrman (ckf5hf)
+ - Teaching Assistant: Christof Fehrman (ckf5fh)
    - Office Hours: MW 11-12
  - Final: in-class presentation
 
@@ -133,6 +133,8 @@ As part of a semester-long project, you and your programming team will have the 
 ## Course policies
 
 Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
+
+I don't typically answer email or course Slack messages outside of normal working hours. If I do write, I don't expect an immediate response
 
 My goal is for everyone in the class to have an equal opportunity to learn and
 to demonstrate their knowledge. Students with disabilities are entitled to
