@@ -42,3 +42,9 @@ docker run --rm --name comp-neurosci -p 8888:8888 -v "$PWD":/home/jovyan/work dm
 (In PowerShell, replace `"$PWD"` with `${pwd}`. If this is your first time using Docker you may be asked to give permission to access the hard drive and network.)
 
 The last command will start the docker container and the jupyter server. Copy the URL at the bottom of the output into your browser and you should have access to the notebook server. Note: files saved in the `work` subdirectory of the server will appear in your current working directory. Any other files or changes will be lost. Conversely, if you edit a file in the current directory it will show up in the `work` directory.
+
+## Shared installation
+
+Instructors may wish to have a single installation of the code and data to be shared by multiple users.
+
+By default, the notebooks will load pregenerated data from files in the `data` subdirectory of this repository. If you are running a course and

@@ -4,16 +4,6 @@
 from __future__ import print_function, division, absolute_import
 
 
-def load(*path):
-    """ Loads pprox+json response data for unit and returns it in a Python dictionary """
-    import os
-    import json
-    filename = os.path.join(*path) + ".json"
-    with open(filename, 'rU') as fp:
-        data = json.load(fp)
-        return data
-
-
 def select_stimulus(pprox, stim, max_repeats=10):
     """ Returns a list of arrays corresponding to the trials in which 'stim' was presented """
     from numpy import asarray

@@ -9,23 +9,6 @@ import ewave
 import numpy as np
 
 
-def load_timeseries(*path):
-    wavfile = ewave.open(os.path.join(*path), "r")
-    return wavfile.read(memmap=False), wavfile.sampling_rate
-
-
-def load_raw_responses(*path, unit, stimname, offset=-2):
-    r = []
-    t = None
-    for i, f in enumerate(glob.glob(os.path.join(*path, "%s_%s*.wav" % (unit, stimname)))):
-        with ewave.open(f) as fp:
-            r.append(fp.read())
-            if i == 0:
-                t = np.arange(0, fp.nframes / fp.sampling_rate, 1. / fp.sampling_rate) + offset
-    # assumes that all the responses are the same duration
-    return r, t
-
-
 def specgram(signal, sampling_rate, nfft=256, shift=128, compress=1):
     """
     Calculate a spectrogram of signal.
