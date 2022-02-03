@@ -3,6 +3,7 @@
 """ Functions for loading pregenerated data into the notebook """
 from __future__ import print_function, division, absolute_import
 
+import os
 import numpy as np
 
 e2_std = 0.2
@@ -15,11 +16,14 @@ def mult_error_data(mu, N):
 
 
 def load_timeseries(*path):
+    import ewave
     wavfile = ewave.open(os.path.join(data_path, *path), "r")
     return wavfile.read(memmap=False), wavfile.sampling_rate
 
 
 def load_raw_responses(*path, unit, stimname, offset=-2):
+    import ewave
+    import glob
     r = []
     t = None
     for i, f in enumerate(glob.glob(os.path.join(data_path, *path, "%s_%s*.wav" % (unit, stimname)))):
@@ -33,7 +37,6 @@ def load_raw_responses(*path, unit, stimname, offset=-2):
 
 def load_pprox(*path):
     """ Loads pprox+json response data for unit and returns it in a Python dictionary """
-    import os
     import json
     filename = os.path.join(data_path, *path) + ".json"
     with open(filename, 'rU') as fp:
@@ -42,6 +45,7 @@ def load_pprox(*path):
 
 
 try:
-    from uva_comp_neurosci.local_settings import *
+    from comp_neurosci_uva.local_settings import *
 except Exception as e:
+    print(e)
     pass

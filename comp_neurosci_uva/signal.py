@@ -3,9 +3,6 @@
 """Functions for signal-processing"""
 from __future__ import print_function, division, absolute_import
 
-import os
-import glob
-import ewave
 import numpy as np
 
 
