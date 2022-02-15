@@ -134,7 +134,11 @@ As part of a semester-long project, you and your programming team will have the 
 
 Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
 
-I don't typically answer email or course Slack messages outside of normal working hours. If I do write, I don't expect an immediate response
+Group work must represent equal effort by all members. If your schedules are not compatible, if there is an emergency or illness, or if you need to come to a different arrangement for splitting the work, contact me so we we can make sure there is an equitable solution that maximizes everyone's opportunity to learn.
+
+Students with COVID-related symptoms or a positive test result within the last 5 days, or who are waiting on test results after a close contact must not attend in person. Notify me to make arrangements for attending virtually. If you are displaying symptoms in class, you will be asked to leave and will lose participation credit for the day.
+
+I don't typically answer email or Slack messages outside of normal working hours. If I do write, I don't expect an immediate response.
 
 My goal is for everyone in the class to have an equal opportunity to learn and
 to demonstrate their knowledge. Students with disabilities are entitled to
