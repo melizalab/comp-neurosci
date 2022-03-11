@@ -75,16 +75,15 @@ This schedule is subject to change based on the interests of the class and our p
 | 1/25 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
 | 2/1  | Working with time series data                  |                                          | Time-varying Data      |
 | 2/8  | I/O for neuroscience; spike train stats        | TBD                                      | Data and Spike Stats   |
-| 2/15 | Linear time-invariant systems                  | Dayan and Abbott (Ch 1--2)               | LTI Systems            |
-| 2/22 | Estimating parameters and comparing models     |                                          | Receptive Fields       |
-| 2/29 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
-| 3/1  | Machine learning                               | TBD                                      |                        |
+| 2/15 | Linear time-invariant systems                  | Dayan and Abbott Ch 1                    | LTI Systems            |
+| 2/22 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
+| 3/1  | Machine learning                               | TBD                                      | Machine Learning       |
 | 3/8  | Spring recess (no class)                       |                                          |                        |
-| 3/15 | Biophysics of neurons                          | Sterratt (Ch 2--3)                       | Neuron Biophysics      |
-| 3/22 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
-| 3/29 | Phenomenological dynamical models              | Izhikevich (Ch 5--6), Brette (2015)      | Reduced Models         |
-| 4/5  | Large-scale simulations                        | Stimberg et al (2019)                    | Network Models         |
-| 4/12 | Guided work on final projects                  |                                          |                        |
+| 3/15 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
+| 3/22 | Biophysics of neurons                          | Sterratt (Ch 2--3)                       | Neuron Biophysics      |
+| 3/29 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
+| 4/5  | Phenomenological dynamical models              | Izhikevich (Ch 5--6), Brette (2015)      | Reduced Models         |
+| 4/12 | Large-scale simulations                        | Stimberg et al (2019)                    | Network Models         |
 | 4/19 | Work on final projects (T), presentations (Th) |                                          |                        |
 | 5/3  | Presentations                                  |                                          |                        |
 

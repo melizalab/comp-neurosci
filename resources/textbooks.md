@@ -6,6 +6,7 @@ The majority of these resources are available through the UVA library either in 
 - Dayan, P and Abbott, LF (2001) Theoretical Neuroscience. MIT Press
 - Sterratt D, Graham B, Gillies A, and Willshaw D (2011). Principles of
   Computational Modelling in Neuroscience. Cambridge University Press.
+- Eugene Izhikevich, Dynamical Systems in Neuroscience. MIT Press.
 
 # Scientific programming and Python
 
@@ -15,6 +16,5 @@ The majority of these resources are available through the UVA library either in 
 # General mathematics and statistics
 
 - Spence, Insel, and Friedberg, Elementary Linear Algebra. Prentice Hall.
-- Eugene Izhikevich, Dynamical Systems in Neuroscience. MIT Press.
 - Hirsch, Smale, and Devaney, Differential Equations, Dynamical Systems, and an
-  Introduction to Chaos. Springer.
+  Introduction to Chaos. Springier.
