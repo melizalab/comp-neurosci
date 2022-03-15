@@ -12,20 +12,16 @@ header-includes:
 
 The overall goal of this assignment is for you to explore in depth one of the theoretical approaches covered in this class by analyzing a public data set or data of your own. There are four stages to the project, culminating in a short presentation given to the rest of the class.
 
-- **Choose a group and a project**: due 3/24
+- **Choose a group and present a journal club article**: 3/22 and 3/24
 - Document the data and/or model: due 3/31
 - Formulate a hypothesis: due 4/12
 - Present the results: 4/21 and 5/3
 
-*Assignment*: With your group (max 4 members), write a paragraph identifying the project type and data set you chose, and a brief description of what you intend to do. Submit through Gradescope on Collab.
-
-## Choosing a group
-
-You may work on this project on your own or in a group of up to 4 members. If you work in a group, choose members who have complementary skills (e.g. programming, biology, math) and who can work effectively together. Agree about expectations for when you will meet and how you will divide up the work.
+*Assignment*: With your group (max 4 members), choose a project topic and one of the associated journal articles. Let your instructor know who is in your group and which article you plan to discuss. Be prepared to present the article to the rest of the class on 3/22 or 3/24. A rubric for the presentation is at the end of this document.
 
 ## Choosing a project
 
-Your project should focus on one of the main theoretical approaches we cover in class. Here are your options, along with some recommended data sets. The data sets come from the the [Collaborative Research in Computational Neurocience Data Sharing website](https://crcns.org) and can be found in the `shared-data` folder on Rivanna. Each directory will include documentation about how the data were collected and organized, along with references to published articles about the experiment.
+Your project should focus on one of the main theoretical approaches we have covered in class. Here are your options, along with some associated journal articles. Each of the articles has a corresponding dataset available on the  [Collaborative Research in Computational Neurocience Data Sharing website](https://crcns.org). You will use these data in your project, so you may want to take a look at the CRCNS website to see how the data are organized when deciding which article/project to present. More advanced students may choose to use a different dataset from CRCNS or from their own research, but should pick an article that is mostly closely aligned with their project idea.
 
 ### Analyze neural responses to estimate receptive fields
 
@@ -36,11 +32,13 @@ A classical approach to studying neural processing is to characterize the recept
 3. Test the model and goodness of fit by seeing if you can predict responses to novel stimuli.
 4. Test a hypothesis of your choice.
 
-These data sets should work well with this project:
+These papers and datasets will work well with this project type.
 
-- `crcns/lgn-1`: spiking responses of LGN neurons in the mouse to drifting gratings. You should be able to use a fairly simple linear encoding model and estimation techniques with these neurons.
-- `crcns/aa-2`: zebra finch auditory neurons from a variety of brain regions stimulated with individual songs and synthetic noise. A simple linear model will work for many neurons, but you will need to use regularized linear regression to obtain good estimates.
-- `zf/noise-invariance`: zebra finch auditory neurons stimulated with auditory scenes comprising foreground zebra finch songs added to a complex background mimicking the sound of a zebra finch colony. These data were collected in the Meliza lab, so we can provide a lot of assistance understanding the structure. You may need a more complex nonlinear model and estimation techniques for these cells, however.
+- Scholl B, Tan AYY, Corey J, and Priebe NJ. Emergence of orientation selectivity in the mammalian visual pathway J. Neurosci. 33(26):10616-10624. [lgn-1](https://crcns.org/data-sets/vc/pvc-2). You should be able to use a fairly simple linear encoding model and estimation techniques with these neurons.
+- Touryan J, Felsen G, and Dan Y. (2005) Spatial structure of complex cell receptive fields measured with natural images, Neuron 45, 781-791. [pvc-2](https://crcns.org/data-sets/vc/pvc-2)
+- Felsen G, Touryan J, Han F, and Dan Y. (2005) Cortical sensitivity to visual features in natural scenes, PLoS Biol. 3 (10), e342. [pvc-2](https://crcns.org/data-sets/vc/pvc-2)
+- Amin N, Gill P, Theunissen FE. (2010) Role of the zebra finch auditory thalamus in generating complex representations for natural sounds. J Neurophysiol. 104(2):784-98 [aa-2](https://crcns.org/data-sets/aa/aa-2)
+- Woolley SMN, Gill PR, Fremouw T, Theunissen FE (2009) Functional groups in the avian auditory system. J Neurosci 29(9):2780-93. [aa-2](https://crcns.org/data-sets/aa/aa-2). A simple linear model will work for many neurons, but you will need to use regularized linear regression to obtain good estimates.
 
 ### Build and test a decoder/classifier
 
@@ -51,83 +49,21 @@ A decoding model attempts to predict what stimulus was presented from the respon
 3. Test how well the decoder/classifier can predict the stimulus/action given a novel response.
 4. Test a hypothesis of your choice.
 
-These data sets should work well with this project:
+These papers and datasets should work well with this project:
 
-- `crcns/hc-28`: Recordings from hippocampus regions CA1 (primarily dorsal CA1 and some intermediate CA1 recordings) and medial prefrontal cortex (PFC, prelimbic and infralimbic regions) from three male Long-Evans rats learning a continuous alternation W-track task.
-- `crcns/vim-1`: fMRI of human visual areas in response to natural scenes. fMRI has much lower spatial and temporal resolution compared to single-unit recordings and calcium imaging, but it can be applied in humans and provides a broad view of activity in multiple brain areas.
-- `zf/noise-invariance`: same data as for the encoding model. You could try to decode the spectrogram of the foreground stimulus or its identity.
+- Wirth S, Baraduc P, Plante A, Pinede S, Duhamel J-R (2017). Gaze-informed, task-situated representation of space in primate hippocampus during virtual navigation. PLoS Biology. doi:10.1371/journal.pbio.2001045. [hc-12](https://crcns.org/data-sets/hc/hc-12)
+- Kay, K. N., Naselaris, T., Prenger, R. J., & Gallant, J. L. (2008). Identifying natural images from human brain activity. Nature, 452(7185), 352-355. [vim-1](https://crcns.org/data-sets/vc/vim-1)
+- Naselaris, T., Prenger, R. J., Kay, K. N., Oliver, M., & Gallant, J. L. (2009). Bayesian reconstruction of natural images from human brain activity. Neuron, 63(6), 902-915. [vim-1](https://crcns.org/data-sets/vc/vim-1)
+- Feierstein CE, Quirk MC, Uchida N, Sosulski DL, Mainen ZF (2006) Representation of spatial goals in rat orbitofrontal cortex. Neuron 51(4):495-507. [ofc-1](https://crcns.org/data-sets/ofc/ofc-1)
 
-### Simulate intracellular dynamics of a neuron type
+### Advanced: An analysis of your own design
 
-The voltage dynamics of individual neurons can be simulated using the biophysical framework developed by Hodgkin and Huxley. These models consist of a set of ordinary differential equations corresponding to the membrane voltage and the states of the activation/inactivation gates for voltage-gated currents. If you choose this project, your tasks will be to:
+You are welcome to pursue your own project idea if it is feasible to do in the allotted time. You will need to choose a relevant paper and get instructor approval before proceeding with this option. Some ideas for topics:
 
-1. Pick a neuron type that has been studied using slice electrophysiology and determine which currents (ion channels) to include in the model.
-2. Search [Channelpedia](https://channelpedia.epfl.ch/) to find equations for the currents/channels in your cell type.
-3. Implement the model in [Brian](https://briansimulator.org) (recommended) or [NEURON](https://www.neuron.yale.edu/neuron/) (for more complex multicompartment models).
-4. Use the model to generate simulated responses and compare them to published results.
-5. Test a hypothesis of your choice.
+- Build a biophysical model of an interesting neuron type
+- Characterize network dynamics of a neural population using neural manifolds or other dimensional reduction techniques
+- Implement a computation (e.g. decorrelation, pattern matching, pattern completion) in an artificial neural network.
 
-Some cell types that would work well for this project:
+## Choosing a group
 
-- Layer 2/3 pyramidal cell in barrel cortex
-- Cerebellar Purkinje cell
-- Lateral Pyloric cell of the crab stomatogastric ganglion
-
-### Implement a computation or dynamical behavior using a neural network
-
-Networks of neurons can also be simulated using differential equations, usually with more abstract dynamics than a detailed biophysical model, but including synaptic connections within the network. Simple networks can exhibit interesting dynamical behaviors like stochastic resonance, or implement neural computations like decorrelation, pattern matching, and pattern completion. If you choose this project, your tasks will be to:
-
-1. Choose a computation of interest. Define input and output structure.
-2. Decide on a network architecture (e.g. feedforward, recurrent, rate-based, spiking) and define the equations.
-3. Decide how to set free parameters (e.g. machine learning, randomized)
-4. Test whether the network can implement the computation.
-
-### An analysis of your own design
-
-You are welcome to pursue your own project idea if it is feasible to do in the allotted time. You will need to get instructor approval before proceeding with this option.
-
-## Part 2: Documenting the data or model
-
-Encoding and decoding models: write a python module that will load the stimulus and response data from the data repository into a data structure or structures that will allow you to estimate the parameters of the model.
-
-Biophysical model: submit a 1-page document with a brief description of the cell type and the currents you intend to include.
-
-Network model: submit a 1-page document describing the computation you intend to implement, how you will structure the input and output, and what kind of network you will use.
-
-## Part 3: Formulating a hypothesis
-
-## Part 4: Presenting the analysis
-
-public data set to address a specific hypothesis about how the brain performs computations. Given the time constraints of the class, you are only expected to make progress toward this goal, by pursuing a specific aim that you defined in your proposal.
-
-Your submission will consist of two parts: code that you push to your github repository, and a report that describes your results. The code will account for 40% of the assignment credit, and the report for 60%.
-
-# Code
-
-Your github repository will need to contain a notebook that generates the figure(s) you present in your report. This notebook must be at the top level of the repository and be clearly named. I will evaluate your submission by cloning the repository, following your instructions in `README.md` and/or `data/README.md` to retrieve the data set, and then executing the notebook. Your notebook needs to work for you to receive full credit,  sure that someone following your instructions with a clean install can duplicate your results. I will mostly be evaluating this part of the assignment based on results, but 10% of your score will reflect whether your code is readable and appropriately documented.
-
-# Report
-
-Your report will be structured like an abbreviated scientific paper. This should be around 5 pages in length, with 1-inch margins, submitted as a PDF to Collab. Work that is of high quality that adheres to the guidelines, and with few mistakes in grammar, will receive full credit.
-
-The report should begin with a title and a list of authors, and then the following sections, with the indicated headings.
-
-## Introduction
-
-The introduction can be based off your proposal. You need to define the overarching goal/question you are addressing in a way that emphasizes its significance to understanding neural computations and what is known already in the field. Briefly introduce your data set and clearly state a hypothesis and how it relates to the data. Finally, introduce the specific analysis you performed and how it relates to testing the hypothesis.
-
-## Results
-
-Succinctly describe the specifics of the analysis you performed and the results. You need to have at least one figure, which must be captioned with a detailed legend, and referenced in the main text of the report. Always use past tense when describing results.
-
-## Discussion
-
-Interpret your results in light of your hypothesis. Describe any limitations or unexpected outcomes, and summarize what the next step would be in addressing the hypothesis or general research question.
-
-## References
-
-You should reference at least 3 peer-reviewed primary research papers or reviews in your report. In the text, use parenthetical author-date citations, like (Meliza et al., 2019), and then provide a list of full references in this section. Each reference should include the authors, the title, the year of publication, the journal, and sufficient information to locate the article in the journal (a DOI, volume:start--end, or both). You can use whatever format you prefer as long as all of the required information is present. Every reference in this section needs to correspond to an in-text citation and vice versa. You need to cite the data set you used, using the form requested by the authors on the CRCNS website.
-
-## Acknowledgments
-
-Acknowledge the experimenters who collected the data you used, and any assistance you received from classmates not on the author list.
+You may work on this project alone or in a group of up to 4 members. Groups work best if the skills of the members (i.e. programming, math, biology) are complementary. Agree early on about your expectations for when and how often to meet and on how to equitably divide up the work.

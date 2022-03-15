@@ -79,8 +79,8 @@ This schedule is subject to change based on the interests of the class and our p
 | 2/22 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
 | 3/1  | Machine learning                               | TBD                                      | Machine Learning       |
 | 3/8  | Spring recess (no class)                       |                                          |                        |
-| 3/15 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
-| 3/22 | Biophysics of neurons                          | Sterratt (Ch 2--3)                       | Neuron Biophysics      |
+| 3/15 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Data Exploration I     |
+| 3/22 | Project journal club                           |                                          |                        |
 | 3/29 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
 | 4/5  | Phenomenological dynamical models              | Izhikevich (Ch 5--6), Brette (2015)      | Reduced Models         |
 | 4/12 | Large-scale simulations                        | Stimberg et al (2019)                    | Network Models         |
