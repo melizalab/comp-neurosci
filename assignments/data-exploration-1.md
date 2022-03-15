@@ -10,12 +10,7 @@ header-includes:
     - \usepackage{eulervm}
 ---
 
-The goal of this assignment is to help you choose a data set for data
-exploration activities in this course. As we discuss various topics in data
-science, you will be applying these to your data set and building toward a
-complete research project. Along the way, you and your partner will gain
-expertise on your data set and be a resource for other students in our class
-interested in working with that type of data.
+The goal of this assignment is to help you choose a project for data exploration activities in this course.
 
 ### What kinds of data should I be looking for?
 
