@@ -1,6 +1,6 @@
 ---
 title: 'PSYC 5720 --- Computational Neuroscience'
-subtitle: 'Data Exploration Assignment: Final Project'
+subtitle: 'Data Exploration Assignment: Final Presentation'
 documentclass: scrartcl
 fontsize: 11pt
 linkcolor: blue
@@ -10,38 +10,36 @@ header-includes:
     - \usepackage{eulervm}
 ---
 
-**Due 5/3/2019 at 5 PM**
-
 The overall goal of the data exploration assignment is for you to use a public data set to address a specific hypothesis about how the brain performs computations. Given the time constraints of the class, you are only expected to make progress toward this goal, by pursuing a specific aim that you defined in your proposal.
 
-Your submission will consist of two parts: code that you push to your github repository, and a report that describes your results. The code will account for 40% of the assignment credit, and the report for 60%.
+Your submission will consist of two parts: code in your rivanna project directory, and a 30-minute presentation to the rest of the class to describe your results. The code will account for 30% of the assignment credit, and the presentation for 70%.
 
-# Code
+# Presentation
 
-Your github repository will need to contain a notebook that generates the figure(s) you present in your report. This notebook must be at the top level of the repository and be clearly named. I will evaluate your submission by cloning the repository, following your instructions in `README.md` and/or `data/README.md` to retrieve the data set, and then executing the notebook. Your notebook needs to work for you to receive full credit,  sure that someone following your instructions with a clean install can duplicate your results. I will mostly be evaluating this part of the assignment based on results, but 10% of your score will reflect whether your code is readable and appropriately documented.
+Each team will present a report on their project in a colloqium format. That is, you should assume that your audience knows very little about your topic, and therefore needs to have the significance of the study and the methods explained at a basic level.
 
-# Report
-
-Your report will be structured like an abbreviated scientific paper. This should be around 5 pages in length, with 1-inch margins, submitted as a PDF to Collab. Work that is of high quality that adheres to the guidelines, and with few mistakes in grammar, will receive full credit.
-
-The report should begin with a title and a list of authors, and then the following sections, with the indicated headings.
+You will need to prepare slides and orally present them. Every member of the group must speak for part of the presentation. The presentation needs to have the following structure:
 
 ## Introduction
 
-The introduction can be based off your proposal. You need to define the overarching goal/question you are addressing in a way that emphasizes its significance to understanding neural computations and what is known already in the field. Briefly introduce your data set and clearly state a hypothesis and how it relates to the data. Finally, introduce the specific analysis you performed and how it relates to testing the hypothesis.
+The introductory section of the presentation motivates the rest of the talk. You need to describe the overarching goal/question you are addressing in a way that emphasizes its significance to understanding neural computations and what is known already in the field. You should include enough background information to bring a hypothetical undergraduate who has taken neuroscience up to speed with any specific methodologies or concepts they will need to understand the significance of the research.  Explain the question you want to answer and its intellectual merit: how will your analysis help to advance understanding in the field. End by clearly (re)stating your objective.
+
+## Methods
+
+Introduce your data set and describe how it was collected and organized. Describe the specific analysis you performed and how it relates to your objectives/aims for the project.
 
 ## Results
 
-Succinctly describe the specifics of the analysis you performed and the results. You need to have at least one figure, which must be captioned with a detailed legend, and referenced in the main text of the report. Always use past tense when describing results.
+Succinctly describe the results of your analysis. You need to have at least one data figure that your team generated. Axes must be clearly labeled and legible, but you will also need to walk your audience through the figure, explaining what it is showing and how the results relate to the question/hypothesis.
 
-## Discussion
+## Conclusions
 
 Interpret your results in light of your hypothesis. Describe any limitations or unexpected outcomes, and summarize what the next step would be in addressing the hypothesis or general research question.
 
-## References
+## Acknowledgments and Discussion
 
-You should reference at least 3 peer-reviewed primary research papers or reviews in your report. In the text, use parenthetical author-date citations, like (Meliza et al., 2019), and then provide a list of full references in this section. Each reference should include the authors, the title, the year of publication, the journal, and sufficient information to locate the article in the journal (a DOI, volume:start--end, or both). You can use whatever format you prefer as long as all of the required information is present. Every reference in this section needs to correspond to an in-text citation and vice versa. You need to cite the data set you used, using the form requested by the authors on the CRCNS website.
+Acknowledge the experimenters who collected the data you used, and any assistance you received from classmates not in your group, and then conclude by taking questions from the class. I expect everyone in the class to ask at least one question during one of the presentations.
 
-## Acknowledgments
+# Code
 
-Acknowledge the experimenters who collected the data you used, and any assistance you received from classmates not on the author list.
+Your group's project directory will need to contain a notebook that generates the figure(s) you presented. This notebook must be at the top level of the directory and be clearly named. I will evaluate your submission by executing the notebook, so make sure you can run the notebook from start to finish and get the expected results. Your notebook needs to work for you to receive full credit. I will mostly be evaluating this part of the assignment based on results, but 10% of your score will reflect whether your code is readable and appropriately documented.

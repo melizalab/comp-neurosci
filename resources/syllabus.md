@@ -84,7 +84,8 @@ This schedule is subject to change based on the interests of the class and our p
 | 3/29 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
 | 4/5  | Phenomenological dynamical models              | Izhikevich (Ch 5--6), Brette (2015)      | Reduced Models         |
 | 4/12 | Large-scale simulations                        | Stimberg et al (2019)                    | Network Models         |
-| 4/19 | Work on final projects (T), presentations (Th) |                                          |                        |
+| 4/19 | Work on final projects                         |                                          |                        |
+| 4/26 | Work on final projects (T), presentations (Th) |                                          |                        |
 | 5/3  | Presentations                                  |                                          |                        |
 
 ## Materials

@@ -12,13 +12,13 @@ header-includes:
 
 The goal of this assignment is to start work on the infrastructure for reading your data into Python. There are really two parts to this problem. One is about how to access the data as it's stored on the disk; the other is about how to represent the data in memory so that you can easily inspect and manipulate it.
 
-At this point you need to have settled on which CRCNS data set you'll be analyzing, and have completed the thought exercise at the end of the week 7 notebook.
+At this point you need to have settled on which CRCNS data set you'll be analyzing.
 
-### Setting up your repository
+### Setting up your workspace
 
-You'll be storing and submitting your work on this project through github. To get you started, I've created a skeleton Python package, [comp-neurosci-skeleton](https://github.com/melizalab/comp-neurosci-skeleton). Navigate to this site and follow the instructions on how to create your own project.
+You'll be storing and submitting your work on this project through on Rivanna.
 
-If you're stuck for a name for your project, you can pick something like `comp-neurosci-crcns-aa2`, changing the last part to reflect the name of your data set. You do not need to include your name or computing ID in the project name because that will be part of the github URL.
+1. Create a subdirectory on Rivanna under `/projects/psyc5270-cdm8j/data-exploration`. Give it a name consisting of the computing ids of all the members of your group, separated by dashes (e.g. `cdm8j-ckf5h`)
 
 ### Document data retrieval
 
