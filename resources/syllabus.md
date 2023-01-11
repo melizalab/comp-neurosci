@@ -1,6 +1,6 @@
 ---
 title: 'Computational Neuroscience'
-subtitle: 'Psychology 5270 Spring 2022'
+subtitle: 'Psychology 5270 Spring 2023'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -15,14 +15,14 @@ header-includes:
  - Class times: TTh 9:30-10:45
  - Course websites:
    - [github/comp-neurosci](https://github.com/melizalab/comp-neurosci/)
-   - [collab](https://collab.its.virginia.edu/portal/site/bfdaf22c-3e26-4f7a-b9e9-d4688fe8d2e1)
+   - [canvas](https://canvas.its.virginia.edu/courses/57323)
  - Slack group: uva-comp-neuro
    - [Signup](https://join.slack.com/t/uva-comp-neuro/signup)
- - Class location: Cocke Hall 101 and zoom (see collab)
+ - Class location: Pavilion VIII 108
  - Instructor: C Daniel Meliza (cdm8j)
    - Office Hours: by appointment
- - Teaching Assistant: Christof Fehrman (ckf5fh)
-   - Office Hours: MW 11-12
+ - Teaching Assistant: Taylor Hinton (ckf5fh)
+   - Office Hours: WF 9-10 (location TBD)
  - Final: in-class presentation
 
 ## Course Description
@@ -71,22 +71,22 @@ This schedule is subject to change based on the interests of the class and our p
 
 | Week | Topic                                          | Readings                                 | Assignments            |
 |------|------------------------------------------------|------------------------------------------|------------------------|
-| 1/20 | Introduction                                   |                                          |                        |
-| 1/25 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
-| 2/1  | Working with time series data                  |                                          | Time-varying Data      |
-| 2/8  | I/O for neuroscience; spike train stats        | TBD                                      | Data and Spike Stats   |
-| 2/15 | Linear time-invariant systems                  | Dayan and Abbott Ch 1                    | LTI Systems            |
-| 2/22 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
-| 3/1  | Machine learning                               | TBD                                      | Machine Learning       |
-| 3/8  | Spring recess (no class)                       |                                          |                        |
-| 3/15 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Data Exploration I     |
-| 3/22 | Project journal club                           |                                          |                        |
-| 3/29 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
-| 4/5  | Phenomenological dynamical models              | Izhikevich (Ch 5--6), Brette (2015)      | Reduced Models         |
-| 4/12 | Large-scale simulations                        | Stimberg et al (2019)                    | Network Models         |
-| 4/19 | Work on final projects                         |                                          |                        |
-| 4/26 | Work on final projects (T), presentations (Th) |                                          |                        |
-| 5/3  | Presentations                                  |                                          |                        |
+| 1/19 | Introduction                                   |                                          |                        |
+| 1/24 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
+| 1/31 | Working with time series data                  | Wilson (2014)                            | Time-varying Data      |
+| 2/7  | I/O for neuroscience; spike train stats        |                                          | Data and Spike Stats   |
+| 2/14 | Linear time-invariant systems                  | Dayan and Abbott Ch 1                    | LTI Systems            |
+| 2/21 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
+| 2/28 | Machine learning                               | TBD                                      | Machine Learning       |
+| 3/7  | Spring recess (no class)                       |                                          |                        |
+| 3/14 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Data Exploration I     |
+| 3/21 | Project journal club                           |                                          |                        |
+| 3/28 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
+| 4/4  | Phenomenological dynamical models              | Izhikevich (Ch 5--6)                     | Reduced Models         |
+| 4/11 | Network models                                 | Stimberg et al (2019)                    | Network Models         |
+| 4/18 | Work on final projects                         |                                          |                        |
+| 4/25 | Work on final projects (T), presentations (Th) |                                          |                        |
+| 5/2  | Presentations                                  |                                          |                        |
 
 ## Materials
 
@@ -134,7 +134,7 @@ As part of a semester-long project, you and your programming team will have the 
 
 Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
 
-Group work must represent equal effort by all members. If your schedules are not compatible, if there is an emergency or illness, or if you need to come to a different arrangement for splitting the work, contact me so we we can make sure there is an equitable solution that maximizes everyone's opportunity to learn.
+Group work must represent equal effort by all members. Do not put anyone's name on an assignment if they did not make a substantive contribution. If your schedules are not compatible, if there is an emergency or illness, or if you need to come to a different arrangement for splitting the work, contact me so we we can make sure there is an equitable solution that maximizes everyone's opportunity to learn. 
 
 Students with COVID-related symptoms or a positive test result within the last 5 days, or who are waiting on test results after a close contact must not attend in person. Notify me to make arrangements for attending virtually. If you are displaying symptoms in class, you will be asked to leave and will lose participation credit for the day.
 
