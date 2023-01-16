@@ -67,7 +67,7 @@ By the end of the semester, you will be able to:
 
 ## Course Schedule
 
-This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Tuesdays will be used for lecture-based instruction, and Thursdays for in-class work. Readings must be completed before class on Tuesday. Assignment instructions can be found on Collab and must be submitted before class on Tuesday the following week.
+This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Tuesdays will be used for lecture-based instruction, and Thursdays for in-class work. Readings must be completed before class on Tuesday. Assignments are distributed on Rivanna and must be completed before class on Tuesday the following week.
 
 | Week | Topic                                          | Readings                                 | Assignments            |
 |------|------------------------------------------------|------------------------------------------|------------------------|
@@ -96,17 +96,17 @@ Scientific programming is essential to computational neuroscience. Digital compu
 
 Anyone who is interested in developing these skills is welcome to take the class regardless of programming experience. (Seriously!) You do need to be committed to learning these essential skills, however, which may require significant out-of-class work to nail down core concepts if you are totally new to this. I can direct you to useful tutorials and other materials as needed.
 
-Laptops are necessary for this class. You will need to bring your laptop, running Linux, OS X, or Windows, to every class meeting. Almost all the work will be performed in [Jupyter](https://jupyter.org) notebooks running the Python interpreter. We will spend time on the first day of class making sure everyone has a functioning environment.
+Laptops are necessary for this class. You will need to bring your laptop, running Linux, OS X, or Windows, to every class meeting. Almost all the work will be performed in [Jupyter](https://jupyter.org) notebooks hosted on UVA's high performance computing cluster. We will spend time in class making sure everyone has a functioning environment.
 
 ### Readings
 
-There is no textbook for the course, but reviews and readings from the primary literature will be assigned throughout the semester. PDF copies will be shared through the Resources tab on the class Collab page.
+There is no textbook for the course, but reviews and readings from the primary literature will be assigned throughout the semester. PDF copies will be shared through the File tab in Canvas.
 
 ## Evaluation
 
 ### Engagement (40%)
 
-Due to the fact that we complete much of the work in class, attendance is critical. Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you are unable to attend class in person due to a COVID-related isolation or quarantine, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. Active participation is expected.
+Due to the fact that we complete much of the work in class in pairs and small teams, attendance is critical. Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you are unable to attend class in person due to a COVID-related isolation or quarantine, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. Active participation is expected.
 
 **How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming team to make sure you both understand the tasks. Ask questions in class or on the class slack if anything is unclear or if you are getting an error you and your team can’t figure out.
 

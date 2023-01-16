@@ -1,3 +1,13 @@
+---
+title: 'Computational Neuroscience'
+subtitle: 'Computational Neuroscience Journals'
+documentclass: scrartcl
+linkcolor: blue
+header-includes:
+    - \usepackage[letterpaper, margin=1in]{geometry}
+    - \usepackage{mathpazo}
+    - \usepackage{eulervm}
+---
 
 This is a list of journals that publish computational neuroscience research articles.
 
