@@ -18,11 +18,11 @@ header-includes:
    - [canvas](https://canvas.its.virginia.edu/courses/57323)
  - Slack group: uva-comp-neuro
    - [Signup](https://join.slack.com/t/uva-comp-neuro/signup)
- - Class location: Pavilion VIII 108
+ - Class location: Gilmer 400 (2/7: Gilmer 484)
  - Instructor: C Daniel Meliza (cdm8j)
    - Office Hours: by appointment
- - Teaching Assistant: Taylor Hinton (ckf5fh)
-   - Office Hours: WF 9-10 (location TBD)
+ - Teaching Assistant: Taylor Hinton (dvh5dz)
+   - Office Hours: WF 9-10 (Gilmer 216E or zoom by advance request)
  - Final: in-class presentation
 
 ## Course Description
