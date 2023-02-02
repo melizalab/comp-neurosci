@@ -74,8 +74,8 @@ This schedule is subject to change based on the interests of the class and our p
 | 1/19 | Introduction                                   |                                          |                        |
 | 1/24 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
 | 1/31 | Working with time series data                  | Wilson (2014)                            | Time-varying Data      |
-| 2/7  | I/O for neuroscience; spike train stats        |                                          | Data and Spike Stats   |
-| 2/14 | Linear time-invariant systems                  | Dayan and Abbott Ch 1                    | LTI Systems            |
+| 2/7  | I/O for neuroscience; spike train stats        | Dayan and Abbott § 1.1,1.2               | Data and Spike Stats   |
+| 2/14 | Linear time-invariant systems                  | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
 | 2/21 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
 | 2/28 | Machine learning                               | TBD                                      | Machine Learning       |
 | 3/7  | Spring recess (no class)                       |                                          |                        |
