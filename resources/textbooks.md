@@ -17,4 +17,4 @@ The majority of these resources are available through the UVA library either in 
 
 - Spence, Insel, and Friedberg, Elementary Linear Algebra. Prentice Hall.
 - Hirsch, Smale, and Devaney, Differential Equations, Dynamical Systems, and an
-  Introduction to Chaos. Springier.
+  Introduction to Chaos. Springer.
