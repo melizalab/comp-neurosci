@@ -12,12 +12,12 @@ header-includes:
 
 The overall goal of this assignment is for you to explore in depth one of the theoretical approaches covered in this class by analyzing a public data set or data of your own. There are four stages to the project, culminating in a short presentation given to the rest of the class.
 
-- **Choose a group and present a journal club article**: 3/22 and 3/24
-- Document the data and/or model: due 3/31
-- Formulate a hypothesis: due 4/12
-- Present the results: 4/21 and 5/3
+- **Choose a group and present a journal club article**: 3/21 and 3/23
+- Document the data and/or model: due 3/30
+- Formulate a hypothesis: due 4/11
+- Present the results: 4/25 and 5/2
 
-*Assignment*: With your group (max 4 members), choose a project topic and one of the associated journal articles. Let your instructor know who is in your group and which article you plan to discuss. Be prepared to present the article to the rest of the class on 3/22 or 3/24. A rubric for the presentation is at the end of this document.
+*Assignment*: With your group (max 4 members), choose a project topic and one of the associated journal articles. Let your instructor know who is in your group and which article you plan to discuss. Be prepared to present the article to the rest of the class on 3/21 or 3/23. A guideline for the presentation is at the end of this document.
 
 ## Choosing a project
 
@@ -66,11 +66,11 @@ You are welcome to pursue your own project idea if it is feasible to do in the a
 
 ## Choosing a group
 
-You may work on this project alone or in a group of up to 4 members. Groups work best if the skills of the members (i.e. programming, math, biology) are complementary. Agree early on about your expectations for when and how often to meet and on how to equitably divide up the work.
+You may work on this project alone or in a group of up to 4 members. Groups work best if the skills of the members (i.e. programming, math, biology) are complementary. Agree early on about your expectations for when and how often to meet and on how to equitably divide up the work. Part of your grade will be based on your team's evaluation of your contribution.
 
-## Presentation guidelines
+## Presentation guidelines and rubric
 
-Your presentation to the class will be in *journal club* format. It should consist of the following parts:
+Your presentation to the class will be in *journal club* format. The amount of time you are allotted will depend on the number of groups we have. It should consist of the following parts:
 
 1. Introduce the paper: title, authors, what journal it was published in and when.
 2. Clearly state the overarching problem or question the paper addresses.
