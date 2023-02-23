@@ -77,7 +77,7 @@ This schedule is subject to change based on the interests of the class and our p
 | 2/7  | I/O for neuroscience; spike train stats        | Dayan and Abbott § 1.1,1.2               | Data and Spike Stats   |
 | 2/14 | Linear time-invariant systems                  | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
 | 2/21 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
-| 2/28 | Machine learning                               | TBD                                      | Machine Learning       |
+| 2/28 | Machine learning                               | Wolfram (2023), pp 1-28                  | Machine Learning       |
 | 3/7  | Spring recess (no class)                       |                                          |                        |
 | 3/14 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Data Exploration I     |
 | 3/21 | Project journal club                           |                                          |                        |
@@ -94,13 +94,20 @@ This schedule is subject to change based on the interests of the class and our p
 
 Scientific programming is essential to computational neuroscience. Digital computers are extremely good at doing the same thing over and over again, which is exactly what we need to reliably deal with the big data generated in neuroscience. In fact, everyone who works with data can benefit from being able to hand tedious tasks off to a computer. Scientific programming is an important skill for researchers at all levels, and the practice of programming will help you learn how to break down complex problems of all kinds into a set of logical steps.
 
-Anyone who is interested in developing these skills is welcome to take the class regardless of programming experience. (Seriously!) You do need to be committed to learning these essential skills, however, which may require significant out-of-class work to nail down core concepts if you are totally new to this. I can direct you to useful tutorials and other materials as needed.
+Anyone who is interested in developing these skills is welcome to take the class regardless of programming experience. (Seriously!) You do need to be committed to learning these essential skills, however, which may require significant out-of-class work to nail down core concepts if you are totally new to this. See the end of this document for some resources on different topics.
 
 Laptops are necessary for this class. You will need to bring your laptop, running Linux, OS X, or Windows, to every class meeting. Almost all the work will be performed in [Jupyter](https://jupyter.org) notebooks hosted on UVA's high performance computing cluster. We will spend time in class making sure everyone has a functioning environment.
 
 ### Readings
 
-There is no textbook for the course, but reviews and readings from the primary literature will be assigned throughout the semester. PDF copies will be shared through the File tab in Canvas.
+The assigned texts will come from the primary literature and from the following textbooks:
+
+- Dayan, P and Abbott, LF (2001) Theoretical Neuroscience. MIT Press
+- Sterratt D, Graham B, Gillies A, and Willshaw D (2011). Principles of
+  Computational Modelling in Neuroscience. Cambridge University Press.
+- Eugene Izhikevich, Dynamical Systems in Neuroscience. MIT Press.
+
+The textbooks can be accessed through the UVA library as electronic texts. Use [VIRGO](http://www.library.virginia.edu/) to search. PDF copies will be shared through the File tab in Canvas.
 
 ## Evaluation
 
@@ -144,3 +151,18 @@ My goal is for everyone in the class to have an equal opportunity to learn and
 to demonstrate their knowledge. Students with disabilities are entitled to
 reasonable accommodations. Contact the Student Disability Access Center
 (434-243-5180) for more information or to arrange accommodations.
+
+## Resources
+
+## Scientific programming and Python
+
+- If you're new to programming in general, check out the [Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) DataCamp tutorial.
+- VanderPlas J (2016) Python Data Science Handbook. O'Reilly. The full text of this book is available [here](https://jakevdp.github.io/PythonDataScienceHandbook/) as a complete set of Jupyter notebooks that you can run locally or in [Google Colab](https://colab.research.google.com). The first four chapters are highly recommended.
+- Langtangen HP (2016) A Primer on Scientific Programming with Python. 5th ed. Springer: Berlin Heidelberg.
+
+## General mathematics and statistics
+
+- Spence, Insel, and Friedberg, Elementary Linear Algebra. Prentice Hall.
+- Hiranabe, The Art of Linear Algebra. https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra
+- Hirsch, Smale, and Devaney, Differential Equations, Dynamical Systems, and an
+  Introduction to Chaos. Springer.

@@ -20,4 +20,4 @@ Paragraph 2: Research goal/hypothesis. Give a more specific statement about how 
 
 Paragraph 3: Specific aim. What would be the first step in testing the hypothesis you described in the previous paragraph? This is what you will seek to accomplish in your project. Be realistic about the amount of time and expertise you can bring to bear on the problem. As discussed in class, simply coming up with a way that you want to visualize some aspect of the data or a figure that you would like to reproduce is a worthy goal. However, it needs to be clear how your specific aim will make progress toward your broader goals.
 
-Submit to Collab as a PDF with the names of all the team members; one submission per team.
+Submit to Canvas as a PDF with the names of all the team members; one submission per team.

@@ -10,14 +10,15 @@ header-includes:
     - \usepackage{eulervm}
 ---
 
-The overall goal of this assignment is for you to explore in depth one of the theoretical approaches covered in this class by analyzing a public data set or data of your own. There are four stages to the project, culminating in a short presentation given to the rest of the class.
+The overall goal of this assignment is for you to explore in depth one of the theoretical approaches covered in this class by analyzing a public data set or data of your own. There are five stages to the project, culminating in a short presentation given to the rest of the class.
 
-- **Choose a group and present a journal club article**: 3/21 and 3/23
+- **Choose a group and topic**: due 3/14
+- **Present a journal club article**: 3/21 and 3/23
 - Document the data and/or model: due 3/30
 - Formulate a hypothesis: due 4/11
 - Present the results: 4/25 and 5/2
 
-*Assignment*: With your group (max 4 members), choose a project topic and one of the associated journal articles. Let your instructor know who is in your group and which article you plan to discuss. Be prepared to present the article to the rest of the class on 3/21 or 3/23. A guideline for the presentation is at the end of this document.
+*Assignment*: With your group (max 4 members), choose a project topic and one of the associated journal articles. By March 14, let your instructor know who is in your group and which article you plan to discuss. Be prepared to present the article to the rest of the class on 3/21 or 3/23. A guideline for the presentation is at the end of this document.
 
 ## Choosing a project
 
