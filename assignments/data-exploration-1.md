@@ -56,6 +56,7 @@ These papers and datasets should work well with this project:
 - Kay, K. N., Naselaris, T., Prenger, R. J., & Gallant, J. L. (2008). Identifying natural images from human brain activity. Nature, 452(7185), 352-355. [vim-1](https://crcns.org/data-sets/vc/vim-1)
 - Naselaris, T., Prenger, R. J., Kay, K. N., Oliver, M., & Gallant, J. L. (2009). Bayesian reconstruction of natural images from human brain activity. Neuron, 63(6), 902-915. [vim-1](https://crcns.org/data-sets/vc/vim-1)
 - Feierstein CE, Quirk MC, Uchida N, Sosulski DL, Mainen ZF (2006) Representation of spatial goals in rat orbitofrontal cortex. Neuron 51(4):495-507. [ofc-1](https://crcns.org/data-sets/ofc/ofc-1)
+-  Lakshminarasimhan KJ, Pouget A, DeAngelis GC, Angelaki DE, Pitkow X (2018) Inferring decoding strategies for multiple correlated neural populations PLos Comp Biol 14(9): e1006371. [stc-1](http://crcns.org/data-sets/vc/stc-1)
 
 ### Advanced: An analysis of your own design
 
