@@ -57,6 +57,9 @@ These papers and datasets should work well with this project:
 - Naselaris, T., Prenger, R. J., Kay, K. N., Oliver, M., & Gallant, J. L. (2009). Bayesian reconstruction of natural images from human brain activity. Neuron, 63(6), 902-915. [vim-1](https://crcns.org/data-sets/vc/vim-1)
 - Feierstein CE, Quirk MC, Uchida N, Sosulski DL, Mainen ZF (2006) Representation of spatial goals in rat orbitofrontal cortex. Neuron 51(4):495-507. [ofc-1](https://crcns.org/data-sets/ofc/ofc-1)
 -  Lakshminarasimhan KJ, Pouget A, DeAngelis GC, Angelaki DE, Pitkow X (2018) Inferring decoding strategies for multiple correlated neural populations PLos Comp Biol 14(9): e1006371. [stc-1](http://crcns.org/data-sets/vc/stc-1)
+- Kepecs A, Uchida N, Zariwala H, Mainen ZF (2008). Neural correlates, computation and behavioural impact of decision confidence. Nature 455, 227–231. [ofc-2](http://crcns.org/data-sets/ofc/ofc-2)
+- Nishimoto  S, Vu AT, Naselaris T, Benjamini Y, Yu B, Gallant JL (2011). Reconstructing visual experiences from brain activity evoked by natural movies. Current Biology, 21(19), 1641-1646. [vim-2](http://crcns.org/data-sets/vc/vim-2)
+- Çukur T, Shinji N, Alexander GH, Gallant JL (2013). Attention during Natural Vision Warps Semantic Representation across the Human Brain. Nature Neuroscience 16 (6): 763–70. [vim-4](http://crcns.org/data-sets/vc/vim-4)
 
 ### Advanced: An analysis of your own design
 
