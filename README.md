@@ -30,19 +30,6 @@ When you run Jupyter, you will have the option of selecting the `comp-neurosci` 
 
 Make sure you work on a copy of the notebook (go to `File/Make a Copy...` in the notebook) that you name with your UVA computing ID; otherwise you may run into conflicts if you try to pull updates to the notebooks from the github repository.
 
-### Local: docker
-
-A [Docker](https://docker.com) image is provided for running the exercises locally. These instructions should work on Windows as well as Linux or OS X.  After installing Docker, run the following commands in your shell (bash for Linux and OS X; PowerShell for Windows):
-
-``` shell
-docker pull dmeliza/comp-neurosci:latest
-docker run --rm --name comp-neurosci -p 8888:8888 -v "$PWD":/home/jovyan/work dmeliza/comp-neurosci:latest
-```
-
-(In PowerShell, replace `"$PWD"` with `${pwd}`. If this is your first time using Docker you may be asked to give permission to access the hard drive and network.)
-
-The last command will start the docker container and the jupyter server. Copy the URL at the bottom of the output into your browser and you should have access to the notebook server. Note: files saved in the `work` subdirectory of the server will appear in your current working directory. Any other files or changes will be lost. Conversely, if you edit a file in the current directory it will show up in the `work` directory.
-
 ## Shared installation
 
 Instructors may wish to have a single installation of the code and data to be shared by multiple users.

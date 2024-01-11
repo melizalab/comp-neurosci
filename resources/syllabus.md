@@ -1,6 +1,6 @@
 ---
 title: 'Computational Neuroscience'
-subtitle: 'Psychology 5270 Spring 2023'
+subtitle: 'Psychology 5270 Spring 2024'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -18,11 +18,11 @@ header-includes:
    - [canvas](https://canvas.its.virginia.edu/courses/57323)
  - Slack group: uva-comp-neuro
    - [Signup](https://join.slack.com/t/uva-comp-neuro/signup)
- - Class location: Gilmer 400 (2/7: Gilmer 484)
+ - Class location: Ridley Hall 123
  - Instructor: C Daniel Meliza (cdm8j)
    - Office Hours: by appointment
- - Teaching Assistant: Taylor Hinton (dvh5dz)
-   - Office Hours: WF 9-10 (Gilmer 216E or zoom by advance request)
+ - Teaching Assistant: Jingrun Lin (jl5xg)
+   - Office Hours: TBD
  - Final: in-class presentation
 
 ## Course Description
@@ -38,9 +38,9 @@ The challenge we face is that brains themselves are enormously complex. Even
 relatively "simple" non-human animals have millions of neurons and billions of
 connections. Just observing a small fraction of the brain in action can generate
 enormous quantities of data. Voltage from an intracellular electrode is sampled
-40,000 times a second, and EEGs are recorded on 19 channels sampled up to 2,000
-times a second. That means almost 2.5 million data points in one minute! With so
-much data, how can we possibly find the information in all the noise?
+40,000 times a second, and EEGs are recorded on multiple channels sampled up to
+2,000 times a second. That means almost 2.5 million data points in one minute!
+With so much data, how can we possibly find the information in all the noise?
 
 The approach we'll use here is **computational modeling**, which means building
 toy systems that capture some aspect of how a particular system in the brain is
@@ -71,28 +71,28 @@ This schedule is subject to change based on the interests of the class and our p
 
 | Week | Topic                                          | Readings                                 | Assignments            |
 |------|------------------------------------------------|------------------------------------------|------------------------|
-| 1/19 | Introduction                                   |                                          |                        |
-| 1/24 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
-| 1/31 | Working with time series data                  | Wilson (2014)                            | Time-varying Data      |
-| 2/7  | I/O for neuroscience; spike train stats        | Dayan and Abbott § 1.1,1.2               | Data and Spike Stats   |
-| 2/14 | Linear time-invariant systems                  | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
-| 2/21 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
-| 2/28 | Machine learning                               | Wolfram (2023), pp 1-28                  | Machine Learning       |
+| 1/18 | Introduction                                   |                                          |                        |
+| 1/23 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
+| 1/30 | Working with time series data                  | Wilson (2014)                            | Time-varying Data      |
+| 2/6  | I/O for neuroscience; spike train stats        | Dayan and Abbott § 1.1,1.2               | Data and Spike Stats   |
+| 2/13 | Linear time-invariant systems                  | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
+| 2/20 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
+| 2/27 | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
 | 3/7  | Spring recess (no class)                       |                                          |                        |
-| 3/14 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Data Exploration I     |
-| 3/21 | Project journal club                           |                                          |                        |
-| 3/28 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
-| 4/4  | Phenomenological dynamical models              | Izhikevich (Ch 5--6)                     | Reduced Models         |
-| 4/11 | Network models                                 | Stimberg et al (2019)                    | Network Models         |
-| 4/18 | Work on final projects                         |                                          |                        |
-| 4/25 | Work on final projects (T), presentations (Th) |                                          |                        |
-| 5/2  | Presentations                                  |                                          |                        |
+| 3/12 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Data Exploration I     |
+| 3/19 | Project journal club                           |                                          |                        |
+| 3/26 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
+| 4/2  | Phenomenological dynamical models              | Izhikevich (Ch 5--6)                     | Reduced Models         |
+| 4/9  | Network models                                 | Stimberg et al (2019)                    | Network Models         |
+| 4/16 | Work on final projects                         |                                          |                        |
+| 4/23 | Work on final projects (T), presentations (Th) |                                          |                        |
+| 4/30 | Presentations                                  |                                          |                        |
 
 ## Materials
 
 ### Computing requirements
 
-Scientific programming is essential to computational neuroscience. Digital computers are extremely good at doing the same thing over and over again, which is exactly what we need to reliably deal with the big data generated in neuroscience. In fact, everyone who works with data can benefit from being able to hand tedious tasks off to a computer. Scientific programming is an important skill for researchers at all levels, and the practice of programming will help you learn how to break down complex problems of all kinds into a set of logical steps.
+Scientific programming is essential to computational neuroscience. Digital computers are good at doing the same thing over and over again, which is exactly what we need to reliably deal with the big data generated in neuroscience. In fact, everyone who works with data can benefit from being able to hand tedious tasks off to a computer. Scientific programming is an important skill for researchers at all levels, and the practice of programming will help you learn how to break down complex problems of all kinds into a set of logical steps.
 
 Anyone who is interested in developing these skills is welcome to take the class regardless of programming experience. (Seriously!) You do need to be committed to learning these essential skills, however, which may require significant out-of-class work to nail down core concepts if you are totally new to this. See the end of this document for some resources on different topics.
 
@@ -113,7 +113,7 @@ The textbooks can be accessed through the UVA library as electronic texts. Use [
 
 ### Engagement (40%)
 
-Due to the fact that we complete much of the work in class in pairs and small teams, attendance is critical. Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you are unable to attend class in person due to a COVID-related isolation or quarantine, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. Active participation is expected.
+Due to the fact that we complete much of the work in class in pairs and small teams, attendance and active participation are critical Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you are unable to attend class in person due to a COVID-related isolation or quarantine, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. 
 
 **How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming team to make sure you both understand the tasks. Ask questions in class or on the class slack if anything is unclear or if you are getting an error you and your team can’t figure out.
 
@@ -141,7 +141,7 @@ As part of a semester-long project, you and your programming team will have the 
 
 Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
 
-Group work must represent equal effort by all members. Do not put anyone's name on an assignment if they did not make a substantive contribution. If your schedules are not compatible, if there is an emergency or illness, or if you need to come to a different arrangement for splitting the work, contact me so we we can make sure there is an equitable solution that maximizes everyone's opportunity to learn. 
+Group work must represent equal effort by all members. Do not put anyone's name on an assignment unless they made a substantive contribution. If your schedules are not compatible, if there is an emergency or illness, or if you need to come to a different arrangement for splitting the work, contact me so we we can make sure there is an equitable solution that maximizes everyone's opportunity to learn. 
 
 Students with COVID-related symptoms or a positive test result within the last 5 days, or who are waiting on test results after a close contact must not attend in person. Notify me to make arrangements for attending virtually. If you are displaying symptoms in class, you will be asked to leave and will lose participation credit for the day.
 
