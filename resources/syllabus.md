@@ -22,7 +22,7 @@ header-includes:
  - Instructor: C Daniel Meliza (cdm8j)
    - Office Hours: by appointment
  - Teaching Assistant: Jingrun Lin (jl5xg)
-   - Office Hours: TBD
+   - Office Hours: Th 11:30-12:30 [zoom](https://virginia.zoom.us/j/4876242274); Fr 3-4 Gilmer 226J
  - Final: in-class presentation
 
 ## Course Description
@@ -67,7 +67,7 @@ By the end of the semester, you will be able to:
 
 ## Course Schedule
 
-This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Tuesdays will be used for lecture-based instruction, and Thursdays for in-class work. Readings must be completed before class on Tuesday. Assignments are distributed on Rivanna and must be completed before class on Tuesday the following week.
+This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Tuesdays will be used for lecture-based instruction, and Thursdays for in-class work. Readings must be completed before class on Tuesday. Assignments are distributed on Rivanna and must be completed before class on Thursday the following week.
 
 | Week | Topic                                          | Readings                                 | Assignments            |
 |------|------------------------------------------------|------------------------------------------|------------------------|
@@ -78,7 +78,7 @@ This schedule is subject to change based on the interests of the class and our p
 | 2/13 | Linear time-invariant systems                  | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
 | 2/20 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
 | 2/27 | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
-| 3/7  | Spring recess (no class)                       |                                          |                        |
+| 3/5  | Spring recess (no class)                       |                                          |                        |
 | 3/12 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Data Exploration I     |
 | 3/19 | Project journal club                           |                                          |                        |
 | 3/26 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
