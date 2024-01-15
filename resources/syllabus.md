@@ -77,10 +77,10 @@ This schedule is subject to change based on the interests of the class and our p
 | 2/6  | I/O for neuroscience; spike train stats        | Dayan and Abbott § 1.1,1.2               | Data and Spike Stats   |
 | 2/13 | Linear time-invariant systems                  | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
 | 2/20 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
-| 2/27 | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
+| 3/19 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
 | 3/5  | Spring recess (no class)                       |                                          |                        |
-| 3/12 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Data Exploration I     |
-| 3/19 | Project journal club                           |                                          |                        |
+| 3/12 | Project journal club                           |                                          | Data Exploration I     |
+| 2/27 | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
 | 3/26 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
 | 4/2  | Phenomenological dynamical models              | Izhikevich (Ch 5--6)                     | Reduced Models         |
 | 4/9  | Network models                                 | Stimberg et al (2019)                    | Network Models         |
