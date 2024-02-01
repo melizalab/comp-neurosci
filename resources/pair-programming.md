@@ -30,7 +30,7 @@ Although pair programming may seem to be more effort or less efficient, studies 
 
 1. Controls whatever is being used to record the program.
 2. Has responsibility for the details of developing or writing the code (i.e. *entering the code*).
-3. Talks aloud about what they are thinking about or why they are entering a particular statement or element. The objective is to make reasoing and thought processes explicit so they can be discussed, rather than leaving them implicit and possibly difficult to understand. This is one key to why pair programming is effective.
+3. Talks aloud about what they are thinking about or why they are entering a particular statement or element. The objective is to make reasoning and thought processes explicit so they can be discussed, rather than leaving them implicit and possibly difficult to understand. This is one key to why pair programming is effective.
 4. Responds constructively to feedback given by the navigator. Recognizes that the comments from the navigator are part of the process and does not become annoyed, defensive, or dismissmive. The driver must be open to working out and talking through problems.
 
 ### The Navigator
@@ -39,15 +39,15 @@ Although pair programming may seem to be more effort or less efficient, studies 
 2. Keeps a big picture view and thinks strategically about the direction the program is going. Watches and alerts the driver if there are tactical or strategic problems.
 3. Asks questions of the driver, especially if the driver is doing something that is unclear, cloudy, or unknown to the navigator. Asks these questions in a a constructive and supportive way, without being overly prescriptive or commanding. Is not afraid to voice ignorance or uncertainty. This is especially important when the navigator is less experienced.
 4. Looks for the strategic implications of the developing code. Asks questions about strategy at the appropriate times. Examples: where are we going with this, what does it mean doing it this certain way over another, are we painting ourselves into a corner or losing sight of the broader objective?
-6. Thinks of alternatives and looks up resources that may help pursue other ways of solving a problem. This allows the driver to maintain focus on the details while permitting more flexible problem solving. A second computer may be useful for this task, but the navigator must remain focused on the programming process (avoid the temptation to do email, read social media, or browse aimlessly).
+6. Thinks of alternatives and looks up resources that may help pursue other ways of solving a problem. This allows the driver to maintain focus on the details while permitting more flexible problem solving. A second computer may be useful for this task, but the navigator must remain focused on the programming process (avoid the temptation to check email, read social media, or browse aimlessly).
 
 ## Pair programming in Computational Neuroscience
 
-You will be assigned to pairs based on a survey you complete at the beginning of the semester. These assignments will rotate every two to three weeks throughout the term. Initially you will be assigned to the driver or navigator role but will be free to choose later in the term.
+You will be assigned to pairs based on a survey you complete at the beginning of the semester. These assignments will rotate every two to three weeks throughout the term. You may choose which roles each partner plays, but you need to switch at least once during the pairing.
 
 At the end of each pairing, you will be asked to individually submit a brief partner evaluation. 
 
-If you believe your partner is not participating appropriately (e.g., does not come to class prepared to work, does not keep in touch), first address your concerns to your partner. If that approach is not successful, explain the issues to your teaching assistant or the instructor, and we will work with you and your partner to improve the situation. Don't wait until the evaluation; let's try to fix broken group dynamics as soon as possible.
+Most but not all assignments are submitted as a team. If you believe your partner is not participating appropriately (e.g., does not come to class prepared to work, does not keep in touch), first address your concerns to your partner. If that approach is not successful, explain the issues to your teaching assistant or the instructor, and we will work with you and your partner to improve the situation. Don't wait until the evaluation; let's try to fix broken group dynamics as soon as possible. There will also be opportunities to work independently.
 
 ## References
 
