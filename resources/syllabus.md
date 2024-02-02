@@ -20,7 +20,7 @@ header-includes:
    - [Signup](https://join.slack.com/t/uva-comp-neuro/signup)
  - Class location: Ridley Hall 123
  - Instructor: C Daniel Meliza (cdm8j)
-   - Office Hours: by appointment
+   - Office Hours: Tu 3-4, W 9:30-10:30, Gilmer 481 
  - Teaching Assistant: Jingrun Lin (jl5xg)
    - Office Hours: Th 11:30-12:30 [zoom](https://virginia.zoom.us/j/4876242274); Fr 3-4 Gilmer 226J
  - Final: in-class presentation
