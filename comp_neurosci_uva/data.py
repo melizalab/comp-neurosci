@@ -57,6 +57,5 @@ def load_pprox(subdir: Path):
 
 try:
     from comp_neurosci_uva.local_settings import data_path
-except Exception as e:
-    print(e)
+except ImportError as e:
     pass
