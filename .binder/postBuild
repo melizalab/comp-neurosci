@@ -1,6 +1,7 @@
 set -ex
 
-curl -O https://gracula.psyc.virginia.edu/public/courseware/comp_neurosci_data_030519.tgz \
-     && echo "df66410d27ba4d9e234b5a070de28c81bb083892  $datafile" | sha1sum -c - \
-     && tar zxvf $datafile \
-     && rm $datafile
+DATAFILE=comp_neurosci_data_030519.tgz
+curl -O https://gracula.psyc.virginia.edu/public/courseware/${DATAFILE} \
+     && echo "df66410d27ba4d9e234b5a070de28c81bb083892  ${DATAFILE}" | sha1sum -c - \
+     && tar zxvf ${DATAFILE} \
+     && rm ${DATAFILE}
