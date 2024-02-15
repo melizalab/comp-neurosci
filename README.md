@@ -13,9 +13,9 @@ The current syllabus is [here](resources/syllabus.pdf).
 
 The easiest way to run the exercises is to use [mybinder](https://mybinder.org). This will ensure that you have the latest version of the notebooks, all the data files, and the correct versions of required libraries. Click the badge at the top of this page to start a session. Note that this site does not save your work, so you have to be careful to download your `ipynb` files after you finish a session.
 
-### Local: Anaconda
+### Local
 
-These instructions should work on any operating system to give you a working Python environment with all the required packages.
+If you have a These instructions should work on any operating system to give you a working Python environment with all the required packages.
 
 Install the Python 3.x version of [anaconda](https://www.anaconda.com/distribution/) (or [miniconda](https://conda.io/en/latest/miniconda.html) if you are comfortable using the shell). Run the following commands in a terminal, **one at a time** so that you can stop and fix any errors.
 
