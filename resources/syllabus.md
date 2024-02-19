@@ -80,7 +80,7 @@ This schedule is subject to change based on the interests of the class and our p
 | 3/19 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
 | 3/5  | Spring recess (no class)                       |                                          |                        |
 | 3/12 | Project journal club                           |                                          | Data Exploration I     |
-| 2/27 | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
+| 3/19 | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
 | 3/26 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
 | 4/2  | Phenomenological dynamical models              | Izhikevich (Ch 5--6)                     | Reduced Models         |
 | 4/9  | Network models                                 | Stimberg et al (2019)                    | Network Models         |
@@ -131,7 +131,7 @@ As part of a semester-long project, you and your programming team will have the 
 
 #### Timeline
 
-- Week 5: Choose a data set that interests you. Describe the experimental conditions and how the data were collected.
+- Week 8: Choose a study that interests you and present it to the class.
 - Week 7: Write a module with functions to read raw data from the files in the data set and parse into a flexible data structure.
 - Week 10: Develop a question you can answer about your data set (or a comparison between your data set and another) using one or more of the methods we have been working with.
 - Week 13: Generate a set of preliminary figures that capture the most important features of your results.

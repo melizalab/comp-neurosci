@@ -12,9 +12,9 @@ header-includes:
 
 The overall goal of this assignment is for you to explore in depth one of the theoretical approaches covered in this class by analyzing a public data set or data of your own. There are five stages to the project, culminating in a short presentation given to the rest of the class.
 
-- **Choose a group and topic**: due 3/14
-- **Present a journal club article**: 3/21 and 3/23
-- Document the data and/or model: due 3/30
+- **Choose a group and topic**: due 2/29
+- **Present a journal club article**: 3/12 and 3/14
+- Document the data and/or model: due 3/28
 - Formulate a hypothesis: due 4/11
 - Present the results: 4/25 and 5/2
 
