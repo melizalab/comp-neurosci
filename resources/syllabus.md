@@ -80,9 +80,9 @@ This schedule is subject to change based on the interests of the class and our p
 | 3/19 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
 | 3/5  | Spring recess (no class)                       |                                          |                        |
 | 3/12 | Project journal club                           |                                          | Data Exploration I     |
-| 3/19 | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
-| 3/26 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
-| 4/2  | Phenomenological dynamical models              | Izhikevich (Ch 5--6)                     | Reduced Models         |
+| 3/19 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
+| 3/26 | Phenomenological dynamical models              | Izhikevich (Ch 5--6)                     | Reduced Models         |
+| 4/2  | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
 | 4/9  | Network models                                 | Stimberg et al (2019)                    | Network Models         |
 | 4/16 | Work on final projects                         |                                          |                        |
 | 4/23 | Work on final projects (T), presentations (Th) |                                          |                        |
