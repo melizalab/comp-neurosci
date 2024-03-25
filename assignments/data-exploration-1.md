@@ -35,7 +35,7 @@ A classical approach to studying neural processing is to characterize the recept
 
 These papers and datasets will work well with this project type.
 
-- Scholl B, Tan AYY, Corey J, and Priebe NJ. Emergence of orientation selectivity in the mammalian visual pathway J. Neurosci. 33(26):10616-10624. [lgn-1](https://crcns.org/data-sets/lgn/lgn-1). You should be able to use a fairly simple linear encoding model and estimation techniques with these neurons.
+- Scholl B, Tan AYY, Corey J, and Priebe NJ. (2013) Emergence of orientation selectivity in the mammalian visual pathway J. Neurosci. 33(26):10616-10624. [lgn-1](https://crcns.org/data-sets/lgn/lgn-1). You should be able to use a fairly simple linear encoding model and estimation techniques with these neurons.
 - Touryan J, Felsen G, and Dan Y. (2005) Spatial structure of complex cell receptive fields measured with natural images, Neuron 45, 781-791. [pvc-2](https://crcns.org/data-sets/vc/pvc-2)
 - Felsen G, Touryan J, Han F, and Dan Y. (2005) Cortical sensitivity to visual features in natural scenes, PLoS Biol. 3 (10), e342. [pvc-2](https://crcns.org/data-sets/vc/pvc-2)
 - Amin N, Gill P, Theunissen FE. (2010) Role of the zebra finch auditory thalamus in generating complex representations for natural sounds. J Neurophysiol. 104(2):784-98 [aa-2](https://crcns.org/data-sets/aa/aa-2)
