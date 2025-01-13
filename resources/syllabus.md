@@ -67,26 +67,26 @@ By the end of the semester, you will be able to:
 
 ## Course Schedule
 
-This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Tuesdays will be used for lecture-based instruction, and Thursdays for in-class work. Readings must be completed before class on Tuesday. Assignments are distributed on Rivanna and must be completed before class on Thursday the following week.
+This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Thursdays will be used for lecture-based instruction, and Tuesdays for in-class work. Readings must be completed before class on Thursday. Assignments are distributed on Rivanna and must be completed before class on Tuesday the following week. Due dates on Canvas override this document.
 
-| Week | Topic                                      | Readings                                 | Assignments            |
-|------|--------------------------------------------|------------------------------------------|------------------------|
-| 1/14 | Introduction                               |                                          |                        |
-| 1/21 | What is computation?                       | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
-| 1/28 | Working with time series data              | Wilson (2014)                            | Time-varying Data      |
-| 2/4  | I/O for neuroscience; spike train stats    | Dayan and Abbott § 1.1,1.2               | Data and Spike Stats   |
-| 2/11 | Linear time-invariant systems              | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
-| 2/18 | Estimating parameters and comparing models | Dayan and Abbott Ch 2                    | Receptive Fields       |
-| 2/25 | Encoding vs Decoding models                | Holdgraf et al (2017)                    | Decoding Models        |
-| 3/4  | Project journal club                       |                                          | Data Exploration I     |
-| 3/11 | Spring recess (no class)                   |                                          |                        |
-| 3/18 | Dynamical systems theory                   | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
-| 3/25 | Phenomenological dynamical models          | Izhikevich (Ch 5--6)                     | Reduced Models         |
-| 4/1  | Dimensional reduction                      | Cunningham and Yu (2014)                 | Dimensional Reduction  |
-| 4/8  | Network models                             | Stimberg et al (2019)                    | Network Models         |
-| 4/15 | Work on final projects                     |                                          |                        |
-| 4/22 | Presentations                              |                                          |                        |
-| 4/29 | Presentations                              |                                          |                        |
+| Week | Assignment (T)         | Lecture (Th)                               | Readings                                 |
+|------|------------------------|--------------------------------------------|------------------------------------------|
+| 1/14 | Pre-course survey      | What is computation?                       | Ewert (1974), McNaughton & Morris (1987) |
+| 1/21 | Pen and Paper Networks | Working with time series data              | Wilson (2014)                            |
+| 1/28 | Time-varying Data      | I/O for neuroscience; spike train stats    | Dayan and Abbott § 1.1,1.2               |
+| 2/4  | Data and Spike Stats   | Linear time-invariant systems              | Dayan and Abbott § 1.3-1.6               |
+| 2/11 | LTI Systems            | Estimating parameters and comparing models | Dayan and Abbott Ch 2                    |
+| 2/18 | Receptive Fields       | Encoding vs Decoding models                | Holdgraf et al (2017)                    |
+| 2/25 | Decoding Models        | Project journal club                       |                                          |
+| 3/4  | (journal club)         | Dynamical systems theory                   | Izhikevich (Ch 3--4)                     |
+| 3/11 |                        | Spring recess (no class)                   |                                          |
+| 3/18 | Dynamical Systems      | Phenomenological dynamical models          | Izhikevich (Ch 5--6)                     |
+| 3/25 | Reduced Models         | Dimensional reduction                      | Cunningham and Yu (2014)                 |
+| 4/1  | Dimensional Reduction  | Network models                             | Stimberg et al (2019)                    |
+| 4/8  | Network Models         |                                            |                                          |
+| 4/15 | Work on final projects | (final projects                            |                                          |
+| 4/22 | Presentations          | presentations                              |                                          |
+| 4/29 |                        | presentations                              |                                          |
 
 ## Materials
 
@@ -131,8 +131,8 @@ As part of a semester-long project, you and your programming team will have the 
 
 #### Timeline
 
-- Week 8: Choose a study that interests you and present it to the class.
-- Week 7: Write a module with functions to read raw data from the files in the data set and parse into a flexible data structure.
+- Week 6: Choose a study that interests you and present it to the class.
+- Week 9: Write a module with functions to read raw data from the files in the data set and parse into a flexible data structure.
 - Week 10: Develop a question you can answer about your data set (or a comparison between your data set and another) using one or more of the methods we have been working with.
 - Week 13: Generate a set of preliminary figures that capture the most important features of your results.
 - Week 14: Finalize your analyses and figures. Prepare a short presentation on your results.
@@ -156,11 +156,17 @@ reasonable accommodations. Contact the Student Disability Access Center
 
 ## Resources
 
+Short guides to probability and linear algebra can be found on Canvas or the github repo.
+
 ## Scientific programming and Python
 
 - If you're new to programming in general, check out the [Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) DataCamp tutorial.
 - VanderPlas J (2016) Python Data Science Handbook. O'Reilly. The full text of this book is available [here](https://jakevdp.github.io/PythonDataScienceHandbook/) as a complete set of Jupyter notebooks that you can run locally or in [Google Colab](https://colab.research.google.com). The first four chapters are highly recommended.
 - Langtangen HP (2016) A Primer on Scientific Programming with Python. 5th ed. Springer: Berlin Heidelberg.
 
+## Dynamical systems
+
+- Hirsch, Smale, and Devaney, Differential Equations, Dynamical Systems, and an
+  Introduction to Chaos. Springer.
 
 
