@@ -1,6 +1,6 @@
 ---
 title: 'Computational Neuroscience'
-subtitle: 'Psychology 5270 Spring 2024'
+subtitle: 'Psychology 5270 Spring 2025'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -13,16 +13,16 @@ header-includes:
 ## Course Information
 
  - Class times: TTh 9:30-10:45
+ - Class location: Gilmer Hall 250
  - Course websites:
    - [github/comp-neurosci](https://github.com/melizalab/comp-neurosci/)
-   - [canvas](https://canvas.its.virginia.edu/courses/57323)
+   - [canvas](https://canvas.its.virginia.edu/courses/128352)
  - Slack group: uva-comp-neuro
    - [Signup](https://join.slack.com/t/uva-comp-neuro/signup)
- - Class location: Ridley Hall 123
  - Instructor: C Daniel Meliza (cdm8j)
-   - Office Hours: Tu 3-4, W 9:30-10:30, Gilmer 481 
- - Teaching Assistant: Jingrun Lin (jl5xg)
-   - Office Hours: Th 11:30-12:30 [zoom](https://virginia.zoom.us/j/4876242274); Fr 3-4 Gilmer 226J
+   - Office Hours: Tu 11-12, F 9:30-10:30, Gilmer 481 
+ - Teaching Assistant: Bao Le (uac6qw)
+   - Office Hours: W 2:30-3:30, Th 2:30-3:30, TBD
  - Final: in-class presentation
 
 ## Course Description
@@ -69,24 +69,24 @@ By the end of the semester, you will be able to:
 
 This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Tuesdays will be used for lecture-based instruction, and Thursdays for in-class work. Readings must be completed before class on Tuesday. Assignments are distributed on Rivanna and must be completed before class on Thursday the following week.
 
-| Week | Topic                                          | Readings                                 | Assignments            |
-|------|------------------------------------------------|------------------------------------------|------------------------|
-| 1/18 | Introduction                                   |                                          |                        |
-| 1/23 | What is computation?                           | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
-| 1/30 | Working with time series data                  | Wilson (2014)                            | Time-varying Data      |
-| 2/6  | I/O for neuroscience; spike train stats        | Dayan and Abbott § 1.1,1.2               | Data and Spike Stats   |
-| 2/13 | Linear time-invariant systems                  | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
-| 2/20 | Estimating parameters and comparing models     | Dayan and Abbott Ch 2                    | Receptive Fields       |
-| 3/19 | Encoding vs Decoding models                    | Holdgraf et al (2017)                    | Decoding Models        |
-| 3/5  | Spring recess (no class)                       |                                          |                        |
-| 3/12 | Project journal club                           |                                          | Data Exploration I     |
-| 3/19 | Dynamical systems theory                       | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
-| 3/26 | Phenomenological dynamical models              | Izhikevich (Ch 5--6)                     | Reduced Models         |
-| 4/2  | Dimensional reduction                          | Cunningham and Yu (2014)                 | Dimensional Reduction  |
-| 4/9  | Network models                                 | Stimberg et al (2019)                    | Network Models         |
-| 4/16 | Work on final projects                         |                                          |                        |
-| 4/23 | Work on final projects (T), presentations (Th) |                                          |                        |
-| 4/30 | Presentations                                  |                                          |                        |
+| Week | Topic                                      | Readings                                 | Assignments            |
+|------|--------------------------------------------|------------------------------------------|------------------------|
+| 1/14 | Introduction                               |                                          |                        |
+| 1/21 | What is computation?                       | Ewert (1974), McNaughton & Morris (1987) | Pen and Paper Networks |
+| 1/28 | Working with time series data              | Wilson (2014)                            | Time-varying Data      |
+| 2/4  | I/O for neuroscience; spike train stats    | Dayan and Abbott § 1.1,1.2               | Data and Spike Stats   |
+| 2/11 | Linear time-invariant systems              | Dayan and Abbott § 1.3-1.6               | LTI Systems            |
+| 2/18 | Estimating parameters and comparing models | Dayan and Abbott Ch 2                    | Receptive Fields       |
+| 2/25 | Encoding vs Decoding models                | Holdgraf et al (2017)                    | Decoding Models        |
+| 3/4  | Project journal club                       |                                          | Data Exploration I     |
+| 3/11 | Spring recess (no class)                   |                                          |                        |
+| 3/18 | Dynamical systems theory                   | Izhikevich (Ch 3--4)                     | Dynamical Systems      |
+| 3/25 | Phenomenological dynamical models          | Izhikevich (Ch 5--6)                     | Reduced Models         |
+| 4/1  | Dimensional reduction                      | Cunningham and Yu (2014)                 | Dimensional Reduction  |
+| 4/8  | Network models                             | Stimberg et al (2019)                    | Network Models         |
+| 4/15 | Work on final projects                     |                                          |                        |
+| 4/22 | Presentations                              |                                          |                        |
+| 4/29 | Presentations                              |                                          |                        |
 
 ## Materials
 
@@ -107,13 +107,13 @@ The assigned texts will come from the primary literature and from the following 
   Computational Modelling in Neuroscience. Cambridge University Press.
 - Eugene Izhikevich, Dynamical Systems in Neuroscience. MIT Press.
 
-The textbooks can be accessed through the UVA library as electronic texts. Use [VIRGO](http://www.library.virginia.edu/) to search. PDF copies will be shared through the File tab in Canvas.
+The textbooks can be accessed through the UVA library as electronic texts. Use [VIRGO](http://www.library.virginia.edu/) to search. PDF copies will be shared through the File tab in Canvas. Additional readings including brief explainers for probability and linear algebra can also be found on Canvas.
 
 ## Evaluation
 
 ### Engagement (40%)
 
-Due to the fact that we complete much of the work in class in pairs and small teams, attendance and active participation are critical Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you are unable to attend class in person due to a COVID-related isolation or quarantine, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. 
+Due to the fact that we complete much of the work in class in pairs and small teams, attendance and active participation are critical Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you are contagious but well enough to attend class virtually, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. 
 
 **How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming team to make sure you both understand the tasks. Ask questions in class or on the class slack if anything is unclear or if you are getting an error you and your team can’t figure out.
 
@@ -143,7 +143,9 @@ Work must be turned in on time to receive full credit. There is a penalty of 5% 
 
 Group work must represent equal effort by all members. Do not put anyone's name on an assignment unless they made a substantive contribution. If your schedules are not compatible, if there is an emergency or illness, or if you need to come to a different arrangement for splitting the work, contact me so we we can make sure there is an equitable solution that maximizes everyone's opportunity to learn. 
 
-Students with COVID-related symptoms or a positive test result within the last 5 days, or who are waiting on test results after a close contact must not attend in person. Notify me to make arrangements for attending virtually. If you are displaying symptoms in class, you will be asked to leave and will lose participation credit for the day.
+You are welcome and encouraged to use AI tools to assist your coding work. You can ask LLMs like Claude or ChatGPT to write code, but it's often more effective to use them to *explain* code examples, to interpret error messages, or to help you improve the performance or correctness of code you draft on your own. Regardless of how you write it, you are responsible for ensuring that the code you submit for homework assignments and your final projects runs correctly.
+
+Students with respiratory illness symptoms or a positive flu/COVID/RSV test result within the last 5 days, or who are waiting on test results after a close contact must not attend in person. Notify me to make arrangements for attending virtually. If you are displaying symptoms in class, you will be asked to leave and will lose participation credit for the day.
 
 I don't typically answer email or Slack messages outside of normal working hours. If I do write, I don't expect an immediate response.
 
@@ -160,9 +162,5 @@ reasonable accommodations. Contact the Student Disability Access Center
 - VanderPlas J (2016) Python Data Science Handbook. O'Reilly. The full text of this book is available [here](https://jakevdp.github.io/PythonDataScienceHandbook/) as a complete set of Jupyter notebooks that you can run locally or in [Google Colab](https://colab.research.google.com). The first four chapters are highly recommended.
 - Langtangen HP (2016) A Primer on Scientific Programming with Python. 5th ed. Springer: Berlin Heidelberg.
 
-## General mathematics and statistics
 
-- Spence, Insel, and Friedberg, Elementary Linear Algebra. Prentice Hall.
-- Hiranabe, The Art of Linear Algebra. https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra
-- Hirsch, Smale, and Devaney, Differential Equations, Dynamical Systems, and an
-  Introduction to Chaos. Springer.
+

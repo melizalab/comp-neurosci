@@ -81,6 +81,6 @@ Your presentation to the class will be in *journal club* format. The amount of t
 2. Clearly state the overarching problem or question the paper addresses.
 3. Explain what the paper is seeking to do to address that problem/question.
 4. Briefly outline the experimental design (study species, methodology, groups or conditions) as it relates to the central hypothesis.
-5. Go through each of the figures and explain what they show. Stay focused on the big picture. Say what the authors and claiming and then explain how the data support that claim (or don't).
+5. Go through each of the figures and explain what they show. Stay focused on the big picture. Say what the authors are claiming and then explain how the data support that claim (or don't).
 6. Summarize the results and give your opinion.
 7. Take questions
