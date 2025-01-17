@@ -99,9 +99,9 @@ If the columns of a square matrix $S$ are orthogonal, then $S^{-1} = S^T$.
 
 ### Further reading
 
-- Spence, Insel, and Friedberg, *Elementary Linear Algebra*. Prentice Hall.
-- Hiranabe, [The Art of Linear Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra).
-- Axler, [*Linear Algebra Done Right*](https://linear.axler.net/), Springer.
+- Strang (2020). Linear Algebra for Everyone. Wellesley-Cambridge Press. An accessible text with an emphasis on concrete examples and applications in data science.
+- Hiranabe (2023). [The Art of Linear Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra). A useful graphical summary of matrix operations.
+- Axler (2025), [*Linear Algebra Done Right*](https://linear.axler.net/), Springer. 4th ed. A more general and advanced treatment of vector spaces and operators.
 
 
 

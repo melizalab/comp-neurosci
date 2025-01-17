@@ -44,5 +44,7 @@ When there is more than one RV, they may be **dependent** on each other or not.
 - Easton and McColl (1997). [Statistics Glossary](http://www.stats.gla.ac.uk/steps/glossary/).
 - Stirzaker (2012). [Probability and Random Variables: A beginner's guide](https://dx.doi.org/10.1017/CBO9780511813627) (light on math, introductory, but quite detailed)
 - Proschan and Shaw (2016). [Essentials of Probability Theory for Statisticians](https://dx.doi.org/10.1201/9781315370576) (more rigorous, graduate level)
+- Gelman et al (2013). [Bayesian Data Analysis, 3rd edition](http://www.stat.columbia.edu/~gelman/book/)
+
 
 [^1]: Or around $x$ and $y$ for continuous RVs
