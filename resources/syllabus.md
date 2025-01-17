@@ -22,7 +22,7 @@ header-includes:
  - Instructor: C Daniel Meliza (cdm8j)
    - Office Hours: Tu 11-12, F 9:30-10:30, Gilmer 481 
  - Teaching Assistant: Bao Le (uac6qw)
-   - Office Hours: W 2:30-3:30, Th 2:30-3:30, TBD
+   - Office Hours: W 2:30-3:30, Th 2:30-3:30, Gilmer 251
  - Final: in-class presentation
 
 ## Course Description

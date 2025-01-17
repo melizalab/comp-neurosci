@@ -1,6 +1,6 @@
 ---
-title: 'Computational Neuroscience'
-subtitle: 'A quick guide to probability'
+title: 'Probability: a quick guide'
+subtitle: 'Computational Neuroscience -- CD Meliza'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
