@@ -84,9 +84,9 @@ This schedule is subject to change based on the interests of the class and our p
 | 3/25 | Reduced Models         | Dimensional reduction                      | Cunningham and Yu (2014)                 |
 | 4/1  | Dimensional Reduction  | Network models                             | Stimberg et al (2019)                    |
 | 4/8  | Network Models         |                                            |                                          |
-| 4/15 | Work on final projects | (final projects                            |                                          |
+| 4/15 | Work on final projects | (final projects)                           |                                          |
 | 4/22 | Presentations          | presentations                              |                                          |
-| 4/29 |                        | presentations                              |                                          |
+| 4/29 | Presentations          |                               |                                          |
 
 ## Materials
 
