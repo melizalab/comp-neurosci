@@ -1,38 +1,35 @@
 ---
 title: 'Computational Neuroscience'
-subtitle: 'Psychology 5270 Spring 2025'
+subtitle: 'Psychology 5270 Spring 2026'
 documentclass: scrartcl
+fontsize: 11pt
 linkcolor: blue
+geometry: letterpaper, margin=0.9in
 header-includes:
-    - \usepackage[letterpaper, margin=1in]{geometry}
     - \usepackage{mathpazo}
     - \usepackage{eulervm}
+	- \usepackage{booktabs}
 ---
 
 
 ## Course Information
 
- - Class times: TTh 9:30-10:45
- - Class location: Gilmer Hall 250
+ - Class times: TuTh 9:30-11:45
+ - Class location: Dell 2 100
  - Course websites:
    - [github/comp-neurosci](https://github.com/melizalab/comp-neurosci/)
-   - [canvas](https://canvas.its.virginia.edu/courses/128352)
+   - [canvas](https://canvas.its.virginia.edu/courses/166129)
  - Slack group: uva-comp-neuro
    - [Signup](https://join.slack.com/t/uva-comp-neuro/signup)
  - Instructor: C Daniel Meliza (cdm8j)
-   - Office Hours: Tu 11-12, F 9:30-10:30, Gilmer 481 
- - Teaching Assistant: Bao Le (uac6qw)
-   - Office Hours: W 2:30-3:30, Th 2:30-3:30, Gilmer 251
+   - Office Hours: W 9-10, F 10-11, Gilmer 481
+ - Teaching Assistant: Ahmad Elsayed (zmk5re)
+   - Office Hours: TBD
  - Final: in-class presentation
 
 ## Course Description
 
-To survive and reproduce in a complex and variable physical world, animals have
-to extract information from sensory inputs, make decisions about how to allocate
-their resources, and perform tightly choreographed sequences of motor behaviors.
-Brains have evolved to perform these tasks reliably, flexibly, and efficiently.
-**Our goal is to understand how these computations are implemented by circuits
-of neurons**.
+To survive and reproduce in a complex and variable physical world, animals have to extract information from sensory inputs, make decisions about how to allocate their resources, and perform tightly choreographed sequences of motor behaviors. Brains have evolved to perform these tasks reliably, flexibly, and efficiently. **Our goal is to understand how these computations are implemented by circuits of neurons**.
 
 The challenge we face is that brains themselves are enormously complex. Even
 relatively "simple" non-human animals have millions of neurons and billions of
@@ -59,44 +56,70 @@ apply them to real-world data.
 By the end of the semester, you will be able to:
 
 - identify different types of neuroscience data and the appropriate methods for analyzing them
-- understand linear time series models and how to use them to analyze and predict neural activity
+- explain the physiology of single neurons and networks using dynamical systems theory
+- use feedforward and recurrent models to analyze and predict neural activity
 - use Python and its numerical libraries to process, analyze, and visualize neuroscience data
 - think through computational problems logically and outline the steps of an analysis
 - work as part of a team to write and talk about computational research
-- feel confident in your ability to use computers in your research and find resources to answer future questions
 
 ## Course Schedule
 
-This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! In general, Thursdays will be used for lecture-based instruction, and Tuesdays for in-class work. Readings must be completed before class on Thursday. Assignments are distributed on Rivanna and must be completed before class on Tuesday the following week. Due dates on Canvas override this document.
+This schedule is subject to change based on the interests of the class and our progress through the material, and some readings have yet to be chosen. If there's something you want to cover that isn't listed, let me know! Readings must be completed before class. Lab work must be completed within one week. Non-lab assignment due dates are listed on Canvas.
 
-| Week | Assignment (T)         | Lecture (Th)                               | Readings                                 |
-|------|------------------------|--------------------------------------------|------------------------------------------|
-| 1/14 | Pre-course survey      | What is computation?                       | Ewert (1974), McNaughton & Morris (1987) |
-| 1/21 | Pen and Paper Networks | Working with time series data              | Wilson (2014)                            |
-| 1/28 | Time-varying Data      | I/O for neuroscience; spike train stats    | Dayan and Abbott § 1.1,1.2               |
-| 2/4  | Data and Spike Stats   | Linear time-invariant systems              | Dayan and Abbott § 1.3-1.6               |
-| 2/11 | LTI Systems            | Estimating parameters and comparing models | Dayan and Abbott Ch 2                    |
-| 2/18 | Receptive Fields       | Encoding vs Decoding models                | Holdgraf et al (2017)                    |
-| 2/25 | Decoding Models        | Project journal club                       |                                          |
-| 3/4  | (journal club)         | Dynamical systems theory                   | Izhikevich (Ch 3--4)                     |
-| 3/11 |                        | Spring recess (no class)                   |                                          |
-| 3/18 | Dynamical Systems      | Phenomenological dynamical models          | Izhikevich (Ch 5--6)                     |
-| 3/25 | Reduced Models         | Dimensional reduction                      | Cunningham and Yu (2014)                 |
-| 4/1  | Dimensional Reduction  | Network models                             | Stimberg et al (2019)                    |
-| 4/8  | Network Models         |                                            |                                          |
-| 4/15 | Work on final projects | (final projects)                           |                                          |
-| 4/22 | Presentations          | presentations                              |                                          |
-| 4/29 | Presentations          |                               |                                          |
+\small
+
+| Date | Activity                                 | Pre-class Readings         | Assignment            |
+|------|------------------------------------------|----------------------------|-----------------------|
+|      | **Foundations**                          |                            |                       |
+| 1/13 | *Lecture*: What is computation?          |                            | Pre-course survey     |
+| 1/15 | *Lab*: Pen and Paper Networks            | McNaughton & Morris (1987) |                       |
+| 1/20 | *Lecture*: Dynamical systems             | Izhikevich Ch 3--4         | Geometrical Analysis  |
+| 1/22 | *Lecture*: Neuron biophysics             | Sterratt Ch 2              |                       |
+| 1/27 | *Lecture*: Phenomenological models       | Izhikevich Ch 5--6         |                       |
+| 1/29 | *Lab*: Single-neuron Simulations         | Stimberg et al (2019)      |                       |
+| 2/3  | *Lecture*: Point processes               | Dayan and Abbott Ch 1      |                       |
+| 2/5  | *Lab*: Time-varying Data                 |                            |                       |
+|      |                                          |                            |                       |
+|      | **Sensory Systems**                      |                            |                       |
+| 2/10 | *Lecture*: Linear time-invariant systems | Dayan and Abbott Ch 2      |                       |
+| 2/12 | *Lab*: Linear Systems and Convolution    |                            |                       |
+| 2/17 | *Lecture*: Feedforward networks          | Ewert (1974)               | Literature Review     |
+| 2/19 | *Lab*: Receptive Field Estimation        |                            |                       |
+| 2/11 | *Lecture*: Decoding sensory activity     | Holdgraf et al (2017)      |                       |
+| 2/18 | *Lab*: Decoding Models                   |                            |                       |
+|      |                                          |                            |                       |
+| 2/24 | Project journal club                     |                            |                       |
+| 2/26 | Project journal club                     |                            |                       |
+| 3/3  | (spring break)                           |                            | Data Wrangling        |
+| 3/5  | (spring break)                           |                            |                       |
+|      |                                          |                            |                       |
+|      | **Sensorimotor Systems**                 |                            |                       |
+| 3/10 | *Lecture*: Recurrent networks            | Dayan and Abbott Ch 7      |                       |
+| 3/12 | *Lab*: Network Model Simulations         |                            |                       |
+| 3/17 | *Lecture*: Dimensional reduction         | Cunningham and Yu (2014)   | Hypothesis and Design |
+| 3/19 | *Lab*: Manifolds and latent dynamics     |                            |                       |
+| 3/24 | *Lecture*: Computation through dynamics  | Mante et al (2013)         |                       |
+| 3/26 | *Lab*: TBD                               |                            |                       |
+|      |                                          |                            |                       |
+|      | **Learning and Control**                 |                            |                       |
+| 3/31 | *Lecture*: Synaptic plasticity           | TBD                        | Preliminary Figures   |
+| 4/2  | *Lab*: Plasticity Simulation             |                            |                       |
+| 4/7  | *Lecture*: Unsupervised learning         | TBD                        |                       |
+| 4/9  | *Lab*: TBD                               |                            |                       |
+| 4/14 | *Lecture*: Reinforcement learning        | TBD                        |                       |
+| 4/16 | *Lab*: TBD                               |                            |                       |
+|      |                                          |                            |                       |
+| 4/21 | Final presentations                      |                            |                       |
+| 4/23 | Final presentations                      |                            |                       |
+| 4/26 | Final presentations                      |                            |                       |
+
+\normalsize
 
 ## Materials
 
-### Computing requirements
+### Computing
 
-Scientific programming is essential to computational neuroscience. Digital computers are good at doing the same thing over and over again, which is exactly what we need to reliably deal with the big data generated in neuroscience. In fact, everyone who works with data can benefit from being able to hand tedious tasks off to a computer. Scientific programming is an important skill for researchers at all levels, and the practice of programming will help you learn how to break down complex problems of all kinds into a set of logical steps.
-
-Anyone who is interested in developing these skills is welcome to take the class regardless of programming experience. (Seriously!) You do need to be committed to learning these essential skills, however, which may require significant out-of-class work to nail down core concepts if you are totally new to this. See the end of this document for some resources on different topics.
-
-Laptops are necessary for this class. You will need to bring your laptop, running Linux, OS X, or Windows, to every class meeting. Almost all the work will be performed in [Jupyter](https://jupyter.org) notebooks hosted on UVA's high performance computing cluster. We will spend time in class making sure everyone has a functioning environment.
+Scientific programming is essential to computational neuroscience. Digital computers are good at doing the same thing over and over again, which is exactly what we need to reliably deal with the big data generated in neuroscience. In fact, everyone who works with data can benefit from being able to hand tedious tasks off to a computer. Scientific programming is an important skill for researchers at all levels, and the practice of programming will help you learn how to break down complex problems of all kinds into a set of logical steps. Although some assignments will be completed on paper, laptops are necessary for this class. You will need to bring your laptop to every class meeting. Almost all the work will be performed in [Jupyter](https://jupyter.org) notebooks hosted on UVA's high performance computing cluster. We will spend time in class making sure everyone has a functioning environment.
 
 ### Readings
 
@@ -125,27 +148,17 @@ Each week, you will be given assignments that will immerse you in theoretical or
 
 ### Data Exploration (30%)
 
-As part of a semester-long project, you and your programming team will have the opportunity to choose one of the neuroscience data sets we’ll be working with in class. As we discuss various topics in data science, you will be applying these to your data set and building toward a complete research project. Along the way, you and your team will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
+As part of a semester-long project, you and your programming team will have the opportunity to choose a neuroscience data set to analyze using one or more of the theoretical frameworks we cover in class. Along the way, you and your team will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
 
 **How you can succeed**: Engage with the data set you have chosen. Explore the structure of your data set and read the methods section of the associated publication. Think about which methods we discuss can be applied to your data and what kinds of questions could be asked with them. Test and document functions you write to make them as easy as possible for you and the rest of the class to use. Take advantage of peer and instructor feedback to improve your final product.
 
-#### Timeline
+## Course Policies
 
-- Week 6: Choose a study that interests you and present it to the class.
-- Week 9: Write a module with functions to read raw data from the files in the data set and parse into a flexible data structure.
-- Week 10: Develop a question you can answer about your data set (or a comparison between your data set and another) using one or more of the methods we have been working with.
-- Week 13: Generate a set of preliminary figures that capture the most important features of your results.
-- Week 14: Finalize your analyses and figures. Prepare a short presentation on your results.
-
-## Course policies
-
-Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission.
+Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission. When requesting an extension, provide a brief reason for the request and an estimate of when the work will be completed.
 
 Group work must represent equal effort by all members. Do not put anyone's name on an assignment unless they made a substantive contribution. If your schedules are not compatible, if there is an emergency or illness, or if you need to come to a different arrangement for splitting the work, contact me so we we can make sure there is an equitable solution that maximizes everyone's opportunity to learn. 
 
-You are welcome and encouraged to use AI tools to assist your coding work. You can ask LLMs like Claude or ChatGPT to write code, but it's often more effective to use them to *explain* code examples, to interpret error messages, or to help you improve the performance or correctness of code you draft on your own. Regardless of how you write it, you are responsible for ensuring that the code you submit for homework assignments and your final projects runs correctly.
-
-Students with respiratory illness symptoms or a positive flu/COVID/RSV test result within the last 5 days, or who are waiting on test results after a close contact must not attend in person. Notify me to make arrangements for attending virtually. If you are displaying symptoms in class, you will be asked to leave and will lose participation credit for the day.
+You may not use LLM-generated code for homework assignments. There are many reasons why using LLMs is not ethical (e.g., subsidizing corporate theft of intellectual property and wasteful destruction of natural resources), but the main problem pedagogically is you can only learn how to *do* something through trial and error. One of the most important learning goals in this course is for you to be able to translate models and ideas into code, and you can only get there by building up your mental models and skills piece by piece. 
 
 I don't typically answer email or Slack messages outside of normal working hours. If I do write, I don't expect an immediate response.
 
@@ -154,19 +167,20 @@ to demonstrate their knowledge. Students with disabilities are entitled to
 reasonable accommodations. Contact the Student Disability Access Center
 (434-243-5180) for more information or to arrange accommodations.
 
-## Resources
+## Additional Resources
 
 Short guides to probability and linear algebra can be found on Canvas or the github repo.
 
 ## Scientific programming and Python
 
-- If you're new to programming in general, check out the [Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) DataCamp tutorial.
+- If you're new to programming in general, check out the [Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) tutorial.
 - VanderPlas J (2016) Python Data Science Handbook. O'Reilly. The full text of this book is available [here](https://jakevdp.github.io/PythonDataScienceHandbook/) as a complete set of Jupyter notebooks that you can run locally or in [Google Colab](https://colab.research.google.com). The first four chapters are highly recommended.
 - Langtangen HP (2016) A Primer on Scientific Programming with Python. 5th ed. Springer: Berlin Heidelberg.
 
 ## Dynamical systems
 
-- Hirsch, Smale, and Devaney, Differential Equations, Dynamical Systems, and an
-  Introduction to Chaos. Springer.
+- Strogatz, *Nonlinear Dynamics and Chaos*. 2nd ed. Taylor and Francis (also see the author's [lectures on youtube](https://www.youtube.com/watch?v=ycJEoqmQvwg)).
+- Hirsch, Smale, and Devaney, *Differential Equations, Dynamical Systems, and an Introduction to Chaos*. Springer.
+  
 
 
