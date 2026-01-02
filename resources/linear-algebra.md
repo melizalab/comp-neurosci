@@ -15,7 +15,7 @@ To **add** two vectors in $\mathbb{R}^n$, add the corresponding components to ea
 
 To **multiply** a vector in $\mathbb{R}^n$ by a scalar, multiply each component by the scalar: $\lambda x = (\lambda x_1,\ldots,\lambda x_n)$.
 
-A **linear combination** of vectors $v_1,\ldots,v_n$ in $\mathbb{R}^2$ is a vector of the form $a_1 v_1 + \cdots a_n + v_n$, where $a_1,\ldots,a_n \in \mathbb{R}$.
+A **linear combination** of vectors $v_1,\ldots,v_n$ in $\mathbb{R}^n$ is a vector of the form $a_1 v_1 + \cdots a_n v_n$, where $a_1,\ldots,a_n \in \mathbb{R}$.
 
 The **span** of $v_1,\ldots,v_n$ is the vector space containing all their possible linear combinations.
 
