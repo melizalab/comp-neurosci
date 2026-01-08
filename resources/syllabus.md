@@ -43,8 +43,8 @@ The approach we'll use here is **computational modeling**, which means building
 toy systems that capture some aspect of how a particular system in the brain is
 performing its function. As we'll discuss, there are many different kinds of
 models and ways of building them, but one of the most useful functions of a
-model is that it can be used like a lens that can reveal structure in our data
-and help us filter out the noise.
+model is that it can be used like a lens that reveals structure in our data
+and helps us filter out the noise.
 
 This course will introduce you to foundational principles of computational
 modeling in the brain using a hands-on approach with exercises that will also
@@ -102,11 +102,11 @@ This schedule is subject to change based on the interests of the class and our p
 | 3/26 | *Lab*: TBD                               |                            |                       |
 |      |                                          |                            |                       |
 |      | **Learning and Control**                 |                            |                       |
-| 3/31 | *Lecture*: Synaptic plasticity           | TBD                        | Preliminary Figures   |
-| 4/2  | *Lab*: Plasticity Simulation             |                            |                       |
-| 4/7  | *Lecture*: Unsupervised learning         | TBD                        |                       |
+| 3/31 | *Lecture*: Unsupervised learning         | TBD                        | Preliminary Figures   |
+| 4/2  | *Lab*: TBD                               |                            |                       |
+| 4/7  | *Lecture*: Reinforcement learning        | TBD                        |                       |
 | 4/9  | *Lab*: TBD                               |                            |                       |
-| 4/14 | *Lecture*: Reinforcement learning        | TBD                        |                       |
+| 4/14 | *Guest Lecture*: Predictive Coding       | TBD                        |                       |
 | 4/16 | *Lab*: TBD                               |                            |                       |
 |      |                                          |                            |                       |
 | 4/21 | Final presentations                      |                            |                       |
@@ -136,7 +136,7 @@ The textbooks can be accessed through the UVA library as electronic texts. Use [
 
 ### Engagement (40%)
 
-Due to the fact that we complete much of the work in class in pairs and small teams, attendance and active participation are critical Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you are contagious but well enough to attend class virtually, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. 
+Due to the fact that we complete much of the work in class in pairs and small teams, attendance and active participation are critical Unless otherwise arranged with the instructor, you may only miss one class without penalty. If you have a contagious illness but  well enough to attend class virtually, notify the instructor so that you can attend via zoom. Additional absences may be excused due to religious holidays, UVA-required extracurricular activities (e.g., competitions or performances), or legitimate academic reasons; requests must be made and approved at least one week in advance. 
 
 **How you can succeed**: Come to class with a laptop. Read or watch out-of-class material and come prepared with questions and thoughts so you can participate in discussions. Talk to your programming team to make sure you both understand the tasks. Ask questions in class or on the class slack if anything is unclear or if you are getting an error you and your team can’t figure out.
 
@@ -148,7 +148,7 @@ Each week, you will be given assignments that will immerse you in theoretical or
 
 ### Data Exploration (30%)
 
-As part of a semester-long project, you and your programming team will have the opportunity to choose a neuroscience data set to analyze using one or more of the theoretical frameworks we cover in class. Along the way, you and your team will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
+As part of a semester-long project, you and a small team will have the opportunity to choose a neuroscience data set to analyze using one or more of the theoretical frameworks we cover in class. Along the way, you and your team will gain expertise on your data set and be a resource for other students in our class interested in working with that type of data. There will be milestones and chances for revision over the course of the semester. Important dates and more detailed information are laid out in the project description.
 
 **How you can succeed**: Engage with the data set you have chosen. Explore the structure of your data set and read the methods section of the associated publication. Think about which methods we discuss can be applied to your data and what kinds of questions could be asked with them. Test and document functions you write to make them as easy as possible for you and the rest of the class to use. Take advantage of peer and instructor feedback to improve your final product.
 
