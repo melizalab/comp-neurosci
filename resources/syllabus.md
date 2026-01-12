@@ -24,7 +24,7 @@ header-includes:
  - Instructor: C Daniel Meliza (cdm8j)
    - Office Hours: W 9-10, F 10-11, Gilmer 481
  - Teaching Assistant: Ahmad Elsayed (zmk5re)
-   - Office Hours: TBD
+   - Office Hours: Tu 2-3, Th 1-2, Gilmer 429
  - Final: in-class presentation
 
 ## Course Description
@@ -169,7 +169,7 @@ reasonable accommodations. Contact the Student Disability Access Center
 
 ## Additional Resources
 
-Short guides to probability and linear algebra can be found on Canvas or the github repo.
+Short guides to probability, linear algebra, and dynamical systems can be found on Canvas or the github repo.
 
 ## Scientific programming and Python
 
@@ -177,10 +177,5 @@ Short guides to probability and linear algebra can be found on Canvas or the git
 - VanderPlas J (2016) Python Data Science Handbook. O'Reilly. The full text of this book is available [here](https://jakevdp.github.io/PythonDataScienceHandbook/) as a complete set of Jupyter notebooks that you can run locally or in [Google Colab](https://colab.research.google.com). The first four chapters are highly recommended.
 - Langtangen HP (2016) A Primer on Scientific Programming with Python. 5th ed. Springer: Berlin Heidelberg.
 
-## Dynamical systems
-
-- Strogatz, *Nonlinear Dynamics and Chaos*. 2nd ed. Taylor and Francis (also see the author's [lectures on youtube](https://www.youtube.com/watch?v=ycJEoqmQvwg)).
-- Hirsch, Smale, and Devaney, *Differential Equations, Dynamical Systems, and an Introduction to Chaos*. Springer.
-  
 
 
