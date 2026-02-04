@@ -154,28 +154,19 @@ As part of a semester-long project, you and a small team will have the opportuni
 
 ## Course Policies
 
+Announcements will be made in class and communicated by email. If you have questions, send them by email (preferred) or Slack. I try to reply within 24 hours except on holidays and weekends. I do not see messages sent through Canvas.
+
 Work must be turned in on time to receive full credit. There is a penalty of 5% per day for late work unless an extension is arranged **before** the due date or an emergency prevents submission. When requesting an extension, provide a brief reason for the request and an estimate of when the work will be completed.
 
-Group work must represent equal effort by all members. Do not put anyone's name on an assignment unless they made a substantive contribution. If your schedules are not compatible, if there is an emergency or illness, or if you need to come to a different arrangement for splitting the work, contact me so we we can make sure there is an equitable solution that maximizes everyone's opportunity to learn. 
+**Group work must represent equal effort by all members**. Do not put anyone's name on an assignment unless they made a substantive contribution. If there is a conflict (incompatible schedules or personalities, emergencies or illness, concerns about equity of effort), contact me to help you find an equitable solution that maximizes everyone's opportunity to learn.
 
-You may not use LLM-generated code for homework assignments. There are many reasons why using LLMs is not ethical (e.g., subsidizing corporate theft of intellectual property and wasteful destruction of natural resources), but the main problem pedagogically is you can only learn how to *do* something through trial and error. One of the most important learning goals in this course is for you to be able to translate models and ideas into code, and you can only get there by building up your mental models and skills piece by piece. 
-
-I don't typically answer email or Slack messages outside of normal working hours. If I do write, I don't expect an immediate response.
+**You may not use LLM-generated code for homework assignments**. There are many reasons why using LLMs is not ethical (e.g., subsidizing corporate theft of intellectual property and wasteful destruction of natural resources), but the pedagogical problem is you can only learn how to *do* something through trial and error. If you want to be able to translate models and ideas into code, you can only get there by building up your mental models and skills piece by piece. If the TA or I have reason to believe you used an LLM to complete an assignment, you may be asked to explain your work orally. Failure to demonstrate that you understand what you submitted will result in a zero on the assignment and further penalties if this is repeated.
 
 My goal is for everyone in the class to have an equal opportunity to learn and
 to demonstrate their knowledge. Students with disabilities are entitled to
 reasonable accommodations. Contact the Student Disability Access Center
 (434-243-5180) for more information or to arrange accommodations.
 
-## Additional Resources
-
-Short guides to probability, linear algebra, and dynamical systems can be found on Canvas or the github repo.
-
-## Scientific programming and Python
-
-- If you're new to programming in general, check out the [Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) tutorial.
-- VanderPlas J (2016) Python Data Science Handbook. O'Reilly. The full text of this book is available [here](https://jakevdp.github.io/PythonDataScienceHandbook/) as a complete set of Jupyter notebooks that you can run locally or in [Google Colab](https://colab.research.google.com). The first four chapters are highly recommended.
-- Langtangen HP (2016) A Primer on Scientific Programming with Python. 5th ed. Springer: Berlin Heidelberg.
 
 
 

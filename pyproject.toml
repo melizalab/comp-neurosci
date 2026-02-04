@@ -1,3 +1,79 @@
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "comp-neurosci-uva"
+version = "2026.01"
+description = "Notebooks and shared code for Computational Neuroscience course at UVA"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "BSD 3-Clause License"}
+authors = [
+    {name = "C Daniel Meliza", email = "dan@meliza.org"},
+]
+maintainers = [
+    {name = "C Daniel Meliza", email = "dan@meliza.org"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research", 
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "ewave>=1.0.10",
+    "ipykernel>=7.1.0",
+    "ipympl>=0.9.8",
+    "ipywidgets>=8.1.8",
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
+    "quickspikes>=2.0.7",
+    "scipy>=1.16.3",
+    "toelis>=2.1.4",
+]
+
+[project.urls]
+homepage = "https://github.com/melizalab/comp-neurosci"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.5",
+]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "*_test.py"]
+env_viles = [".env", ".test.env", "deploy.env"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+extend-exclude = ["build", "attic"]
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "I",   # isort
+    "PGH", # pygrep-hooks
+    "RUF", # Ruff-specific
+    "UP",  # pyupgrade
+]
+ignore = ["E221", "E501", "E701", "RUF012"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["comp_neurosci_uva"]
+
+# This tells uv/pip where to find your package for development installs
+[tool.setuptools.packages.find]
+where = ["src"]

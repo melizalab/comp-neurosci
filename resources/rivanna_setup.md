@@ -28,17 +28,23 @@ Click Launch and wait for your instance to start up. Once it does, you will be p
 
 ### Initial setup
 
-You only need to do this once, to install some dependencies.
+You only need to do this once.
 
-1. Navigate to `/psyc5270-cdm8j/students`. Click the `New Folder` icon at the
-   top of the directory tree and name the newly created directory with your
-   computing id. This will be the *personal directory* where you store your work.
-2. Use the file tree on the left to navigate to `/psyc5270/comp-neurosci`. Double-click the
-   `0-Kernel-Setup.ipynb` notebook to run it. Click on the code cell (the one with a
-   pair of brackets on the left), and then press the `Enter` key while holding
-   down `Shift`.
+First, navigate to `/psyc5270-cdm8j/students`. Click the `New Folder` icon at
+the top of the directory tree and name the newly created directory with your
+computing id. This will be the *personal directory* where you store your work.
 
-Congratulations! You now have a working Python installation.
+Second, open a Terminal using the Launcher. Run the following commands to create and provision a virual environment.
+
+``` bash
+module load miniforge/24.11.3-py3.12
+mamba create -n psyc5270 jupyterlab ipykernel ipympl ipywidgets matplotlib pandas scipy nodejs
+mamba activate psyc5270  # you may need to run mamba init first
+pip install ewave quickspikes scipy toelis
+ipython kernel install --user --env VIRTUAL_ENV $HOME/.conda/envs/psyc5270 --name=psyc5270
+```
+
+Assuming everything worked in this step, restart your jupyter notebook session. When you run notebooks, be sure to select the `psyc5270` kernel. Congratulations! You now have a working Python installation.
 
 ### Running course notebooks
 

@@ -76,7 +76,7 @@ yA =
   y_n \begin{pmatrix} - A_n^* - \end{pmatrix}
 \end{equation*}
 
-The **transpose** of a matrix $A^T$ is formed by swapping rows and columns. The transpose of a $A \in \mathbb{R}^{m \times n}$ is in $\mathbb{R}^{n \times m}$. If $m = n$, the matrix is **square**. A square matrix where $S = S^T$ is **symmetric**.
+The **transpose** of a matrix $A^T$ is formed by swapping rows and columns. The transpose of $A \in \mathbb{R}^{m \times n}$ is in $\mathbb{R}^{n \times m}$. If $m = n$, the matrix is **square**. A square matrix where $S = S^T$ is **symmetric**.
 
 Matrices follow the same algebra for addition and scalar multiplication as vectors: add corresponding components; distribute scalar multiples to all components.
 
@@ -99,9 +99,9 @@ If the columns of a square matrix $S$ are orthogonal, then $S^{-1} = S^T$.
 
 ### Further reading
 
-- Strang (2020). Linear Algebra for Everyone. Wellesley-Cambridge Press. An accessible text with an emphasis on concrete examples and applications in data science.
+- Strang (2020). *Linear Algebra for Everyone*. Wellesley-Cambridge Press. An accessible text with an emphasis on concrete examples and applications in data science.
 - Hiranabe (2023). [The Art of Linear Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra). A useful graphical summary of matrix operations.
-- Axler (2025), [*Linear Algebra Done Right*](https://linear.axler.net/), Springer. 4th ed. A more general and advanced treatment of vector spaces and operators.
+- Axler (2025), [*Linear Algebra Done Right*](https://linear.axler.net/), Springer. 4th ed. A more general, proof-based treatment of vector spaces and operators.
 
 
 
