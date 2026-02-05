@@ -1,6 +1,6 @@
 ---
-title: 'Computational Neuroscience'
-subtitle: 'Pair Programming'
+title: 'Pair Programming'
+subtitle: 'Computational Neuroscience'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:

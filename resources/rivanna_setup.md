@@ -1,6 +1,6 @@
 ---
-title: 'Computational Neuroscience'
-subtitle: 'Rivanna Instructions'
+title: 'Rivanna Instructions'
+subtitle: 'Computational Neuroscience'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -38,8 +38,10 @@ Second, open a Terminal using the Launcher. Run the following commands to create
 
 ``` bash
 module load miniforge/24.11.3-py3.12
-mamba create -n psyc5270 jupyterlab ipykernel ipympl ipywidgets matplotlib pandas scipy nodejs
-mamba activate psyc5270  # you may need to run mamba init first
+mamba create -n psyc5270 jupyterlab ipykernel ipympl ipywidgets \
+  matplotlib pandas scipy nodejs
+# you may need to run mamba init first and restart your terminal
+mamba activate psyc5270
 pip install ewave quickspikes scipy toelis
 ipython kernel install --user --env VIRTUAL_ENV $HOME/.conda/envs/psyc5270 --name=psyc5270
 ```
@@ -66,6 +68,6 @@ Want to learn more about UNIX or High-Performance Computing? The [Rivanna websit
   - [SSH Keys](https://www.rc.virginia.edu/userinfo/howtos/general/sshkeys/)
 - [Online workshops](https://www.rc.virginia.edu/education/workshops/)
 
-Our class has been allocated 100,000 CPU hours and 10 TB of shared project space. These resources should be more than enough for our needs, but be aware that they are shared between all of us, so do not use the system for large computations unrelated to class. Contact your instructor if you think you will need more time or disk space.
+Our class has been allocated 1,000,000 CPU hours and 10 TB of shared project space. These resources should be more than enough for our needs, but be aware that they are shared between all of us, so do not use the system for large computations unrelated to class. Contact your instructor if you think you will need more time or disk space.
 
 You are expected to follow Rivanna's [usage policies](https://www.rc.virginia.edu/userinfo/rivanna/overview/#usage-policies).
