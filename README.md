@@ -9,10 +9,6 @@ The current syllabus is [here](resources/syllabus.pdf).
 
 ## Getting started
 
-### Cloud
-
-The easiest way to run the exercises is to use [mybinder](https://mybinder.org). This will ensure that you have the latest version of the notebooks, all the data files, and the correct versions of required libraries. Click the badge at the top of this page to start a session. Note that this site does not save your work, so you have to be careful to download your `ipynb` files after you finish a session.
-
 ### Local
 
 You should be able to run the notebooks locally using [uv](https://docs.astral.sh/uv/) to manage dependencies and virtual environments. After cloning the repository, the following command will launch the jupyter lab notebook server:
@@ -42,5 +38,4 @@ python -m ipykernel install --user --name comp-neurosci --display-name "comp-neu
 
 When you run Jupyter, you will have the option of selecting the `comp-neurosci` kernel, which should have all of your software dependencies.
 
-
-By default, the notebooks will load pregenerated data from files in the `data` subdirectory of this repository. If you are running a course and
+By default, the notebooks will load pregenerated data from files in the `data` subdirectory of this repository. If you are running a course and need to modify where the data is loaded from, create a `local_settings.py` file in `comp_neurosci_uva`. This can be used to override variables in the modules in this package.

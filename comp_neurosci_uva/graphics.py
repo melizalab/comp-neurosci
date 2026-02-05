@@ -17,14 +17,15 @@ def plot_some_spikes(ax, waveforms, n_max=20, **kwargs):
     ax.plot(waveforms[sample].T, **kwargs)
 
 
-def spike_detector(ax1, ax2, data, time):
+def spike_detector(ax1, ax2, data, time, thresh=None):
     from IPython.display import display
     import ipywidgets as ipyw
     import quickspikes as qs
 
     osc = data.astype("d")
 
-    thresh = r_max = osc.max() * 1.2
+    r_max = osc.max() * 1.2
+    thresh = thresh or r_max
     thresh_w = ipyw.FloatSlider(
         value=thresh,
         min=0,

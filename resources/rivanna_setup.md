@@ -52,7 +52,7 @@ At the start of each in-class work session (typically Thursdays), your instructo
 
 1. Start up JupyterLab as above.
 2. Navigate to `/psyc5270/comp-neurosci`. Double-click the notebook for that week to start it.
-3. Select `Save Notebook As...` from the `File` menu. In the dialog that appears, replace `comp-neurosci` with `students/cdm8j` (use your computing ID, not `cdm8j`) and then click `Save`. This will create a copy of the notebook in your personal directory. This is the copy we will look at for grading. If you omit this step, your work will not be saved.
+3. Select `Save Notebook As...` from the `File` menu. In the dialog that appears, replace `comp-neurosci` with `students/cdm8j` (use your computing ID, not `cdm8j`) and then click `Save`. This will create a copy of the notebook in your personal directory. If you omit this step, your work will not be saved properly.
 
 If you need to work on your notebook after class, make sure to run the copy in your personal folder, not the class copy in `comp-neurosci`.
 
