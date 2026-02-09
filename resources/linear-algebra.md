@@ -1,6 +1,7 @@
 ---
-title: 'Linear Algebra: a quick guide'
-subtitle: 'Computational Neuroscience -- CD Meliza'
+title: 'A quick guide to linear algebra'
+subtitle: 'Computational Neuroscience'
+author: 'C Daniel Meliza'
 documentclass: scrartcl
 linkcolor: blue
 header-includes:
@@ -27,7 +28,7 @@ The **inner product** of two vectors $x,y \in \mathbb{R}^n$ is given by the dot 
 
 The length, or **norm**, of a vector $x \in \mathbb{R}^n$ is $||x|| = \sqrt{x \cdot x} = \sqrt{x_1^2 + \cdots + x_n^2}$. Note that this is the Euclidean distance, generalized to higher dimensions.
 
-Two vectors $u, v \in V$ are **orthogonal** if their inner product is 0. The **angle** between $u,v \in V$ is given by:
+Two vectors $u, v \in V$ are **orthogonal** if their inner product is 0. The **angle** between $u,v \in V$ is
 
 \begin{equation*}
 \cos \theta = \frac{u \cdot v}{\|u\|\|v\|}.
@@ -73,7 +74,7 @@ You can also multiply a vector by a matrix to map from $W$ to $V$:
 yA = 
   y_1 \begin{pmatrix} - A_1^* - \end{pmatrix} +
   \cdots +
-  y_n \begin{pmatrix} - A_n^* - \end{pmatrix}
+  y_m \begin{pmatrix} - A_m^* - \end{pmatrix}
 \end{equation*}
 
 The **transpose** of a matrix $A^T$ is formed by swapping rows and columns. The transpose of $A \in \mathbb{R}^{m \times n}$ is in $\mathbb{R}^{n \times m}$. If $m = n$, the matrix is **square**. A square matrix where $S = S^T$ is **symmetric**.

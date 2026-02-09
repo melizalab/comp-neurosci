@@ -24,29 +24,30 @@ You will need to start a JupyterLab session. Select JupyterLab from the Interact
 - Work Directory: `STANDARD`
 - Allocation: `psyc5270`
 
-Click Launch and wait for your instance to start up. Once it does, you will be provided with a link to connect to your session.
+Click Launch and wait for your instance to start up. Once it does, you will be provided with a link that says `Connect to Jupyter` that will launch your session in another tab.
 
 ### Initial setup
 
 You only need to do this once.
 
-First, navigate to `/psyc5270-cdm8j/students`. Click the `New Folder` icon at
-the top of the directory tree and name the newly created directory with your
-computing id. This will be the *personal directory* where you store your work.
+First, navigate in the file tree on the right of the Jupyter Lab interface to
+`/psyc5270-cdm8j/students`. Click the `New Folder` icon at the top of the
+directory tree and name the newly created directory with your computing id. This
+will be the *personal directory* where you store your work.
 
-Second, open a Terminal using the Launcher. Run the following commands to create and provision a virual environment.
+Second, open a Terminal using the Launcher. Run the following commands to create and provision a virual environment. **Important**: enter each command separately and *make sure it works*. If you see an error, something was wrong with the command or the way it was executed, and you need to fix it before you can proceed to the next step.
 
 ``` bash
 module load miniforge/24.11.3-py3.12
-mamba create -n psyc5270 jupyterlab ipykernel ipympl ipywidgets \
-  matplotlib pandas scipy nodejs
-# you may need to run mamba init first and restart your terminal
+mamba create -n psyc5270 jupyterlab ipykernel ipympl ipywidgets matplotlib pandas scipy
+mamba init
+# Close the terminal tab within Jupyter notebook and then open a new one.
 mamba activate psyc5270
 pip install ewave quickspikes scipy toelis
 ipython kernel install --user --env VIRTUAL_ENV $HOME/.conda/envs/psyc5270 --name=psyc5270
 ```
 
-Assuming everything worked in this step, restart your jupyter notebook session. When you run notebooks, be sure to select the `psyc5270` kernel. Congratulations! You now have a working Python installation.
+Congratulations! You now have a working Python installation. When you run notebooks, be sure to select the `psyc5270` kernel. 
 
 ### Running course notebooks
 
@@ -55,6 +56,7 @@ At the start of each in-class work session (typically Thursdays), your instructo
 1. Start up JupyterLab as above.
 2. Navigate to `/psyc5270/comp-neurosci`. Double-click the notebook for that week to start it.
 3. Select `Save Notebook As...` from the `File` menu. In the dialog that appears, replace `comp-neurosci` with `students/cdm8j` (use your computing ID, not `cdm8j`) and then click `Save`. This will create a copy of the notebook in your personal directory. If you omit this step, your work will not be saved properly.
+4. Make sure the notebook is running the `psyc5270` kernel (check in the upper right next to the icon that looks like a bug)
 
 If you need to work on your notebook after class, make sure to run the copy in your personal folder, not the class copy in `comp-neurosci`.
 
