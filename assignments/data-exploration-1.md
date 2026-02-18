@@ -1,6 +1,6 @@
 ---
 title: 'PSYC 5720 --- Computational Neuroscience'
-subtitle: 'Data Exploration 1: Choosing a Project'
+subtitle: 'Data Exploration 1: Topic and article choice'
 documentclass: scrartcl
 fontsize: 11pt
 linkcolor: blue
@@ -10,19 +10,13 @@ header-includes:
     - \usepackage{eulervm}
 ---
 
-The overall goal of this assignment is for you to explore in depth one of the theoretical approaches covered in this class by analyzing a public data set or data of your own. There are five stages to the project, culminating in a short presentation given to the rest of the class.
+This is the first step in your capstone data exploration project. The overall goal of this assignment is for you to explore in depth one of the theoretical approaches covered in this class by analyzing a public data set or data of your own. There are five stages to the project, culminating in a short presentation given to the rest of the class.
 
-- **Choose a group and topic**: due 2/20
-- **Present a journal club article**: 2/27 and 3/4
-- Document the data and/or model: due 3/25
-- Formulate a hypothesis: due 4/1
-- Present the results: 4/22, 4/24, 4/29
-
-*Assignment*: With your group (max 4 members), choose a project topic and one of the associated journal articles. Submit the members of your group and the article you plan to discuss by 2/20. Be prepared to present the article to the rest of the class on 2/27 or 3/4. A guideline for the presentation is at the end of this document.
+*Assignment*: Form a group of up to 4 members. Choose a project topic and one of the associated journal articles. Submit the members of your group, the article you plan to discuss by 2/24, and a brief description of your expectations for each member of the group (individually and jointly). There is a template on Canvas. Be prepared to present the article to the rest of the class on 3/10 or 3/12. A guideline for the presentation is at the end of this document.
 
 ## Choosing a project
 
-Your project should focus on one of the main theoretical approaches we have covered in class. Here are your options, along with some associated journal articles. Each of the articles has a corresponding dataset available on the  [Collaborative Research in Computational Neurocience Data Sharing website](https://crcns.org). You will use these data in your project, so you may want to take a look at the CRCNS website to see how the data are organized when deciding which article/project to present. More advanced students may choose to use a different dataset from CRCNS or from their own research, but should pick an article that is mostly closely aligned with their project idea.
+Your project should focus on one of the main theoretical approaches we have covered in class. Here some suggested topics and some associated journal articles. Each of the articles has a corresponding dataset available on the  [Collaborative Research in Computational Neurocience Data Sharing website](https://crcns.org). You will use these data in your project, so you may want to take a look at the CRCNS website to see how the data are organized when deciding which article/project to present. More advanced students may choose to use a different dataset from CRCNS or from their own research, but should pick an article that is mostly closely aligned with their project idea.
 
 ### Analyze neural responses to estimate receptive fields
 

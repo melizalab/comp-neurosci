@@ -68,50 +68,48 @@ This schedule is subject to change based on the interests of the class and our p
 
 \small
 
-| Date | Activity                                 | Pre-class Readings         | Assignment            |
-|------|------------------------------------------|----------------------------|-----------------------|
-|      | **Foundations**                          |                            |                       |
-| 1/13 | *Lecture*: What is computation?          |                            | Pre-course survey     |
-| 1/15 | *Lab*: Pen and Paper Networks            | McNaughton & Morris (1987) |                       |
-| 1/20 | *Lecture*: Dynamical systems             | Izhikevich Ch 3--4         | Geometrical Analysis  |
-| 1/22 | *Lecture*: Neuron biophysics             | Sterratt Ch 2              |                       |
-| 1/27 | *Lecture*: Phenomenological models       | Izhikevich Ch 5--6         |                       |
-| 1/29 | *Lab*: Single-neuron Simulations         | Stimberg et al (2019)      |                       |
-| 2/3  | *Lecture*: Point processes               | Dayan and Abbott Ch 1      |                       |
-| 2/5  | *Lab*: Time-varying Data                 |                            |                       |
-|      |                                          |                            |                       |
-|      | **Sensory Systems**                      |                            |                       |
-| 2/10 | *Lecture*: Linear time-invariant systems | Dayan and Abbott Ch 2      |                       |
-| 2/12 | *Lab*: Linear Systems and Convolution    |                            |                       |
-| 2/17 | *Lecture*: Feedforward networks          | Ewert (1974)               | Literature Review     |
-| 2/19 | *Lab*: Receptive Field Estimation        |                            |                       |
-| 2/11 | *Lecture*: Decoding sensory activity     | Holdgraf et al (2017)      |                       |
-| 2/18 | *Lab*: Decoding Models                   |                            |                       |
-|      |                                          |                            |                       |
-| 2/24 | Project journal club                     |                            |                       |
-| 2/26 | Project journal club                     |                            |                       |
-| 3/3  | (spring break)                           |                            | Data Wrangling        |
-| 3/5  | (spring break)                           |                            |                       |
-|      |                                          |                            |                       |
-|      | **Sensorimotor Systems**                 |                            |                       |
-| 3/10 | *Lecture*: Recurrent networks            | Dayan and Abbott Ch 7      |                       |
-| 3/12 | *Lab*: Network Model Simulations         |                            |                       |
-| 3/17 | *Lecture*: Dimensional reduction         | Cunningham and Yu (2014)   | Hypothesis and Design |
-| 3/19 | *Lab*: Manifolds and latent dynamics     |                            |                       |
-| 3/24 | *Lecture*: Computation through dynamics  | Mante et al (2013)         |                       |
-| 3/26 | *Lab*: TBD                               |                            |                       |
-|      |                                          |                            |                       |
-|      | **Learning and Control**                 |                            |                       |
-| 3/31 | *Lecture*: Unsupervised learning         | TBD                        | Preliminary Figures   |
-| 4/2  | *Lab*: TBD                               |                            |                       |
-| 4/7  | *Lecture*: Reinforcement learning        | TBD                        |                       |
-| 4/9  | *Lab*: TBD                               |                            |                       |
-| 4/14 | *Guest Lecture*: Predictive Coding       | TBD                        |                       |
-| 4/16 | *Lab*: TBD                               |                            |                       |
-|      |                                          |                            |                       |
-| 4/21 | Final presentations                      |                            |                       |
-| 4/23 | Final presentations                      |                            |                       |
-| 4/26 | Final presentations                      |                            |                       |
+| Date | Activity                                 | Pre-class Readings         | Assignment                |
+|------|------------------------------------------|----------------------------|---------------------------|
+|      | **Foundations**                          |                            |                           |
+| 1/13 | *Lecture*: What is computation?          |                            | Pre-course survey         |
+| 1/15 | *Lab*: Pen and Paper Networks            | McNaughton & Morris (1987) |                           |
+| 1/20 | *Lecture*: Dynamical systems             | Izhikevich Ch 3--4         | Geometrical Analysis      |
+| 1/22 | *Lecture*: Neuron biophysics             | Sterratt Ch 2              |                           |
+| 1/27 | *Lecture*: Phenomenological models       | Izhikevich Ch 5--6         |                           |
+| 1/29 | *Lab*: Single-neuron Simulations         | Stimberg et al (2019)      |                           |
+| 2/3  | *Lecture*: Point processes               | Dayan and Abbott Ch 1      |                           |
+| 2/5  | *Lab*: Time-varying Data                 |                            |                           |
+|      |                                          |                            |                           |
+|      | **Sensory Systems**                      |                            |                           |
+| 2/10 | *Lecture*: Linear time-invariant systems | Dayan and Abbott Ch 2      |                           |
+| 2/12 | *Lab*: Linear Systems and Convolution    |                            |                           |
+| 2/17 | *Lecture*: Feedforward networks          | Ewert (1974)               | D1: Topic Choice          |
+| 2/19 | *Lab*: Receptive Field Estimation        |                            |                           |
+| 2/24 | *Lecture*: Decoding sensory activity     | Holdgraf et al (2017)      |                           |
+| 2/26 | *Lab*: Decoding Models                   |                            |                           |
+|      |                                          |                            |                           |
+| 3/3  | (spring break)                           |                            |                           |
+| 3/5  | (spring break)                           |                            |                           |
+|      |                                          |                            |                           |
+|      | **Sensorimotor Systems**                 |                            |                           |
+| 3/10 | D2: Project journal club                 |                            | D3: Data Wrangling        |
+| 3/12 | D2: Project journal club                 |                            |                           |
+| 3/17 | *Lecture*: Recurrent networks            | Dayan and Abbott Ch 7      |                           |
+| 3/19 | *Lab*: Network Model Simulations         |                            |                           |
+| 3/24 | *Lecture*: Dimensional reduction         | Cunningham and Yu (2014)   | D4: Hypothesis and Design |
+| 3/26 | *Lab*: Manifolds and latent dynamics     |                            |                           |
+|      |                                          |                            |                           |
+|      | **Learning and Control**                 |                            |                           |
+| 3/31 | *Lecture*: Unsupervised learning         | TBD                        | D5: Preliminary Figures   |
+| 4/2  | *Lab*: TBD                               |                            |                           |
+| 4/7  | *Lecture*: Reinforcement learning        | TBD                        |                           |
+| 4/9  | *Lab*: TBD                               |                            |                           |
+| 4/14 | *Guest Lecture*: Predictive Coding       | TBD                        |                           |
+| 4/16 | *Lab*: TBD                               |                            |                           |
+|      |                                          |                            |                           |
+| 4/21 | D6: Final presentations                  |                            |                           |
+| 4/23 | D6: Final presentations                  |                            |                           |
+| 4/28 | D6: Final presentations                  |                            |                           |
 
 \normalsize
 

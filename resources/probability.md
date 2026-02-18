@@ -1,5 +1,5 @@
 ---
-title: 'Probability: a quick guide'
+title: 'A quick guide to Probability'
 subtitle: 'Computational Neuroscience -- CD Meliza'
 documentclass: scrartcl
 linkcolor: blue
