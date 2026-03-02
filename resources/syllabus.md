@@ -92,15 +92,15 @@ This schedule is subject to change based on the interests of the class and our p
 | 3/5  | (spring break)                           |                            |                           |
 |      |                                          |                            |                           |
 |      | **Sensorimotor Systems**                 |                            |                           |
-| 3/10 | D2: Project journal club                 |                            | D3: Data Wrangling        |
+| 3/10 | D2: Project journal club                 |                            | D2: Data Wrangling        |
 | 3/12 | D2: Project journal club                 |                            |                           |
 | 3/17 | *Lecture*: Recurrent networks            | Dayan and Abbott Ch 7      |                           |
 | 3/19 | *Lab*: Network Model Simulations         |                            |                           |
-| 3/24 | *Lecture*: Dimensional reduction         | Cunningham and Yu (2014)   | D4: Hypothesis and Design |
+| 3/24 | *Lecture*: Dimensional reduction         | Cunningham and Yu (2014)   | D3: Hypothesis and Design |
 | 3/26 | *Lab*: Manifolds and latent dynamics     |                            |                           |
 |      |                                          |                            |                           |
 |      | **Learning and Control**                 |                            |                           |
-| 3/31 | *Lecture*: Unsupervised learning         | TBD                        | D5: Preliminary Figures   |
+| 3/31 | *Lecture*: Unsupervised learning         | TBD                        | D4: Preliminary Figures   |
 | 4/2  | *Lab*: TBD                               |                            |                           |
 | 4/7  | *Lecture*: Reinforcement learning        | TBD                        |                           |
 | 4/9  | *Lab*: TBD                               |                            |                           |
