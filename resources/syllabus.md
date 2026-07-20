@@ -100,12 +100,12 @@ This schedule is subject to change based on the interests of the class and our p
 | 3/26 | *Lab*: Manifolds and latent dynamics     |                            |                           |
 |      |                                          |                            |                           |
 |      | **Learning and Control**                 |                            |                           |
-| 3/31 | *Lecture*: Unsupervised learning         | TBD                        | D4: Preliminary Figures   |
-| 4/2  | *Lab*: TBD                               |                            |                           |
-| 4/7  | *Lecture*: Reinforcement learning        | TBD                        |                           |
-| 4/9  | *Lab*: TBD                               |                            |                           |
+| 3/31 | *Lecture*: Unsupervised learning         | Dayan and Abbott Ch 8      | D4: Preliminary Figures   |
+| 4/2  | *Lab*: Hebbian Plasticity                |                            |                           |
+| 4/7  | *Lecture*: Reinforcement learning        | Dayan and Abbott Ch 9      |                           |
+| 4/9  | *Lab*: Project                           |                            |                           |
 | 4/14 | *Guest Lecture*: Predictive Coding       | TBD                        |                           |
-| 4/16 | *Lab*: TBD                               |                            |                           |
+| 4/16 | *Lab*: Project                           |                            |                           |
 |      |                                          |                            |                           |
 | 4/21 | D6: Final presentations                  |                            |                           |
 | 4/23 | D6: Final presentations                  |                            |                           |
